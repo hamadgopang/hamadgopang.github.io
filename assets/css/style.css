@@ -501,9 +501,10 @@ button {
 }
 
 .footer-tagline {
-  max-width: 34ch;
+  max-width: 42ch;
   margin: 0;
   color: var(--text-on-dark-muted);
+  line-height: 1.55;
 }
 
 .footer-title {
@@ -561,6 +562,15 @@ button {
 
 .footer-bottom p {
   margin: 0;
+}
+
+.footer-bottom a {
+  color: var(--teal-300);
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: var(--amber-400);
 }
 
 /* --------------------------------------------------------------------------

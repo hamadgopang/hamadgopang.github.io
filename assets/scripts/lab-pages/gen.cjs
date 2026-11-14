@@ -138,7 +138,7 @@ ${main}
         <li><a class="nav-link" href="${root}#resources">Resources</a></li>
         <li><a class="nav-link" href="${root}#skills">Skills</a></li>
         <li><a class="nav-link" href="${root}#contact">Contact</a></li>
-        <li><a class="nav-link" href="${root}results/">Results</a></li>
+        <li><a class="nav-link nav-link--pt" href="${root}results/"><span class="pt-mark" aria-hidden="true">Rs</span>Results</a></li>
         <li><a class="nav-link nav-link--pt" href="${root}periodic-table/"><span class="pt-mark" aria-hidden="true">Pt</span>Periodic Table</a></li>
         <li><a class="nav-link nav-link--pt" href="${meta.dir ? lab : './'}" aria-current="page"><span class="pt-mark" aria-hidden="true">Oc</span>Organic Chemistry</a></li>
       </ul>
@@ -158,21 +158,16 @@ ${main}
       </a>
       <p class="footer-name">Hamad Khan</p>
       <p class="footer-role">Chemistry Educator</p>
-      <p class="footer-tagline">Making Chemistry Understandable, Practical &amp; Inspiring.</p>
+      <p class="footer-tagline">Making Chemistry Understandable, Practical & Inspiring — with clear explanations, classroom-ready tools, and steady support for Matriculation students everywhere.</p>
     </div>
     <nav aria-label="Footer">
       <h2 class="footer-title">Quick links</h2>
       <ul class="footer-links">
         <li><a href="${root}">Home</a></li>
-        <li><a href="${root}#about">About</a></li>
-        <li><a href="${root}#expertise">Expertise</a></li>
         <li><a href="${root}#experience">Experience</a></li>
-        <li><a href="${root}#resources">Resources</a></li>
-        <li><a href="${root}#skills">Skills</a></li>
-        <li><a href="${root}#contact">Contact</a></li>
-        <li><a href="${root}results/">Results</a></li>
+        <li><a href="${root}results/">Student Results</a></li>
         <li><a href="${root}periodic-table/">Periodic Table</a></li>
-        <li><a href="${meta.dir ? lab : './'}">Organic Chemistry Lab</a></li>
+        <li><a href="${meta.dir ? lab : './'}">Organic Chemistry</a></li>
       </ul>
     </nav>
     <div>
@@ -199,7 +194,7 @@ ${main}
   </div>
   <div class="container footer-bottom">
     <p>&copy; <span data-year>2026</span> Hamad Khan. All rights reserved.</p>
-    <p>Chemistry Educator &middot; Alipur, Pakistan</p>
+    <p>Chemistry Educator &middot; Alipur, Pakistan &middot; Developed by <a href="https://inixiotechnologies.com" target="_blank" rel="noopener noreferrer">Inixio Technologies</a></p>
   </div>
 </footer>
 

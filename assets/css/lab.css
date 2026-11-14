@@ -719,6 +719,12 @@
   margin-top: 1.5rem;
 }
 
+.hub-cta .lab-btn--light:hover {
+  border-color: var(--amber-400);
+  background: rgba(242, 184, 75, 0.16);
+  color: var(--amber-400);
+}
+
 .hub-hero-facts {
   display: flex;
   flex-wrap: wrap;
