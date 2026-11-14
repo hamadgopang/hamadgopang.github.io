@@ -1,0 +1,10 @@
+# Disallow folder listing. Individual CSS/JS/image/JSON files stay loadable
+# because the pages need them; visitors just cannot browse directories.
+Options -Indexes
+
+# Block common junk / backup files if any appear here later.
+<FilesMatch "(?i)\.(bak|old|tmp|log|sql|env|htaccess)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+</FilesMatch>
