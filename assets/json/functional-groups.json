@@ -1,5 +1,5 @@
 {
-  "note": "Twelve school-level functional groups. Example molecules and reaction balances are checked by scripts/validate-organic.cjs.",
+  "note": "Twelve school-level functional groups. Example molecules and reaction balances are checked by assets/scripts/validate-organic.cjs.",
   "groups": [
     {
       "id": "alcohol",

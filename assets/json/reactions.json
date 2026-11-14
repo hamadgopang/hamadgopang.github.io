@@ -1,5 +1,5 @@
 {
-  "note": "Nine curated overall-change reactions. Equations and atom pairing are checked by scripts/validate-organic.cjs. Animations are not mechanisms.",
+  "note": "Nine curated overall-change reactions. Equations and atom pairing are checked by assets/scripts/validate-organic.cjs. Animations are not mechanisms.",
   "mechanismNote": "This animation shows the overall change, not the detailed mechanism.",
   "reactions": [
     {

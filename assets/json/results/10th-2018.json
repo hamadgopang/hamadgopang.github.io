@@ -1,0 +1,204 @@
+{
+  "id": "10th-2018",
+  "class": "10th",
+  "year": 2018,
+  "subject": "Chemistry",
+  "totalMarks": 60,
+  "students": [
+    {
+      "name": "Adnan Sajjad",
+      "marks": 60,
+      "nameUr": "عدنان سجاد"
+    },
+    {
+      "name": "Asia Ashiq",
+      "marks": 60,
+      "nameUr": "آسيه عاشق"
+    },
+    {
+      "name": "Kashif Rana",
+      "marks": 60,
+      "nameUr": "كاشف رانا"
+    },
+    {
+      "name": "Mahboob Hussain",
+      "marks": 60,
+      "nameUr": "محبوب حسین"
+    },
+    {
+      "name": "Muhammad Abdullah Iqbal",
+      "marks": 60,
+      "nameUr": "محمد عبدالله اقبال"
+    },
+    {
+      "name": "Muhammad Madni",
+      "marks": 60,
+      "nameUr": "محمد مدني"
+    },
+    {
+      "name": "Muhammad Numan",
+      "marks": 60,
+      "nameUr": "محمد نعمان"
+    },
+    {
+      "name": "Muhammad Tanveer",
+      "marks": 60,
+      "nameUr": "محمد تنوير"
+    },
+    {
+      "name": "Muhammad Usama",
+      "marks": 60,
+      "nameUr": "محمد اسامه"
+    },
+    {
+      "name": "Muhammad Waseem",
+      "marks": 60,
+      "nameUr": "محمد وسیم"
+    },
+    {
+      "name": "Muhammad Zubair",
+      "marks": 60,
+      "nameUr": "محمد زبیر"
+    },
+    {
+      "name": "Rajab Ali",
+      "marks": 60,
+      "nameUr": "رجب علی"
+    },
+    {
+      "name": "Rayyan Rafiq",
+      "marks": 60,
+      "nameUr": "ريان رفيق"
+    },
+    {
+      "name": "Saryab Amjad",
+      "marks": 60,
+      "nameUr": "سيراب امجد"
+    },
+    {
+      "name": "Shoaib Akhtar",
+      "marks": 60,
+      "nameUr": "شعیب اختر"
+    },
+    {
+      "name": "Syed Qaim Ali Shah",
+      "marks": 60,
+      "nameUr": "سید قائم علی شاہ"
+    },
+    {
+      "name": "Zain Ayyub",
+      "marks": 60,
+      "nameUr": "زين ايوب"
+    },
+    {
+      "name": "Zain-ul-Abideen",
+      "marks": 60,
+      "nameUr": "زين العابدين"
+    },
+    {
+      "name": "Ghulam Jafar",
+      "marks": 59,
+      "nameUr": "غلام جعفر"
+    },
+    {
+      "name": "Zubair Wajid",
+      "marks": 59,
+      "nameUr": "زبیر واجد"
+    },
+    {
+      "name": "Alisha Shah",
+      "marks": 58,
+      "nameUr": "علية شاه"
+    },
+    {
+      "name": "Muhammad Adnan",
+      "marks": 58,
+      "nameUr": "محمد عدنان"
+    },
+    {
+      "name": "Muhammad Ismail",
+      "marks": 58,
+      "nameUr": "محمد اسماعیل"
+    },
+    {
+      "name": "Muhammad Mohsin Ali",
+      "marks": 58,
+      "nameUr": "محمد محسن علی"
+    },
+    {
+      "name": "Muhammad Rehan Farid",
+      "marks": 58,
+      "nameUr": "محمد ريحان فريد"
+    },
+    {
+      "name": "Muhammad Waqas",
+      "marks": 58,
+      "nameUr": "محمد وقاص"
+    },
+    {
+      "name": "Muhammad Yunus",
+      "marks": 58,
+      "nameUr": "محمد يونس"
+    },
+    {
+      "name": "Sadia Ijaz",
+      "marks": 58,
+      "nameUr": "سعدیہ اعجاز"
+    },
+    {
+      "name": "Ahmad Atta",
+      "marks": 57,
+      "nameUr": "احمد عطا"
+    },
+    {
+      "name": "Arif Kausar",
+      "marks": 57,
+      "nameUr": "عارض کوثر"
+    },
+    {
+      "name": "Iman Ashraf",
+      "marks": 57,
+      "nameUr": "ایمان اشرف"
+    },
+    {
+      "name": "Marwa Zafar",
+      "marks": 57,
+      "nameUr": "مروبه ظفر"
+    },
+    {
+      "name": "Muhammad Aqib",
+      "marks": 57,
+      "nameUr": "محمد عاقب"
+    },
+    {
+      "name": "Muhammad Idris Safdar",
+      "marks": 57,
+      "nameUr": "محمد ادريس صفدر"
+    },
+    {
+      "name": "Muhammad Junaid",
+      "marks": 57,
+      "nameUr": "محمد جنيد"
+    },
+    {
+      "name": "Muhammad Naqeeb",
+      "marks": 57,
+      "nameUr": "محمد نقیب"
+    },
+    {
+      "name": "Muhammad Shan Bilal",
+      "marks": 57,
+      "nameUr": "محمد شان بلال"
+    },
+    {
+      "name": "Suira Amjed",
+      "marks": 57,
+      "nameUr": "سويرة امجد"
+    },
+    {
+      "name": "Usama Tariq",
+      "marks": 57,
+      "nameUr": "اسامہ طارق"
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+/* Results page + homepage achievements (scoped) */
+.results-page {
+  --rs-ink: #101c32;
+  --rs-muted: #5b6b7c;
+  --rs-line: #d3dce9;
+  --rs-surface: #ffffff;
+  --rs-soft: #f4f7fa;
+  --rs-teal: #0f766e;
+  --rs-amber: #f2b84b;
+  --rs-pass: #0f766e;
+  --rs-fail: #b42318;
+}
+
+.results-banner {
+  padding: 2.25rem 0 1.75rem;
+  background: linear-gradient(145deg, #101c32 0%, #172a43 55%, #0f766e 160%);
+  color: #f4f7fa;
+}
+
+.results-banner h1 {
+  margin: 0.35rem 0 0.5rem;
+  font: 800 clamp(1.7rem, 4vw, 2.4rem) / 1.15 "Outfit", system-ui, sans-serif;
+}
+
+.results-banner p {
+  margin: 0;
+  max-width: 40rem;
+  color: rgba(244, 247, 250, 0.82);
+}
+
+.results-back {
+  display: inline-flex;
+  color: #5eead4;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.results-back:hover { color: #f2b84b; }
+
+.results-body {
+  padding: 1.5rem 0 3rem;
+}
+
+.results-filters {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid var(--rs-line);
+  border-radius: 16px;
+  background: var(--rs-surface);
+}
+
+.results-filters .lab-label,
+.results-filters .rs-label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--rs-ink);
+}
+
+.rs-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.rs-chips button {
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--rs-line);
+  border-radius: 999px;
+  background: var(--rs-soft);
+  color: var(--rs-ink);
+  font: 600 0.88rem/1.2 "Inter", system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.rs-chips button[aria-pressed="true"] {
+  border-color: var(--rs-teal);
+  background: var(--rs-teal);
+  color: #fff;
+}
+
+.rs-search {
+  width: 100%;
+  max-width: 22rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--rs-line);
+  border-radius: 10px;
+  font: 500 1rem "Inter", system-ui, sans-serif;
+}
+
+.rs-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.92rem;
+  cursor: pointer;
+}
+
+.rs-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin-bottom: 1.5rem;
+}
+
+.rs-stat {
+  padding: 0.85rem 1rem;
+  border-radius: 14px;
+  border: 1px solid var(--rs-line);
+  background: var(--rs-soft);
+}
+
+.rs-stat dt {
+  margin: 0;
+  color: var(--rs-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.rs-stat dd {
+  margin: 0.2rem 0 0;
+  color: var(--rs-ink);
+  font: 800 1.35rem/1.1 "Outfit", system-ui, sans-serif;
+}
+
+.rs-year-block {
+  margin-bottom: 1.75rem;
+}
+
+.rs-year-block > h2 {
+  margin: 0 0 0.75rem;
+  font: 700 1.35rem/1.2 "Outfit", system-ui, sans-serif;
+  color: var(--rs-ink);
+}
+
+.rs-class-card {
+  margin-bottom: 1rem;
+  padding: 1rem 1.1rem 1.15rem;
+  border: 1px solid var(--rs-line);
+  border-radius: 16px;
+  background: var(--rs-surface);
+}
+
+.rs-class-card h3 {
+  margin: 0 0 0.35rem;
+  font: 700 1.1rem/1.25 "Outfit", system-ui, sans-serif;
+}
+
+.rs-class-meta {
+  margin: 0 0 0.85rem;
+  color: var(--rs-muted);
+  font-size: 0.9rem;
+}
+
+.rs-table-wrap {
+  overflow-x: auto;
+}
+
+.rs-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.rs-table th,
+.rs-table td {
+  padding: 0.55rem 0.65rem;
+  border-bottom: 1px solid var(--rs-line);
+  text-align: left;
+}
+
+.rs-table th {
+  color: var(--rs-muted);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.rs-table tr:hover td {
+  background: rgba(15, 118, 110, 0.05);
+}
+
+.rs-badge {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.rs-badge.is-pass {
+  background: rgba(15, 118, 110, 0.12);
+  color: var(--rs-pass);
+}
+
+.rs-badge.is-fail {
+  background: rgba(180, 35, 24, 0.1);
+  color: var(--rs-fail);
+}
+
+.rs-empty {
+  padding: 2rem 1rem;
+  text-align: center;
+  color: var(--rs-muted);
+  border: 1px dashed var(--rs-line);
+  border-radius: 14px;
+}
+
+@media (min-width: 640px) {
+  .rs-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 960px) {
+  .rs-stats {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .results-filters {
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+  }
+
+  .results-filters .rs-filter-full {
+    grid-column: 1 / -1;
+  }
+}
+
+/* Homepage achievements */
+.achievements {
+  background: var(--soft-white, #f4f7fa);
+}
+
+.achievements .section-sub {
+  max-width: 40rem;
+}
+
+.ach-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin: 1.5rem 0 1.75rem;
+}
+
+.ach-stat {
+  padding: 0.9rem 1rem;
+  border-radius: 14px;
+  border: 1px solid var(--border, #e1e7ef);
+  background: #fff;
+}
+
+.ach-stat span {
+  display: block;
+  color: var(--teal-700, #0f766e);
+  font: 800 1.4rem/1 "Outfit", system-ui, sans-serif;
+}
+
+.ach-stat small {
+  color: #5b6b7c;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.ach-panels {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+}
+
+.ach-panel {
+  padding: 1.15rem 1.2rem 1.25rem;
+  border-radius: 16px;
+  border: 1px solid var(--border, #e1e7ef);
+  background: #fff;
+}
+
+.ach-panel h3 {
+  margin: 0 0 0.25rem;
+  font: 700 1.15rem/1.25 "Outfit", system-ui, sans-serif;
+  color: var(--navy-900, #101c32);
+}
+
+.ach-panel .ach-year {
+  margin: 0 0 0.85rem;
+  color: #5b6b7c;
+  font-size: 0.88rem;
+}
+
+.ach-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ach-list li {
+  display: grid;
+  grid-template-columns: 1.5rem minmax(0, 1fr) auto;
+  gap: 0.55rem;
+  align-items: baseline;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid #e8eef5;
+}
+
+.ach-list li:last-child { border-bottom: 0; }
+
+.ach-list .ach-rank {
+  color: var(--teal-700, #0f766e);
+  font-weight: 800;
+  font-size: 0.85rem;
+}
+
+.ach-list .ach-marks {
+  font-weight: 700;
+  color: var(--navy-900, #101c32);
+  white-space: nowrap;
+}
+
+.ach-expand {
+  margin-top: 0.75rem;
+}
+
+.ach-actions {
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .ach-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 960px) {
+  .ach-stats {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .ach-panels {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

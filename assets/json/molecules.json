@@ -1,5 +1,5 @@
 {
-  "note": "Curated molecule library. chain/subs/bonds describe the displayed formula; the layout code adds hydrogens automatically. 'formula' is the molecular formula (checked by scripts/validate-organic.cjs), 'eq' is the way the formula is written inside equations, 'hl'/'hlb' mark the functional group.",
+  "note": "Curated molecule library. chain/subs/bonds describe the displayed formula; the layout code adds hydrogens automatically. 'formula' is the molecular formula (checked by assets/scripts/validate-organic.cjs), 'eq' is the way the formula is written inside equations, 'hl'/'hlb' mark the functional group.",
   "molecules": {
     "methane":   { "name": "Methane",  "formula": "CH4",   "eq": "CH4",   "condensed": "CH4",             "group": "alkane", "chain": ["C"] },
     "ethane":    { "name": "Ethane",   "formula": "C2H6",  "eq": "C2H6",  "condensed": "CH3CH3",          "group": "alkane", "chain": ["C","C"], "bonds": [1] },

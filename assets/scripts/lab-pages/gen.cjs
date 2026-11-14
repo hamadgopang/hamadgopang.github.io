@@ -6,7 +6,7 @@
    them by hand, each page is a small fragment in ./fragments/ :
        first line   <!--META {json}-->
        rest         the HTML that goes inside <main>
-   Run from the project root:   node scripts/lab-pages/gen.cjs
+   Run from the project root:   node assets/scripts/lab-pages/gen.cjs
    It writes organic-chemistry/index.html and organic-chemistry/<tool>/index.html.
    The website itself is plain static HTML; this script is not needed to host it.
    ========================================================================== */
@@ -15,7 +15,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const project = path.join(__dirname, '..', '..');
+const project = path.join(__dirname, '..', '..', '..');
 const fragDir = path.join(__dirname, 'fragments');
 
 const TOOLS = [
@@ -137,6 +137,7 @@ ${main}
         <li><a class="nav-link" href="${root}#resources">Resources</a></li>
         <li><a class="nav-link" href="${root}#skills">Skills</a></li>
         <li><a class="nav-link" href="${root}#contact">Contact</a></li>
+        <li><a class="nav-link" href="${root}results/">Results</a></li>
         <li><a class="nav-link nav-link--pt" href="${root}periodic-table/"><span class="pt-mark" aria-hidden="true">Pt</span>Periodic Table</a></li>
         <li><a class="nav-link nav-link--pt" href="${meta.dir ? lab : './'}" aria-current="page"><span class="pt-mark" aria-hidden="true">Oc</span>Organic Chemistry</a></li>
       </ul>
@@ -168,6 +169,7 @@ ${main}
         <li><a href="${root}#resources">Resources</a></li>
         <li><a href="${root}#skills">Skills</a></li>
         <li><a href="${root}#contact">Contact</a></li>
+        <li><a href="${root}results/">Results</a></li>
         <li><a href="${root}periodic-table/">Periodic Table</a></li>
         <li><a href="${meta.dir ? lab : './'}">Organic Chemistry Lab</a></li>
       </ul>

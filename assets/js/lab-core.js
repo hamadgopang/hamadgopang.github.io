@@ -2,7 +2,7 @@
    lab-core.js  -  shared engine for the Organic Chemistry Lab
 
    Works in the browser (window.Lab) and in Node (module.exports) so the same
-   code that draws structures can be checked by scripts/validate-organic.cjs.
+   code that draws structures can be checked by assets/scripts/validate-organic.cjs.
 
    What lives here
    - molecule layout: chain specs and small graph specs  ->  atoms, bonds, positions

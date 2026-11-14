@@ -2,7 +2,7 @@
 /* ==========================================================================
    validate-organic.cjs  -  development-time checks for the Organic Chemistry Lab
 
-   Usage (from the project root):   node scripts/validate-organic.cjs
+   Usage (from the project root):   node assets/scripts/validate-organic.cjs
 
    It loads the same lab-core.js that the website uses and checks the curated
    data in assets/json/. It never changes any file. Exit code 1 if anything fails.
@@ -12,7 +12,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const root = path.join(__dirname, '..');
+const root = path.join(__dirname, '..', '..');
 const jsonDir = path.join(root, 'assets', 'json');
 const Lab = require(path.join(root, 'assets', 'js', 'lab-core.js'));
 

@@ -1,0 +1,139 @@
+{
+  "id": "9th-2019",
+  "class": "9th",
+  "year": 2019,
+  "subject": "Chemistry",
+  "totalMarks": 60,
+  "students": [
+    {
+      "name": "Abdul Qadeer",
+      "marks": 60,
+      "nameUr": "عبد القدیر"
+    },
+    {
+      "name": "Ahmad Mureed",
+      "marks": 60,
+      "nameUr": "احمد مرید"
+    },
+    {
+      "name": "Alishba Tariq",
+      "marks": 60,
+      "nameUr": "علشبہ طارق"
+    },
+    {
+      "name": "Ghulam Zainab",
+      "marks": 60,
+      "nameUr": "غلام زینب"
+    },
+    {
+      "name": "Hudhaifa Khalid",
+      "marks": 60,
+      "nameUr": "حذیفہ خالد"
+    },
+    {
+      "name": "Humaira Farooq",
+      "marks": 60,
+      "nameUr": "حمیرا فاروق"
+    },
+    {
+      "name": "Ismat Afzal",
+      "marks": 60,
+      "nameUr": "عصمت افضل"
+    },
+    {
+      "name": "Mahboob-ul-Hassan",
+      "marks": 60,
+      "nameUr": "محبوب الحسن"
+    },
+    {
+      "name": "Muhammad Ahmad",
+      "marks": 60,
+      "nameUr": "محمد احمد"
+    },
+    {
+      "name": "Muhammad Uwais",
+      "marks": 60,
+      "nameUr": "محمد اویس"
+    },
+    {
+      "name": "Nimra Khalid",
+      "marks": 60,
+      "nameUr": "نمرہ خالد"
+    },
+    {
+      "name": "Saniya Arooj",
+      "marks": 60,
+      "nameUr": "ثانیہ عروج"
+    },
+    {
+      "name": "Sher Bilal",
+      "marks": 60,
+      "nameUr": "شیر بلال"
+    },
+    {
+      "name": "Shoaib Akbar",
+      "marks": 60,
+      "nameUr": "شعیب اکبر"
+    },
+    {
+      "name": "Zaira Akram",
+      "marks": 60,
+      "nameUr": "زنیرا اکرم"
+    },
+    {
+      "name": "Effat Alam",
+      "marks": 59,
+      "nameUr": "عفت عالم"
+    },
+    {
+      "name": "Hamza Ijaz Malik",
+      "marks": 59,
+      "nameUr": "حمزه اعجاز ملک"
+    },
+    {
+      "name": "Iqra Maqbool",
+      "marks": 59,
+      "nameUr": "اقرا مقبول"
+    },
+    {
+      "name": "Lareeb Nadeem",
+      "marks": 59,
+      "nameUr": "لاريب نديم"
+    },
+    {
+      "name": "Muhammad Abdullah",
+      "marks": 59,
+      "nameUr": "محمد عبدالله"
+    },
+    {
+      "name": "Muhammad Ehtasham Farooq",
+      "marks": 59,
+      "nameUr": "محمد احتشام فاروق"
+    },
+    {
+      "name": "Muhammad Mudassir Sajjad",
+      "marks": 59,
+      "nameUr": "محمد مدثر سجاد"
+    },
+    {
+      "name": "Muhammad Muzammil",
+      "marks": 59,
+      "nameUr": "محمد مزمل"
+    },
+    {
+      "name": "Saira Niaz",
+      "marks": 59,
+      "nameUr": "سويرانياز"
+    },
+    {
+      "name": "Uzma Satar",
+      "marks": 59,
+      "nameUr": "عظمى ستار"
+    },
+    {
+      "name": "Zeeshan Farooq",
+      "marks": 59,
+      "nameUr": "ذیشان فاروق"
+    }
+  ]
+}
