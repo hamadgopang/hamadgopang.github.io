@@ -1,13 +1,12 @@
 /* ==========================================================================
-   lab-teacher.js  -  Teacher Mode for every Organic Chemistry Lab tool
+   lab-teacher.js  -  Teacher Mode for lab tools, Periodic Table, and Results
 
-   Adds a "Teacher Mode" button to the banner. Pressing it turns the tool
-   (#labTool) into a full-screen classroom view with large text and structures.
-   It uses the Fullscreen API when available and falls back to a fixed overlay,
-   so it also works on smart boards and browsers that block fullscreen.
+   Looks for [data-teacher-root] (or #labTool) and a [data-teacher-slot] for
+   the banner button. Fullscreen classroom view with large type; uses the
+   Fullscreen API when available.
 
    Keyboard (only while Teacher Mode is on):
-     Right / Left arrow   next / previous step (tools listen for lab:next, lab:prev)
+     Right / Left arrow   next / previous step (lab:next, lab:prev)
      Up / Down arrow      previous / next topic (lab:up, lab:down)
      Space                play / pause or flip (lab:toggle)
      F                    toggle browser fullscreen
@@ -16,11 +15,11 @@
 (function () {
   'use strict';
 
-  var tool = document.getElementById('labTool');
+  var tool = document.querySelector('[data-teacher-root]') || document.getElementById('labTool');
   var slot = document.querySelector('[data-teacher-slot]');
   if (!tool || !slot) { return; }
 
-  var title = tool.getAttribute('data-tool-title') || 'Organic Chemistry Lab';
+  var title = tool.getAttribute('data-tool-title') || tool.getAttribute('data-teacher-title') || 'Teacher Mode';
   var on = false;
   var fsActive = false;
 
@@ -33,14 +32,12 @@
 
   function kbd(text) { return make('kbd', '', text); }
 
-  /* Banner button */
-  var button = make('button', 'lab-btn lab-btn--amber', 'Teacher Mode');
+  var button = make('button', 'teacher-mode-btn lab-btn lab-btn--amber', 'Teacher Mode');
   button.type = 'button';
   button.setAttribute('aria-pressed', 'false');
   button.setAttribute('aria-label', 'Teacher Mode: full-screen classroom view');
   slot.appendChild(button);
 
-  /* In-tool bar, only visible in Teacher Mode */
   var bar = make('div', 'lab-teacher-bar');
   bar.setAttribute('role', 'toolbar');
   bar.setAttribute('aria-label', 'Teacher Mode controls');
@@ -58,7 +55,7 @@
   hint.appendChild(document.createTextNode(' fullscreen   '));
   hint.appendChild(kbd('Esc'));
   hint.appendChild(document.createTextNode(' exit'));
-  var exitBtn = make('button', 'lab-btn lab-btn--ghost lab-btn--small', 'Exit Teacher Mode');
+  var exitBtn = make('button', 'teacher-exit-btn lab-btn lab-btn--ghost lab-btn--small', 'Exit Teacher Mode');
   exitBtn.type = 'button';
   bar.appendChild(barTitle);
   bar.appendChild(hint);
@@ -118,7 +115,6 @@
   button.addEventListener('click', function () { if (on) { leave(); } else { enter(); } });
   exitBtn.addEventListener('click', leave);
 
-  /* If the browser leaves fullscreen (for example with Esc), leave Teacher Mode too. */
   function onFsChange() {
     var active = !!(document.fullscreenElement || document.webkitFullscreenElement);
     if (active) { fsActive = true; return; }

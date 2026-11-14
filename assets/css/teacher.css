@@ -1,0 +1,101 @@
+/* Shared Teacher Mode shell — light theme, full content stays visible */
+.teacher-mode-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  min-height: 2.5rem;
+  padding: 0.45rem 1.05rem;
+  border: 1px solid #f2b84b;
+  border-radius: 999px;
+  background: #f2b84b;
+  color: #101c32;
+  font: 600 0.95rem/1.2 "Inter", system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.teacher-mode-btn[aria-pressed="true"] {
+  box-shadow: 0 0 0 2px rgba(242, 184, 75, 0.35);
+}
+
+.lab-teacher-bar {
+  display: none;
+}
+
+html.lab-teacher-on {
+  overflow: hidden;
+}
+
+[data-teacher-root].is-teacher {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  overflow: auto;
+  box-sizing: border-box;
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 0 clamp(var(--gutter, 1.25rem), 3vw, 3rem) 3rem;
+  background: #f4f7fa;
+  color: #101c32;
+  font-size: clamp(1.05rem, 1.45vw, 1.35rem);
+}
+
+[data-teacher-root].is-teacher .lab-teacher-bar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6em 1.2em;
+  margin: 0 calc(clamp(var(--gutter, 1.25rem), 3vw, 3rem) * -1) 1em;
+  padding: 0.7em clamp(var(--gutter, 1.25rem), 3vw, 3rem);
+  background: #ffffff;
+  border-bottom: 1px solid #d3dce9;
+  color: #101c32;
+}
+
+.lab-teacher-title {
+  font: 800 1.1em "Outfit", system-ui, sans-serif;
+  color: #101c32;
+}
+
+.lab-teacher-hint {
+  color: #5b6b7c;
+  font-size: 0.7em;
+}
+
+.lab-teacher-hint kbd {
+  padding: 0.05em 0.45em;
+  border: 1px solid #d3dce9;
+  border-radius: 5px;
+  background: #e8eef5;
+  color: #101c32;
+  font: 600 1em ui-monospace, monospace;
+}
+
+.teacher-exit-btn {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.1em;
+  padding: 0.3em 0.85em;
+  border: 1px solid #101c32;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #101c32;
+  font: 600 0.88em "Inter", system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.teacher-exit-btn:hover {
+  background: #101c32;
+  color: #ffffff;
+}
+
+[data-teacher-root].is-teacher.lab-body,
+[data-teacher-root].is-teacher.pt-body,
+[data-teacher-root].is-teacher.results-body {
+  padding-top: 1rem;
+}

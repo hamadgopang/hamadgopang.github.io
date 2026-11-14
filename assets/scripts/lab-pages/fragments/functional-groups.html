@@ -1,7 +1,7 @@
 <!--META {"dir":"functional-groups","tool":"functional-groups","title":"Functional Groups","h1":"Functional Groups Explorer","sub":"Twelve clickable cards with structures, highlighted groups, naming patterns and a sample reaction for each.","desc":"Interactive Functional Groups Explorer: alcohol, aldehyde, ketone, carboxylic acid, ester, ether, amine, amide, haloalkane, nitrile, alkene and alkyne.","scripts":["lab-core.js","lab-teacher.js","lab-groups.js"]}-->
         <div class="fg-layout">
           <div class="lab-panel fg-list-panel">
-            <div class="lab-field" data-teacher-hide>
+            <div class="lab-field">
               <label class="lab-label" for="fgSearch">Search groups</label>
               <input type="search" id="fgSearch" placeholder="e.g. alcohol, C=O, ester" autocomplete="off">
             </div>
@@ -17,13 +17,13 @@
                   <h2 id="fgName"></h2>
                   <p id="fgGeneralLine" class="hc-formula-line"></p>
                 </div>
-                <label class="lab-check" data-teacher-hide>
+                <label class="lab-check">
                   <input type="checkbox" id="fgHighlight" checked>
                   <span>Highlight the functional group</span>
                 </label>
               </div>
 
-              <div class="fg-example-bar" data-teacher-hide>
+              <div class="fg-example-bar">
                 <span class="lab-label" id="fgExLabel">Examples</span>
                 <div class="lab-seg" id="fgExamples" role="group" aria-labelledby="fgExLabel"></div>
               </div>

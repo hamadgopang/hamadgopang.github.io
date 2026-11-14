@@ -32,6 +32,7 @@
 <link rel="stylesheet" href="../../assets/css/style.css">
 <link rel="stylesheet" href="../../assets/css/responsive.css">
 <link rel="stylesheet" href="../../assets/css/lab.css">
+<link rel="stylesheet" href="../../assets/css/teacher.css">
 <script src="../../assets/js/boot.js"></script>
 </head>
 <body class="page-inner">
@@ -75,7 +76,7 @@
     </div>
   </section>
 
-  <div class="lab-container lab-body">
+  <div class="lab-container lab-body" data-teacher-root data-tool-title="Reaction Animation Studio">
     <nav class="lab-toolnav" aria-label="Organic Chemistry tools">
         <a href="../">Lab home</a>
         <a href="../hydrocarbons/">Hydrocarbons</a>
@@ -90,7 +91,7 @@
       <p class="lab-note" id="labLoading" role="status">Loading...</p>
       <div id="labApp" hidden>
         <div class="rx-layout">
-          <div class="lab-panel rx-list-panel" data-teacher-hide>
+          <div class="lab-panel rx-list-panel">
             <span class="lab-label" id="rxListLabel">Choose a reaction</span>
             <ul class="rx-list" id="rxList" role="listbox" aria-labelledby="rxListLabel"></ul>
           </div>

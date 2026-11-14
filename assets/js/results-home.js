@@ -1,11 +1,11 @@
-/* Homepage Student Achievements: latest 9th/10th, stats, 5-row expand */
+/* Homepage Student Achievements: latest 9th/10th, stats, 10-row expand */
 (function () {
   'use strict';
   var Core = window.ResultsCore;
   var root = document.getElementById('achievementsApp');
   if (!Core || !root) return;
 
-  var VISIBLE = 5;
+  var VISIBLE = 10;
 
   function el(tag, cls, text) {
     var n = document.createElement(tag);
@@ -17,7 +17,7 @@
   function renderPanel(set) {
     var panel = el('article', 'ach-panel');
     panel.appendChild(el('h3', null, 'Class ' + set.class));
-    panel.appendChild(el('p', 'ach-year', 'Latest available · ' + set.year + ' · Total ' + set.totalMarks));
+    panel.appendChild(el('p', 'ach-year', 'Latest result · ' + set.year + ' · Total ' + set.totalMarks));
 
     var list = Core.toppers(set.students, set.totalMarks, 2);
     var ul = el('ul', 'ach-list');
@@ -26,7 +26,7 @@
     list.forEach(function (st, i) {
       var li = el('li');
       if (i >= VISIBLE) {
-        li.hidden = true;
+        li.classList.add('is-collapsed');
         extra.push(li);
       }
       li.appendChild(el('span', 'ach-rank', String(i + 1)));
@@ -43,14 +43,18 @@
     panel.appendChild(ul);
 
     if (extra.length) {
-      var btn = el('button', 'btn btn--outline ach-expand', 'Show more (' + extra.length + ')');
+      var btn = el('button', 'btn btn--outline-dark', 'Show more (' + extra.length + ')');
       btn.type = 'button';
       var open = false;
       btn.addEventListener('click', function () {
         open = !open;
-        extra.forEach(function (li) { li.hidden = !open; });
+        extra.forEach(function (li) {
+          li.classList.toggle('is-collapsed', !open);
+        });
         btn.textContent = open ? 'Show less' : 'Show more (' + extra.length + ')';
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
       });
+      btn.setAttribute('aria-expanded', 'false');
       var wrap = el('div', 'ach-expand');
       wrap.appendChild(btn);
       panel.appendChild(wrap);
@@ -73,6 +77,7 @@
 
     var statsGrid = el('div', 'ach-stats');
     [
+      [String(stats.total), 'Total students'],
       [String(stats.full), 'Full marks'],
       [String(stats.gap1), '1 mark below'],
       [String(stats.gap2), '2 marks below'],

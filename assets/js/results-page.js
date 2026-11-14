@@ -97,6 +97,17 @@
     });
   }
 
+  function setCardOpen(card, open) {
+    card.classList.toggle('is-open', open);
+    var btn = card.querySelector('.rs-toggle');
+    var wrap = card.querySelector('.rs-table-wrap');
+    if (btn) {
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.textContent = open ? 'Hide' : 'Show';
+    }
+    if (wrap) wrap.hidden = !open;
+  }
+
   function renderTables(sets) {
     listEl.textContent = '';
     if (!sets.length) {
@@ -112,6 +123,7 @@
       byYear[s.year] = byYear[s.year] || [];
       byYear[s.year].push(s);
     });
+    var firstTable = true;
     Object.keys(byYear).map(Number).sort(function (a, b) { return b - a; }).forEach(function (year) {
       var block = document.createElement('section');
       block.className = 'rs-year-block';
@@ -123,6 +135,11 @@
         var students = filteredStudents(set);
         var card = document.createElement('article');
         card.className = 'rs-class-card';
+
+        var head = document.createElement('div');
+        head.className = 'rs-class-head';
+        var copy = document.createElement('div');
+        copy.className = 'rs-class-copy';
         var h3 = document.createElement('h3');
         h3.textContent = 'Chemistry · Class ' + set.class;
         var meta = document.createElement('p');
@@ -130,17 +147,30 @@
         meta.textContent = students.length + ' student' + (students.length === 1 ? '' : 's') +
           ' · Total marks ' + set.totalMarks +
           ' · Pass mark ' + Core.passMark(set.totalMarks);
-        card.appendChild(h3);
-        card.appendChild(meta);
+        copy.appendChild(h3);
+        copy.appendChild(meta);
+        head.appendChild(copy);
 
         if (!students.length) {
+          card.appendChild(head);
           var none = document.createElement('p');
           none.className = 'rs-empty';
           none.textContent = 'No students in this set for the current filters.';
           card.appendChild(none);
         } else {
+          var open = firstTable;
+          firstTable = false;
+          var panelId = 'rs-panel-' + set.id;
+          var btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'rs-toggle';
+          btn.setAttribute('aria-controls', panelId);
+          head.appendChild(btn);
+          card.appendChild(head);
+
           var wrap = document.createElement('div');
           wrap.className = 'rs-table-wrap';
+          wrap.id = panelId;
           var table = document.createElement('table');
           table.className = 'rs-table';
           table.innerHTML = '<thead><tr><th scope="col">#</th><th scope="col">Student</th><th scope="col">Marks</th><th scope="col">Total</th><th scope="col">Result</th></tr></thead>';
@@ -161,6 +191,10 @@
           table.appendChild(tbody);
           wrap.appendChild(table);
           card.appendChild(wrap);
+          setCardOpen(card, open);
+          btn.addEventListener('click', function () {
+            setCardOpen(card, !card.classList.contains('is-open'));
+          });
         }
         block.appendChild(card);
       });

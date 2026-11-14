@@ -7,58 +7,47 @@
   "students": [
     {
       "name": "Irfan",
-      "marks": 60,
-      "nameUr": "عرفان"
+      "marks": 60
     },
     {
       "name": "Kausar Parveen",
-      "marks": 60,
-      "nameUr": "کوثر پروین"
+      "marks": 60
     },
     {
       "name": "Qaiser",
-      "marks": 60,
-      "nameUr": "قيصر"
+      "marks": 60
     },
     {
       "name": "Salman Akhtar",
-      "marks": 60,
-      "nameUr": "سلمان اختر"
+      "marks": 60
     },
     {
       "name": "Usman Ejaz",
-      "marks": 60,
-      "nameUr": "عثمان اعجاز"
+      "marks": 60
     },
     {
       "name": "Iman Arshad",
-      "marks": 59,
-      "nameUr": "ایمان ارشاد"
+      "marks": 59
     },
     {
       "name": "Laiba Saeed",
-      "marks": 59,
-      "nameUr": "لائبہ سعید"
+      "marks": 59
     },
     {
       "name": "Mahboob Hussain",
-      "marks": 59,
-      "nameUr": "محبوب حسین"
+      "marks": 59
     },
     {
       "name": "Nazia Malik",
-      "marks": 59,
-      "nameUr": "نازیہ ملک"
+      "marks": 59
     },
     {
       "name": "Saima Abdul Alta",
-      "marks": 59,
-      "nameUr": "صائمہ عبد الھتا"
+      "marks": 59
     },
     {
       "name": "Saira Azam",
-      "marks": 59,
-      "nameUr": "سائرہ اعظم"
+      "marks": 59
     }
   ]
 }

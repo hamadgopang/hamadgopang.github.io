@@ -32,6 +32,7 @@
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
 <link rel="stylesheet" href="../assets/css/results.css">
+<link rel="stylesheet" href="../assets/css/teacher.css">
 <script src="../assets/js/boot.js"></script>
 </head>
 <body class="page-inner">
@@ -64,18 +65,21 @@
 
 <main id="main" class="results-page">
   <section class="results-banner" aria-labelledby="rsTitle">
-    <div class="container">
-      <a class="results-back" href="../">Back to portfolio</a>
-      <h1 id="rsTitle">Chemistry Results</h1>
-      <p>Student results in Chemistry for Matriculation classes. Filter by year and class, search by name, and see full marks, near-full scores and pass rates. Pass marks follow board rules for each paper total.</p>
+    <div class="container results-banner-inner">
+      <div>
+        <a class="results-back" href="../">Back to portfolio</a>
+        <h1 id="rsTitle">Chemistry Results</h1>
+        <p>Student results in Chemistry for Matriculation classes. Filter by year and class, search by name, and see full marks, near-full scores and pass rates. Pass marks follow board rules for each paper total.</p>
+      </div>
+      <div class="results-banner-actions" data-teacher-slot></div>
     </div>
   </section>
 
-  <div class="container results-body">
+  <div class="container results-body" id="resultsTool" data-teacher-root data-tool-title="Chemistry Results">
     <noscript><p class="rs-empty">JavaScript is required to browse the results.</p></noscript>
     <p class="rs-empty" id="rsStatus" role="status">Loading results…</p>
 
-    <div class="results-filters" data-teacher-hide>
+    <div class="results-filters">
       <div class="rs-filter-full">
         <span class="rs-label" id="rsYearsLabel">Year</span>
         <div class="rs-chips" id="rsYears" role="group" aria-labelledby="rsYearsLabel"></div>
@@ -152,5 +156,6 @@
 <script src="../assets/js/main.js" defer></script>
 <script src="../assets/js/results-core.js" defer></script>
 <script src="../assets/js/results-page.js" defer></script>
+<script src="../assets/js/lab-teacher.js" defer></script>
 </body>
 </html>

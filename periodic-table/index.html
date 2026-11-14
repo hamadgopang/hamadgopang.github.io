@@ -32,6 +32,7 @@
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
 <link rel="stylesheet" href="../assets/css/periodic-table.css">
+<link rel="stylesheet" href="../assets/css/teacher.css">
 <script src="../assets/js/boot.js"></script>
 </head>
 <body class="page-inner">
@@ -73,14 +74,17 @@
           <h1 id="ptTitle" data-i18n="appTitle">Periodic Table Explorer</h1>
           <p data-i18n="appSub">Tap any element, learn how the table is organised, then test yourself.</p>
         </div>
-        <div class="seg" role="group" aria-label="Language">
-          <button type="button" data-lang="en" aria-pressed="true">English</button>
-          <button type="button" data-lang="ur" lang="ur" aria-pressed="false">اردو</button>
+        <div class="pt-banner-actions">
+          <div data-teacher-slot></div>
+          <div class="seg" role="group" aria-label="Language">
+            <button type="button" data-lang="en" aria-pressed="true">English</button>
+            <button type="button" data-lang="ur" lang="ur" aria-pressed="false">اردو</button>
+          </div>
         </div>
       </div>
     </section>
 
-    <div class="pt-container pt-body">
+    <div class="pt-container pt-body" id="ptTeacherRoot" data-teacher-root data-tool-title="Periodic Table Explorer">
       <p class="pt-note" id="ptLoading" role="status">Loading the periodic table...</p>
       <p class="pt-note is-error" id="ptError" role="alert" hidden></p>
       <noscript><p class="pt-note is-error">The periodic table needs JavaScript. Please enable it and reload this page.</p></noscript>
@@ -178,5 +182,6 @@
 <script src="../assets/js/main.js" defer></script>
 <script src="../assets/js/periodic-table-text.js" defer></script>
 <script src="../assets/js/periodic-table.js" defer></script>
+<script src="../assets/js/lab-teacher.js" defer></script>
 </body>
 </html>

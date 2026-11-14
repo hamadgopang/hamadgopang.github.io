@@ -7,133 +7,107 @@
   "students": [
     {
       "name": "Abdul Qadeer",
-      "marks": 60,
-      "nameUr": "عبد القدیر"
+      "marks": 60
     },
     {
       "name": "Ahmad Mureed",
-      "marks": 60,
-      "nameUr": "احمد مرید"
+      "marks": 60
     },
     {
       "name": "Alishba Tariq",
-      "marks": 60,
-      "nameUr": "علشبہ طارق"
+      "marks": 60
     },
     {
       "name": "Ghulam Zainab",
-      "marks": 60,
-      "nameUr": "غلام زینب"
+      "marks": 60
     },
     {
       "name": "Hudhaifa Khalid",
-      "marks": 60,
-      "nameUr": "حذیفہ خالد"
+      "marks": 60
     },
     {
       "name": "Humaira Farooq",
-      "marks": 60,
-      "nameUr": "حمیرا فاروق"
+      "marks": 60
     },
     {
       "name": "Ismat Afzal",
-      "marks": 60,
-      "nameUr": "عصمت افضل"
+      "marks": 60
     },
     {
       "name": "Mahboob-ul-Hassan",
-      "marks": 60,
-      "nameUr": "محبوب الحسن"
+      "marks": 60
     },
     {
       "name": "Muhammad Ahmad",
-      "marks": 60,
-      "nameUr": "محمد احمد"
+      "marks": 60
     },
     {
       "name": "Muhammad Uwais",
-      "marks": 60,
-      "nameUr": "محمد اویس"
+      "marks": 60
     },
     {
       "name": "Nimra Khalid",
-      "marks": 60,
-      "nameUr": "نمرہ خالد"
+      "marks": 60
     },
     {
       "name": "Saniya Arooj",
-      "marks": 60,
-      "nameUr": "ثانیہ عروج"
+      "marks": 60
     },
     {
       "name": "Sher Bilal",
-      "marks": 60,
-      "nameUr": "شیر بلال"
+      "marks": 60
     },
     {
       "name": "Shoaib Akbar",
-      "marks": 60,
-      "nameUr": "شعیب اکبر"
+      "marks": 60
     },
     {
       "name": "Zaira Akram",
-      "marks": 60,
-      "nameUr": "زنیرا اکرم"
+      "marks": 60
     },
     {
       "name": "Effat Alam",
-      "marks": 59,
-      "nameUr": "عفت عالم"
+      "marks": 59
     },
     {
       "name": "Hamza Ijaz Malik",
-      "marks": 59,
-      "nameUr": "حمزه اعجاز ملک"
+      "marks": 59
     },
     {
       "name": "Iqra Maqbool",
-      "marks": 59,
-      "nameUr": "اقرا مقبول"
+      "marks": 59
     },
     {
       "name": "Lareeb Nadeem",
-      "marks": 59,
-      "nameUr": "لاريب نديم"
+      "marks": 59
     },
     {
       "name": "Muhammad Abdullah",
-      "marks": 59,
-      "nameUr": "محمد عبدالله"
+      "marks": 59
     },
     {
       "name": "Muhammad Ehtasham Farooq",
-      "marks": 59,
-      "nameUr": "محمد احتشام فاروق"
+      "marks": 59
     },
     {
       "name": "Muhammad Mudassir Sajjad",
-      "marks": 59,
-      "nameUr": "محمد مدثر سجاد"
+      "marks": 59
     },
     {
       "name": "Muhammad Muzammil",
-      "marks": 59,
-      "nameUr": "محمد مزمل"
+      "marks": 59
     },
     {
       "name": "Saira Niaz",
-      "marks": 59,
-      "nameUr": "سويرانياز"
+      "marks": 59
     },
     {
       "name": "Uzma Satar",
-      "marks": 59,
-      "nameUr": "عظمى ستار"
+      "marks": 59
     },
     {
       "name": "Zeeshan Farooq",
-      "marks": 59,
-      "nameUr": "ذیشان فاروق"
+      "marks": 59
     }
   ]
 }

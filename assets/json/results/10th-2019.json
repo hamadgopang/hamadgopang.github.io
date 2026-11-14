@@ -7,183 +7,147 @@
   "students": [
     {
       "name": "Abdul Hameed",
-      "marks": 60,
-      "nameUr": "عبدالحميد"
+      "marks": 60
     },
     {
       "name": "Adnan Manzoor",
-      "marks": 60,
-      "nameUr": "عدنان منظور"
+      "marks": 60
     },
     {
       "name": "Adnan Qasim",
-      "marks": 60,
-      "nameUr": "عدنان قاسم"
+      "marks": 60
     },
     {
       "name": "Afshan Arshad",
-      "marks": 60,
-      "nameUr": "افشان ارشد"
+      "marks": 60
     },
     {
       "name": "Ali Hassan",
-      "marks": 60,
-      "nameUr": "علي حسن"
+      "marks": 60
     },
     {
       "name": "Iqra Abid",
-      "marks": 60,
-      "nameUr": "اقراء عابد"
+      "marks": 60
     },
     {
       "name": "Iqra Ijaz Malik",
-      "marks": 60,
-      "nameUr": "اقراء اعجاز ملک"
+      "marks": 60
     },
     {
       "name": "Izhar Ahmad",
-      "marks": 60,
-      "nameUr": "اظهار احمد"
+      "marks": 60
     },
     {
       "name": "Kiran Sajjad",
-      "marks": 60,
-      "nameUr": "كرن سجاد"
+      "marks": 60
     },
     {
       "name": "Maryam Zahra",
-      "marks": 60,
-      "nameUr": "مريم زهره"
+      "marks": 60
     },
     {
       "name": "Muhammad Ahmad",
-      "marks": 60,
-      "nameUr": "محمد احمد"
+      "marks": 60
     },
     {
       "name": "Muhammad Ali Hamza",
-      "marks": 60,
-      "nameUr": "محمد علي حمزه"
+      "marks": 60
     },
     {
       "name": "Muhammad Asghar",
-      "marks": 60,
-      "nameUr": "محمد اصغر"
+      "marks": 60
     },
     {
       "name": "Muhammad Asif",
-      "marks": 60,
-      "nameUr": "محمد آصف"
+      "marks": 60
     },
     {
       "name": "Muhammad Atif Farid",
-      "marks": 60,
-      "nameUr": "محمد عاطف فريد"
+      "marks": 60
     },
     {
       "name": "Muhammad Faraz",
-      "marks": 60,
-      "nameUr": "محمد فراز"
+      "marks": 60
     },
     {
       "name": "Muhammad Hassan",
-      "marks": 60,
-      "nameUr": "محمد حسن"
+      "marks": 60
     },
     {
       "name": "Muhammad Imran",
-      "marks": 60,
-      "nameUr": "محمد عمران"
+      "marks": 60
     },
     {
       "name": "Muhammad Kashif",
-      "marks": 60,
-      "nameUr": "محمد كاشف"
+      "marks": 60
     },
     {
       "name": "Muhammad Mohsin Ali",
-      "marks": 60,
-      "nameUr": "محمد محسن علي"
+      "marks": 60
     },
     {
       "name": "Muhammad Owais",
-      "marks": 60,
-      "nameUr": "محمد اوويس"
+      "marks": 60
     },
     {
       "name": "Muhammad Rizwan",
-      "marks": 60,
-      "nameUr": "محمد رضوان"
+      "marks": 60
     },
     {
       "name": "Muhammad Saleem",
-      "marks": 60,
-      "nameUr": "محمد سليم"
+      "marks": 60
     },
     {
       "name": "Muhammad Shahzaib",
-      "marks": 60,
-      "nameUr": "محمد شاه زييب"
+      "marks": 60
     },
     {
       "name": "Muhammad Umair Hassan",
-      "marks": 60,
-      "nameUr": "محمد عمير حسن"
+      "marks": 60
     },
     {
       "name": "Muhammad Waseem",
-      "marks": 60,
-      "nameUr": "محمد وسيم"
+      "marks": 60
     },
     {
       "name": "Muhammad Younis",
-      "marks": 60,
-      "nameUr": "محمد يونس"
+      "marks": 60
     },
     {
       "name": "Muhammad Yousuf",
-      "marks": 60,
-      "nameUr": "محمد يوسف"
+      "marks": 60
     },
     {
       "name": "Muhammad Zubair",
-      "marks": 60,
-      "nameUr": "محمد زبیر"
+      "marks": 60
     },
     {
       "name": "Qurat-ul-Ain",
-      "marks": 60,
-      "nameUr": "قراۃ العين"
+      "marks": 60
     },
     {
       "name": "Rima Khan",
-      "marks": 60,
-      "nameUr": "ريما خان"
+      "marks": 60
     },
     {
       "name": "Saira Afzal",
-      "marks": 60,
-      "nameUr": "سويرة افضل"
+      "marks": 60
     },
     {
       "name": "Sana Qayyum",
-      "marks": 60,
-      "nameUr": "ثناء قيوم"
+      "marks": 60
     },
     {
       "name": "Suira Manzoor",
-      "marks": 60,
-      "nameUr": "سويرة منظور"
+      "marks": 60
     },
     {
       "name": "Tarsaleem",
-      "marks": 60,
-      "nameUr": "ترسليم"
+      "marks": 60
     },
     {
       "name": "Yusra Javed",
-      "marks": 60,
-      "nameUr": "يسترى جاويد"
+      "marks": 60
     }
   ]
 }

@@ -44,7 +44,7 @@
   --shadow-lg: 0 18px 50px rgba(16, 28, 50, 0.16);
 
   /* Layout */
-  --container: 1200px;
+  --container: 1600px;
   --gutter: 1.25rem;
   --header-h: 68px;
   --section-pad: clamp(4rem, 8vw, 7rem);

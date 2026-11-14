@@ -32,6 +32,7 @@
 <link rel="stylesheet" href="../../assets/css/style.css">
 <link rel="stylesheet" href="../../assets/css/responsive.css">
 <link rel="stylesheet" href="../../assets/css/lab.css">
+<link rel="stylesheet" href="../../assets/css/teacher.css">
 <script src="../../assets/js/boot.js"></script>
 </head>
 <body class="page-inner">
@@ -75,7 +76,7 @@
     </div>
   </section>
 
-  <div class="lab-container lab-body">
+  <div class="lab-container lab-body" data-teacher-root data-tool-title="Functional Groups Explorer">
     <nav class="lab-toolnav" aria-label="Organic Chemistry tools">
         <a href="../">Lab home</a>
         <a href="../hydrocarbons/">Hydrocarbons</a>
@@ -91,7 +92,7 @@
       <div id="labApp" hidden>
         <div class="fg-layout">
           <div class="lab-panel fg-list-panel">
-            <div class="lab-field" data-teacher-hide>
+            <div class="lab-field">
               <label class="lab-label" for="fgSearch">Search groups</label>
               <input type="search" id="fgSearch" placeholder="e.g. alcohol, C=O, ester" autocomplete="off">
             </div>
@@ -107,13 +108,13 @@
                   <h2 id="fgName"></h2>
                   <p id="fgGeneralLine" class="hc-formula-line"></p>
                 </div>
-                <label class="lab-check" data-teacher-hide>
+                <label class="lab-check">
                   <input type="checkbox" id="fgHighlight" checked>
                   <span>Highlight the functional group</span>
                 </label>
               </div>
 
-              <div class="fg-example-bar" data-teacher-hide>
+              <div class="fg-example-bar">
                 <span class="lab-label" id="fgExLabel">Examples</span>
                 <div class="lab-seg" id="fgExamples" role="group" aria-labelledby="fgExLabel"></div>
               </div>

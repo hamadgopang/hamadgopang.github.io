@@ -65,7 +65,7 @@ function shell(meta, main) {
     </div>
   </section>
 
-  <div class="lab-container lab-body">
+  <div class="lab-container lab-body" data-teacher-root data-tool-title="${meta.h1}">
     <nav class="lab-toolnav" aria-label="Organic Chemistry tools">
         <a href="${lab}">Lab home</a>
 ${links}
@@ -114,6 +114,7 @@ ${main}
 <link rel="stylesheet" href="${root}assets/css/style.css">
 <link rel="stylesheet" href="${root}assets/css/responsive.css">
 <link rel="stylesheet" href="${root}assets/css/lab.css">
+<link rel="stylesheet" href="${root}assets/css/teacher.css">
 <script src="${root}assets/js/boot.js"></script>
 </head>
 <body class="page-inner">

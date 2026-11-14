@@ -121,7 +121,7 @@
 }
 
 .lab-container {
-  width: min(100% - (var(--gutter) * 2), 1240px);
+  width: min(100% - (var(--gutter) * 2), var(--container, 1200px));
   margin-inline: auto;
 }
 
@@ -643,107 +643,21 @@
 }
 
 /* --------------------------------------------------------------------------
-   Teacher Mode (full-screen classroom view)
+   Teacher Mode extras for lab tools (shell lives in teacher.css)
    -------------------------------------------------------------------------- */
-.lab-teacher-bar {
-  display: none;
-}
-
-html.lab-teacher-on {
-  overflow: hidden;
-}
-
-.lab-tool.is-teacher {
-  --bg: #09111f;
-  --surface: #101c32;
-  --surface-2: #172a43;
-  --fg: #ffffff;
-  --muted: #d6e0f0;
-  --line: #4a6a99;
-  --accent: #5eead4;
-  --accent-ink: #09111f;
-  --good: #7ee2a0;
-  --good-bg: #123626;
-  --bad: #ff9a92;
-  --bad-bg: #4a2020;
-  --warn-bg: #3d3414;
-  --bond: #f4f7fa;
-  --atom-c: #ffffff;
-  --atom-h: #d6e0f0;
-  --atom-o: #ff8f85;
-  --atom-n: #8fb4ff;
-  --atom-s: #ffd166;
-  --atom-x: #7fe69a;
-  --atom-br: #ffab7a;
-  --hl: #5eead4;
-  --hl-text: #5eead4;
-  --hl-halo: rgba(94, 234, 212, 0.22);
-  --hl-amber: #ffc857;
-
-  position: fixed;
-  inset: 0;
-  z-index: 1000;
-  overflow: auto;
-  padding: 0 clamp(1rem, 3vw, 3rem) 3rem;
-  background: var(--bg);
-  color: var(--fg);
-  font-size: clamp(1.1rem, 1.7vw, 1.55rem);
-}
-
-.lab-tool.is-teacher .lab-teacher-bar {
-  position: sticky;
-  top: 0;
-  z-index: 5;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.6em 1.2em;
-  margin: 0 calc(clamp(1rem, 3vw, 3rem) * -1) 1em;
-  padding: 0.7em clamp(1rem, 3vw, 3rem);
-  background: var(--surface);
-  border-bottom: 1px solid var(--line);
-}
-
-.lab-teacher-title {
-  font: 800 1.1em var(--f-display);
-}
-
-.lab-teacher-hint {
-  color: var(--muted);
-  font-size: 0.7em;
-}
-
-.lab-teacher-hint kbd {
-  padding: 0.05em 0.45em;
-  border: 1px solid var(--line);
-  border-radius: 5px;
-  background: var(--surface-2);
-  color: var(--fg);
-  font: 600 1em var(--f-mono);
-}
-
-.lab-tool.is-teacher .lab-panel {
+[data-teacher-root].is-teacher .lab-panel {
   border-width: 2px;
 }
 
-.lab-tool.is-teacher .mol-svg {
+[data-teacher-root].is-teacher .mol-svg {
   width: 100%;
   max-height: 52vh;
 }
 
-.lab-tool.is-teacher .lab-btn,
-.lab-tool.is-teacher .lab-seg button,
-.lab-tool.is-teacher .lab-chip {
+[data-teacher-root].is-teacher .lab-btn,
+[data-teacher-root].is-teacher .lab-seg button,
+[data-teacher-root].is-teacher .lab-chip {
   min-height: 2.6em;
-}
-
-.lab-tool.is-teacher .lab-btn--ghost {
-  border-width: 2px;
-}
-
-.lab-tool.is-teacher [data-teacher-hide] {
-  display: none !important;
 }
 
 /* --------------------------------------------------------------------------
@@ -778,7 +692,7 @@ html.lab-teacher-on {
 
 .hub-hero-inner {
   position: relative;
-  max-width: 46rem;
+  text-align: left;
 }
 
 .hub-hero h1 {

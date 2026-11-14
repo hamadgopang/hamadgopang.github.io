@@ -7,258 +7,207 @@
   "students": [
     {
       "name": "Aisha Siddiqa",
-      "marks": 75,
-      "nameUr": "عائشہ صدیقہ"
+      "marks": 75
     },
     {
       "name": "Anisa Tariq",
-      "marks": 75,
-      "nameUr": "انیسہ طارق"
+      "marks": 75
     },
     {
       "name": "Ayaz Hussain",
-      "marks": 75,
-      "nameUr": "ایاز حسین"
+      "marks": 75
     },
     {
       "name": "Dawood",
-      "marks": 75,
-      "nameUr": "داؤد"
+      "marks": 75
     },
     {
       "name": "Humayun Nazeer",
-      "marks": 75,
-      "nameUr": "ہمایوں نذیر"
+      "marks": 75
     },
     {
       "name": "Muhammad Hamza",
-      "marks": 75,
-      "nameUr": "محمد حمزہ"
+      "marks": 75
     },
     {
       "name": "Muhammad Hassan",
-      "marks": 75,
-      "nameUr": "محمد حسن"
+      "marks": 75
     },
     {
       "name": "Muhammad Imran",
-      "marks": 75,
-      "nameUr": "محمد عمران"
+      "marks": 75
     },
     {
       "name": "Muhammad Junaid",
-      "marks": 75,
-      "nameUr": "محمد جنید"
+      "marks": 75
     },
     {
       "name": "Muhammad Nasir",
-      "marks": 75,
-      "nameUr": "محمد ناصر"
+      "marks": 75
     },
     {
       "name": "Muhammad Shakeel",
-      "marks": 75,
-      "nameUr": "محمد شکیل"
+      "marks": 75
     },
     {
       "name": "Muhammad Shehzad",
-      "marks": 75,
-      "nameUr": "محمد شہزاد"
+      "marks": 75
     },
     {
       "name": "Muhammad Shoaib",
-      "marks": 75,
-      "nameUr": "محمد شعیب"
+      "marks": 75
     },
     {
       "name": "Muhammad Sibtayn",
-      "marks": 75,
-      "nameUr": "محمد سبطین"
+      "marks": 75
     },
     {
       "name": "Nimra Rahim",
-      "marks": 75,
-      "nameUr": "نمرہ رحیم"
+      "marks": 75
     },
     {
       "name": "Sarfaraz Ahmad",
-      "marks": 75,
-      "nameUr": "سرفراز احمد"
+      "marks": 75
     },
     {
       "name": "Shoaib Ibrahim",
-      "marks": 75,
-      "nameUr": "شعیب ابراھیم"
+      "marks": 75
     },
     {
       "name": "Tania Ghafoor",
-      "marks": 75,
-      "nameUr": "ثانیہ غفور"
+      "marks": 75
     },
     {
       "name": "Waseem Hameed",
-      "marks": 75,
-      "nameUr": "وسیم حمید"
+      "marks": 75
     },
     {
       "name": "Badar Saeed",
-      "marks": 74,
-      "nameUr": "بدر سعید"
+      "marks": 74
     },
     {
       "name": "Hira Asghar",
-      "marks": 74,
-      "nameUr": "حرا اصغر"
+      "marks": 74
     },
     {
       "name": "Iqra Akhtar",
-      "marks": 74,
-      "nameUr": "اقراء اختر"
+      "marks": 74
     },
     {
       "name": "Iqra Batool",
-      "marks": 74,
-      "nameUr": "اقراء بتول"
+      "marks": 74
     },
     {
       "name": "Muhammad Abu Bakr",
-      "marks": 74,
-      "nameUr": "محمد ابوبکر"
+      "marks": 74
     },
     {
       "name": "Muhammad Matloob",
-      "marks": 74,
-      "nameUr": "محمد مطلوب"
+      "marks": 74
     },
     {
       "name": "Muhammad Usama",
-      "marks": 74,
-      "nameUr": "محمد اسامہ"
+      "marks": 74
     },
     {
       "name": "Muhammad Waheed",
-      "marks": 74,
-      "nameUr": "محمد وحید"
+      "marks": 74
     },
     {
       "name": "Muhammad Yasir Nazeer",
-      "marks": 74,
-      "nameUr": "محمد یاسر نذیر"
+      "marks": 74
     },
     {
       "name": "Muneeza Ramzan",
-      "marks": 74,
-      "nameUr": "منیضہ رمضان"
+      "marks": 74
     },
     {
       "name": "Sabana Nasir",
-      "marks": 74,
-      "nameUr": "صبانا ناصر"
+      "marks": 74
     },
     {
       "name": "Saima Khan",
-      "marks": 74,
-      "nameUr": "صائمہ خان"
+      "marks": 74
     },
     {
       "name": "Saira Hassan",
-      "marks": 74,
-      "nameUr": "سائرہ حسن"
+      "marks": 74
     },
     {
       "name": "Samina Khadim",
-      "marks": 74,
-      "nameUr": "سمینہ خادم"
+      "marks": 74
     },
     {
       "name": "Shaukat Ali",
-      "marks": 74,
-      "nameUr": "شوکت علی"
+      "marks": 74
     },
     {
       "name": "Sidra Saleem",
-      "marks": 74,
-      "nameUr": "سدرہ سلیم"
+      "marks": 74
     },
     {
       "name": "Tangi Madni",
-      "marks": 74,
-      "nameUr": "تگی مدنی"
+      "marks": 74
     },
     {
       "name": "Aasia Bano",
-      "marks": 60,
-      "nameUr": "آسیہ بانو"
+      "marks": 60
     },
     {
       "name": "Aliya Batool",
-      "marks": 60,
-      "nameUr": "آلیہ بتول"
+      "marks": 60
     },
     {
       "name": "Bushra Zahid",
-      "marks": 60,
-      "nameUr": "بشریٰ زاہد"
+      "marks": 60
     },
     {
       "name": "Kashif Ali",
-      "marks": 60,
-      "nameUr": "کاشف علی"
+      "marks": 60
     },
     {
       "name": "Malaika Bibi",
-      "marks": 60,
-      "nameUr": "ملائکہ بی بی"
+      "marks": 60
     },
     {
       "name": "Muhammad Shahab",
-      "marks": 60,
-      "nameUr": "محمد شباب"
+      "marks": 60
     },
     {
       "name": "Nousheen Basheer",
-      "marks": 60,
-      "nameUr": "نوشین بشیر"
+      "marks": 60
     },
     {
       "name": "Nusrat Fatima",
-      "marks": 60,
-      "nameUr": "نصرت فاطمہ"
+      "marks": 60
     },
     {
       "name": "Rabab Zahra",
-      "marks": 60,
-      "nameUr": "رباب زہرہ"
+      "marks": 60
     },
     {
       "name": "Rania Rafi",
-      "marks": 60,
-      "nameUr": "رانیہ رافی"
+      "marks": 60
     },
     {
       "name": "Sadia Manzoor",
-      "marks": 60,
-      "nameUr": "سعدیہ منظور"
+      "marks": 60
     },
     {
       "name": "Safia Iqbal",
-      "marks": 60,
-      "nameUr": "صفیہ اقبال"
+      "marks": 60
     },
     {
       "name": "Saima Asghar",
-      "marks": 60,
-      "nameUr": "صائمہ اصغر"
+      "marks": 60
     },
     {
       "name": "Sher Afzal",
-      "marks": 60,
-      "nameUr": "شیر افضل"
+      "marks": 60
     },
     {
       "name": "Zohaib Nawaz",
-      "marks": 60,
-      "nameUr": "زویب نواز"
+      "marks": 60
     }
   ]
 }

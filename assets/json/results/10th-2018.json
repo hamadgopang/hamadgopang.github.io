@@ -7,198 +7,159 @@
   "students": [
     {
       "name": "Adnan Sajjad",
-      "marks": 60,
-      "nameUr": "عدنان سجاد"
+      "marks": 60
     },
     {
       "name": "Asia Ashiq",
-      "marks": 60,
-      "nameUr": "آسيه عاشق"
+      "marks": 60
     },
     {
       "name": "Kashif Rana",
-      "marks": 60,
-      "nameUr": "كاشف رانا"
+      "marks": 60
     },
     {
       "name": "Mahboob Hussain",
-      "marks": 60,
-      "nameUr": "محبوب حسین"
+      "marks": 60
     },
     {
       "name": "Muhammad Abdullah Iqbal",
-      "marks": 60,
-      "nameUr": "محمد عبدالله اقبال"
+      "marks": 60
     },
     {
       "name": "Muhammad Madni",
-      "marks": 60,
-      "nameUr": "محمد مدني"
+      "marks": 60
     },
     {
       "name": "Muhammad Numan",
-      "marks": 60,
-      "nameUr": "محمد نعمان"
+      "marks": 60
     },
     {
       "name": "Muhammad Tanveer",
-      "marks": 60,
-      "nameUr": "محمد تنوير"
+      "marks": 60
     },
     {
       "name": "Muhammad Usama",
-      "marks": 60,
-      "nameUr": "محمد اسامه"
+      "marks": 60
     },
     {
       "name": "Muhammad Waseem",
-      "marks": 60,
-      "nameUr": "محمد وسیم"
+      "marks": 60
     },
     {
       "name": "Muhammad Zubair",
-      "marks": 60,
-      "nameUr": "محمد زبیر"
+      "marks": 60
     },
     {
       "name": "Rajab Ali",
-      "marks": 60,
-      "nameUr": "رجب علی"
+      "marks": 60
     },
     {
       "name": "Rayyan Rafiq",
-      "marks": 60,
-      "nameUr": "ريان رفيق"
+      "marks": 60
     },
     {
       "name": "Saryab Amjad",
-      "marks": 60,
-      "nameUr": "سيراب امجد"
+      "marks": 60
     },
     {
       "name": "Shoaib Akhtar",
-      "marks": 60,
-      "nameUr": "شعیب اختر"
+      "marks": 60
     },
     {
       "name": "Syed Qaim Ali Shah",
-      "marks": 60,
-      "nameUr": "سید قائم علی شاہ"
+      "marks": 60
     },
     {
       "name": "Zain Ayyub",
-      "marks": 60,
-      "nameUr": "زين ايوب"
+      "marks": 60
     },
     {
       "name": "Zain-ul-Abideen",
-      "marks": 60,
-      "nameUr": "زين العابدين"
+      "marks": 60
     },
     {
       "name": "Ghulam Jafar",
-      "marks": 59,
-      "nameUr": "غلام جعفر"
+      "marks": 59
     },
     {
       "name": "Zubair Wajid",
-      "marks": 59,
-      "nameUr": "زبیر واجد"
+      "marks": 59
     },
     {
       "name": "Alisha Shah",
-      "marks": 58,
-      "nameUr": "علية شاه"
+      "marks": 58
     },
     {
       "name": "Muhammad Adnan",
-      "marks": 58,
-      "nameUr": "محمد عدنان"
+      "marks": 58
     },
     {
       "name": "Muhammad Ismail",
-      "marks": 58,
-      "nameUr": "محمد اسماعیل"
+      "marks": 58
     },
     {
       "name": "Muhammad Mohsin Ali",
-      "marks": 58,
-      "nameUr": "محمد محسن علی"
+      "marks": 58
     },
     {
       "name": "Muhammad Rehan Farid",
-      "marks": 58,
-      "nameUr": "محمد ريحان فريد"
+      "marks": 58
     },
     {
       "name": "Muhammad Waqas",
-      "marks": 58,
-      "nameUr": "محمد وقاص"
+      "marks": 58
     },
     {
       "name": "Muhammad Yunus",
-      "marks": 58,
-      "nameUr": "محمد يونس"
+      "marks": 58
     },
     {
       "name": "Sadia Ijaz",
-      "marks": 58,
-      "nameUr": "سعدیہ اعجاز"
+      "marks": 58
     },
     {
       "name": "Ahmad Atta",
-      "marks": 57,
-      "nameUr": "احمد عطا"
+      "marks": 57
     },
     {
       "name": "Arif Kausar",
-      "marks": 57,
-      "nameUr": "عارض کوثر"
+      "marks": 57
     },
     {
       "name": "Iman Ashraf",
-      "marks": 57,
-      "nameUr": "ایمان اشرف"
+      "marks": 57
     },
     {
       "name": "Marwa Zafar",
-      "marks": 57,
-      "nameUr": "مروبه ظفر"
+      "marks": 57
     },
     {
       "name": "Muhammad Aqib",
-      "marks": 57,
-      "nameUr": "محمد عاقب"
+      "marks": 57
     },
     {
       "name": "Muhammad Idris Safdar",
-      "marks": 57,
-      "nameUr": "محمد ادريس صفدر"
+      "marks": 57
     },
     {
       "name": "Muhammad Junaid",
-      "marks": 57,
-      "nameUr": "محمد جنيد"
+      "marks": 57
     },
     {
       "name": "Muhammad Naqeeb",
-      "marks": 57,
-      "nameUr": "محمد نقیب"
+      "marks": 57
     },
     {
       "name": "Muhammad Shan Bilal",
-      "marks": 57,
-      "nameUr": "محمد شان بلال"
+      "marks": 57
     },
     {
       "name": "Suira Amjed",
-      "marks": 57,
-      "nameUr": "سويرة امجد"
+      "marks": 57
     },
     {
       "name": "Usama Tariq",
-      "marks": 57,
-      "nameUr": "اسامہ طارق"
+      "marks": 57
     }
   ]
 }

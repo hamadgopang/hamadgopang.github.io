@@ -7,113 +7,91 @@
   "students": [
     {
       "name": "Amir Riaz",
-      "marks": 60,
-      "nameUr": "عامر رياض"
+      "marks": 60
     },
     {
       "name": "Ammar Yasir",
-      "marks": 60,
-      "nameUr": "عمار ياسر"
+      "marks": 60
     },
     {
       "name": "Muhammad Faisal",
-      "marks": 60,
-      "nameUr": "محمد فيصل"
+      "marks": 60
     },
     {
       "name": "Muhammad Kashif",
-      "marks": 60,
-      "nameUr": "محمد كاشف"
+      "marks": 60
     },
     {
       "name": "Muhammad Shakeel",
-      "marks": 60,
-      "nameUr": "محمد شکیل"
+      "marks": 60
     },
     {
       "name": "Nazim Hussain",
-      "marks": 60,
-      "nameUr": "ناظم حسين"
+      "marks": 60
     },
     {
       "name": "Shaheen Shafi",
-      "marks": 60,
-      "nameUr": "شاهين شفيع"
+      "marks": 60
     },
     {
       "name": "Sher Afzal",
-      "marks": 60,
-      "nameUr": "شير افضل"
+      "marks": 60
     },
     {
       "name": "Yasmin Iqbal",
-      "marks": 60,
-      "nameUr": "ياسمين اقبال"
+      "marks": 60
     },
     {
       "name": "Afra Kaleem",
-      "marks": 59,
-      "nameUr": "عفراء كليم"
+      "marks": 59
     },
     {
       "name": "Arooj Tariq",
-      "marks": 59,
-      "nameUr": "عروج طارق"
+      "marks": 59
     },
     {
       "name": "Asadullah",
-      "marks": 59,
-      "nameUr": "اسد الله"
+      "marks": 59
     },
     {
       "name": "Mohsin Bilal",
-      "marks": 59,
-      "nameUr": "محسن بلال"
+      "marks": 59
     },
     {
       "name": "Mubashir Khalil",
-      "marks": 59,
-      "nameUr": "مبشر خليل"
+      "marks": 59
     },
     {
       "name": "Muhammad Aslam",
-      "marks": 59,
-      "nameUr": "محمد اسلم"
+      "marks": 59
     },
     {
       "name": "Muhammad Babar",
-      "marks": 59,
-      "nameUr": "محمد بابر"
+      "marks": 59
     },
     {
       "name": "Muhammad Naveed",
-      "marks": 59,
-      "nameUr": "محمد نوید"
+      "marks": 59
     },
     {
       "name": "Muhammad Numan",
-      "marks": 59,
-      "nameUr": "محمد نعمان"
+      "marks": 59
     },
     {
       "name": "Muhammad Sadaqat",
-      "marks": 59,
-      "nameUr": "محمد صداقت"
+      "marks": 59
     },
     {
       "name": "Rania Rani",
-      "marks": 59,
-      "nameUr": "رانية راني"
+      "marks": 59
     },
     {
       "name": "Sajjad Raza",
-      "marks": 59,
-      "nameUr": "سجاد رضا"
+      "marks": 59
     },
     {
       "name": "Zohaib Nawaz",
-      "marks": 59,
-      "nameUr": "زوهيب نواز"
+      "marks": 59
     }
   ]
 }

@@ -208,8 +208,15 @@
 }
 
 .pt-container {
-  width: min(100% - (var(--gutter) * 2), 1360px);
+  width: min(100% - (var(--gutter) * 2), var(--container, 1200px));
   margin-inline: auto;
+}
+
+.pt-banner-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
 }
 
 .pt-app[data-lang="ur"] {
@@ -683,6 +690,25 @@
   border: 1px solid var(--line);
   border-radius: 12px;
   padding: 18px;
+  scrollbar-width: thin;
+  scrollbar-color: #c9d4e3 transparent;
+}
+
+#detail::-webkit-scrollbar {
+  width: 6px;
+}
+
+#detail::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#detail::-webkit-scrollbar-thumb {
+  background: #c9d4e3;
+  border-radius: 999px;
+}
+
+#detail::-webkit-scrollbar-thumb:hover {
+  background: #b3c0d4;
 }
 
 @media (min-width: 1180px) {
