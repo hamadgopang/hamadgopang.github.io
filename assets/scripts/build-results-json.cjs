@@ -14,9 +14,7 @@ function write(id, cls, year, totalMarks, students) {
     const key = name.toLowerCase() + '|' + marks;
     if (!name || seen.has(key)) return;
     seen.add(key);
-    const row = { name, marks };
-    if (s.nameUr || s[2]) row.nameUr = s.nameUr || s[2];
-    list.push(row);
+    list.push({ name, marks });
   });
   list.sort((a, b) => b.marks - a.marks || a.name.localeCompare(b.name));
   const data = { id, class: cls, year, subject: 'Chemistry', totalMarks, students: list };
