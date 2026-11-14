@@ -272,7 +272,7 @@
 /* ---------- 1200px: large desktop ---------- */
 @media (min-width: 1200px) {
   .portrait {
-    width: min(86%, 440px);
+    width: min(94.8%, 485px);
   }
 
   .mini-cell {

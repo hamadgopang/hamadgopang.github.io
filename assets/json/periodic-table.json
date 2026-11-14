@@ -60,8 +60,8 @@
    ],
    "latin": null,
    "fact": {
-    "en": "The lightest and most abundant element in the universe; stars like the Sun fuse it into helium.",
-    "ur": "کائنات کا سب سے ہلکا اور سب سے زیادہ پایا جانے والا عنصر؛ سورج جیسے ستارے اسے ہیلیم میں بدل کر توانائی پیدا کرتے ہیں۔"
+    "en": "The lightest and most abundant element in the universe; stars like the Sun fuse it into helium. It is placed in group 1, but it is a nonmetal, not an alkali metal.",
+    "ur": "کائنات کا سب سے ہلکا اور سب سے زیادہ پایا جانے والا عنصر؛ سورج جیسے ستارے اسے ہیلیم میں بدل کر توانائی پیدا کرتے ہیں۔ یہ گروپ 1 میں رکھا گیا ہے، مگر یہ غیر دھات ہے، الکلی دھات نہیں۔"
    }
   },
   {
@@ -1196,7 +1196,10 @@
     18
    ],
    "latin": null,
-   "fact": null
+   "fact": {
+    "en": "Palladium is unusual: its 5s subshell is empty, so a simple shell count is 2, 8, 18, 18 even though the element sits in period 5.",
+    "ur": "پیلیڈیم غیر معمولی ہے: اس کا 5s ذیلی خول خالی ہوتا ہے، اس لیے سادہ خول گنتی 2، 8، 18، 18 ہے حالانکہ یہ پیریڈ 5 میں ہے۔"
+   }
   },
   {
    "z": 47,

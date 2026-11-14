@@ -97,7 +97,7 @@
         "Ethyne burns with a sooty flame in air; in pure oxygen the flame is very hot and is used in welding."
       ],
       "reactionTitle": "Addition of hydrogen",
-      "reactionNote": "With a nickel catalyst, ethyne takes up two molecules of hydrogen to give ethane (via ethene).",
+      "reactionNote": "With a nickel catalyst, ethyne takes up two molecules of hydrogen to give ethane. The linked studio shows the same kind of addition using ethene.",
       "reactionEq": "C2H2 + 2H2 \u2192 C2H6",
       "reactionLink": "reactions/#hydrogenation",
       "states": [null, "gas", "gas", { "1": "gas", "2": "low-boiling liquid" }, "liquid", "liquid", "liquid", "liquid", "liquid", "liquid"],

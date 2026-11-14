@@ -11,7 +11,7 @@
       "properties": [
         "Lower alcohols are liquids and mix with water.",
         "Burn in air to give carbon dioxide and water.",
-        "Can be dehydrated to alkenes."
+        "Alcohols other than methanol can be dehydrated to alkenes. Methanol has no neighbouring carbon from which to form a C=C bond."
       ],
       "examples": ["methanol", "ethanol", "propan-1-ol"],
       "reaction": {
@@ -103,9 +103,9 @@
       ],
       "examples": ["methyl-ethanoate", "ethyl-ethanoate", "ethyl-methanoate"],
       "reaction": {
-        "title": "Hydrolysis of methyl ethanoate",
-        "conditions": "Heat with water (acid or base catalyst in the laboratory)",
-        "note": "The ester splits to give the parent acid and alcohol.",
+        "title": "Acid hydrolysis of methyl ethanoate",
+        "conditions": "Heat with dilute acid",
+        "note": "Acid hydrolysis gives ethanoic acid and methanol. Alkaline hydrolysis gives the carboxylate salt, not the free acid, unless the mixture is acidified afterwards.",
         "reactants": [{ "mol": "methyl-ethanoate" }, { "mol": "water" }],
         "products": [{ "mol": "ethanoic-acid" }, { "mol": "methanol" }]
       },
@@ -149,9 +149,9 @@
       "reaction": {
         "title": "Reaction of methanamine with hydrogen chloride",
         "conditions": "Room temperature",
-        "note": "The amine accepts a proton to form a salt.",
+        "note": "The amine accepts a proton and forms methanaminium chloride, CH3NH3Cl.",
         "reactants": [{ "mol": "methanamine" }, { "mol": "hydrogen-chloride" }],
-        "products": [{ "f": "CH6NCl" }]
+        "products": [{ "f": "CH3NH3Cl" }]
       },
       "advanced": "Primary, secondary and tertiary amines differ by how many carbon groups are attached to nitrogen. This Lab shows primary amines only."
     },
@@ -165,13 +165,13 @@
       "properties": [
         "Many are solids at room temperature.",
         "The –CONH2 group can hydrogen-bond.",
-        "Can be hydrolysed to a carboxylic acid and ammonia."
+        "Acid hydrolysis gives a carboxylic acid and an ammonium salt."
       ],
       "examples": ["methanamide", "ethanamide", "propanamide"],
       "reaction": {
-        "title": "Hydrolysis of ethanamide",
-        "conditions": "Heat with dilute acid or alkali",
-        "note": "The amide bond is broken to give ethanoic acid and ammonia.",
+        "title": "Acid hydrolysis of ethanamide",
+        "conditions": "Heat with dilute acid",
+        "note": "The amide bond breaks to give ethanoic acid and ammonia (as an ammonium salt in acid). Alkaline hydrolysis gives the carboxylate salt and ammonia.",
         "reactants": [{ "mol": "ethanamide" }, { "mol": "water" }],
         "products": [{ "mol": "ethanoic-acid" }, { "f": "NH3" }]
       },
@@ -192,8 +192,8 @@
       "examples": ["chloromethane", "chloroethane", "bromoethane"],
       "reaction": {
         "title": "Substitution of chloromethane",
-        "conditions": "Warm aqueous conditions (school-level overview)",
-        "note": "Chlorine is replaced by OH to give methanol.",
+        "conditions": "Warm water (school overview of the organic change)",
+        "note": "Chlorine is replaced by OH and hydrogen chloride forms. In the laboratory the usual reagent is warm aqueous alkali, which gives a chloride salt instead of HCl.",
         "reactants": [{ "mol": "chloromethane" }, { "mol": "water" }],
         "products": [{ "mol": "methanol" }, { "mol": "hydrogen-chloride" }]
       },

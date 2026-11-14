@@ -1035,7 +1035,7 @@ button {
 /* Portrait composition */
 .portrait {
   position: relative;
-  width: min(84%, 400px);
+  width: min(92.6%, 441px);
   margin-inline: auto;
 }
 
@@ -1265,7 +1265,7 @@ button {
 
 .about-media {
   position: relative;
-  max-width: 480px;
+  max-width: 528px;
   margin-inline: auto;
   width: 100%;
   padding-bottom: 1.5rem;
@@ -1273,7 +1273,7 @@ button {
 
 .about-frame {
   position: relative;
-  aspect-ratio: 1;
+  aspect-ratio: 1 / 1.452;
   overflow: hidden;
   border-radius: 28px 28px 28px 110px;
   background: var(--navy-800);
