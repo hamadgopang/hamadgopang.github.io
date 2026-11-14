@@ -1,0 +1,1135 @@
+{
+  "topics": [
+    {
+      "id": "hydrocarbons",
+      "name": "Hydrocarbons"
+    },
+    {
+      "id": "homologous",
+      "name": "Homologous series"
+    },
+    {
+      "id": "groups",
+      "name": "Functional groups"
+    },
+    {
+      "id": "reactions",
+      "name": "Reactions"
+    },
+    {
+      "id": "formulas",
+      "name": "Formulas and mass"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "hydrocarbons",
+      "prompt": "What is the general formula of alkanes (acyclic)?",
+      "options": [
+        "CnH2n",
+        "CnH2n+2",
+        "CnH2n-2",
+        "CnHn"
+      ],
+      "answer": 1,
+      "explanation": "CnH2n+2 is correct for this school-level question."
+    },
+    {
+      "id": "q002",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "hydrocarbons",
+      "prompt": "Alkenes contain which carbon-carbon bond?",
+      "options": [
+        "A single bond",
+        "A double bond",
+        "A triple bond",
+        "An ionic bond"
+      ],
+      "answer": 1,
+      "explanation": "A double bond is correct for this school-level question."
+    },
+    {
+      "id": "q003",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "hydrocarbons",
+      "prompt": "Alkynes contain which carbon-carbon bond?",
+      "options": [
+        "A single bond",
+        "A double bond",
+        "A triple bond",
+        "A hydrogen bond"
+      ],
+      "answer": 2,
+      "explanation": "A triple bond is correct for this school-level question."
+    },
+    {
+      "id": "q004",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "hydrocarbons",
+      "prompt": "The name of CH4 is",
+      "options": [
+        "Methane",
+        "Ethane",
+        "Ethene",
+        "Methanol"
+      ],
+      "answer": 0,
+      "explanation": "Methane is correct for this school-level question."
+    },
+    {
+      "id": "q005",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "hydrocarbons",
+      "prompt": "The name of C2H4 is",
+      "options": [
+        "Ethane",
+        "Ethene",
+        "Ethyne",
+        "Ethanol"
+      ],
+      "answer": 1,
+      "explanation": "Ethene is correct for this school-level question."
+    },
+    {
+      "id": "q006",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "hydrocarbons",
+      "prompt": "The name of C2H2 is",
+      "options": [
+        "Ethane",
+        "Ethene",
+        "Ethyne",
+        "Ethanal"
+      ],
+      "answer": 2,
+      "explanation": "Ethyne is correct for this school-level question."
+    },
+    {
+      "id": "q007",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "homologous",
+      "prompt": "Members of a homologous series differ by",
+      "options": [
+        "CH4",
+        "CH2",
+        "H2O",
+        "O2"
+      ],
+      "answer": 1,
+      "explanation": "CH2 is correct for this school-level question."
+    },
+    {
+      "id": "q008",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "homologous",
+      "prompt": "Each CH2 step raises Mr by about",
+      "options": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "answer": 1,
+      "explanation": "14 is correct for this school-level question."
+    },
+    {
+      "id": "q009",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "groups",
+      "prompt": "The functional group of alcohols is",
+      "options": [
+        "-OH",
+        "-CHO",
+        "-COOH",
+        "-NH2"
+      ],
+      "answer": 0,
+      "explanation": "-OH is correct for this school-level question."
+    },
+    {
+      "id": "q010",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "groups",
+      "prompt": "The functional group of aldehydes is written",
+      "options": [
+        "-OH",
+        "-CHO",
+        "-COOH",
+        "C=C"
+      ],
+      "answer": 1,
+      "explanation": "-CHO is correct for this school-level question."
+    },
+    {
+      "id": "q011",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "groups",
+      "prompt": "Carboxylic acids contain",
+      "options": [
+        "-OH only",
+        "-COOH",
+        "-NH2",
+        "C≡C"
+      ],
+      "answer": 1,
+      "explanation": "-COOH is correct for this school-level question."
+    },
+    {
+      "id": "q012",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "groups",
+      "prompt": "Esters often smell",
+      "options": [
+        "Sour like vinegar",
+        "Fruity",
+        "Like ammonia",
+        "Metallic"
+      ],
+      "answer": 1,
+      "explanation": "Fruity is correct for this school-level question."
+    },
+    {
+      "id": "q013",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "reactions",
+      "prompt": "Complete combustion of a hydrocarbon in plenty of oxygen gives",
+      "options": [
+        "Carbon and water",
+        "Carbon dioxide and water",
+        "Hydrogen only",
+        "Nitrogen and water"
+      ],
+      "answer": 1,
+      "explanation": "Carbon dioxide and water is correct for this school-level question."
+    },
+    {
+      "id": "q014",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "reactions",
+      "prompt": "Bromine water with an alkene becomes",
+      "options": [
+        "Darker orange",
+        "Colourless",
+        "Blue",
+        "Green"
+      ],
+      "answer": 1,
+      "explanation": "Colourless is correct for this school-level question."
+    },
+    {
+      "id": "q015",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "reactions",
+      "prompt": "Ethene + H2 (Ni catalyst) gives",
+      "options": [
+        "Ethyne",
+        "Ethane",
+        "Ethanol",
+        "Methane"
+      ],
+      "answer": 1,
+      "explanation": "Ethane is correct for this school-level question."
+    },
+    {
+      "id": "q016",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "formulas",
+      "prompt": "Relative atomic mass of carbon used in the Lab is",
+      "options": [
+        "1",
+        "12",
+        "16",
+        "14"
+      ],
+      "answer": 1,
+      "explanation": "12 is correct for this school-level question."
+    },
+    {
+      "id": "q017",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "formulas",
+      "prompt": "Molecular formula of ethene is",
+      "options": [
+        "C2H6",
+        "C2H4",
+        "C2H2",
+        "CH4"
+      ],
+      "answer": 1,
+      "explanation": "C2H4 is correct for this school-level question."
+    },
+    {
+      "id": "q018",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "formulas",
+      "prompt": "Condensed formula of ethanol is",
+      "options": [
+        "CH3OH",
+        "CH3CH2OH",
+        "CH3COOH",
+        "CH3CHO"
+      ],
+      "answer": 1,
+      "explanation": "CH3CH2OH is correct for this school-level question."
+    },
+    {
+      "id": "q019",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "hydrocarbons",
+      "prompt": "Organic chemistry is mainly the study of",
+      "options": [
+        "Only metals",
+        "Carbon compounds",
+        "Noble gases",
+        "Nuclear reactions"
+      ],
+      "answer": 1,
+      "explanation": "Carbon compounds is correct for this school-level question."
+    },
+    {
+      "id": "q020",
+      "type": "mcq",
+      "level": "beginner",
+      "topic": "hydrocarbons",
+      "prompt": "Saturated hydrocarbons have",
+      "options": [
+        "Only double bonds",
+        "Only triple bonds",
+        "Only single C-C bonds",
+        "Ionic bonds"
+      ],
+      "answer": 2,
+      "explanation": "Only single C-C bonds is correct for this school-level question."
+    },
+    {
+      "id": "q021",
+      "type": "tf",
+      "level": "beginner",
+      "topic": "hydrocarbons",
+      "prompt": "Alkanes decolourise bromine water.",
+      "answer": false,
+      "explanation": "Alkanes are saturated and do not decolourise bromine water under usual school tests."
+    },
+    {
+      "id": "q022",
+      "type": "tf",
+      "level": "beginner",
+      "topic": "hydrocarbons",
+      "prompt": "Ethene is unsaturated.",
+      "answer": true,
+      "explanation": "Ethene has a C=C double bond, so it is unsaturated."
+    },
+    {
+      "id": "q023",
+      "type": "tf",
+      "level": "beginner",
+      "topic": "homologous",
+      "prompt": "A homologous series differs by CH2.",
+      "answer": true,
+      "explanation": "Consecutive members differ by a CH2 unit."
+    },
+    {
+      "id": "q024",
+      "type": "tf",
+      "level": "beginner",
+      "topic": "groups",
+      "prompt": "Methanol is an alcohol.",
+      "answer": true,
+      "explanation": "Methanol has an -OH group bonded to carbon."
+    },
+    {
+      "id": "q025",
+      "type": "tf",
+      "level": "beginner",
+      "topic": "reactions",
+      "prompt": "CO2 is the only product of hydrocarbon combustion.",
+      "answer": false,
+      "explanation": "Complete combustion also produces water."
+    },
+    {
+      "id": "q026",
+      "type": "tf",
+      "level": "beginner",
+      "topic": "hydrocarbons",
+      "prompt": "Propane has three carbon atoms.",
+      "answer": true,
+      "explanation": "The prop- prefix means three carbons."
+    },
+    {
+      "id": "q027",
+      "type": "tf",
+      "level": "beginner",
+      "topic": "hydrocarbons",
+      "prompt": "Alkynes are saturated.",
+      "answer": false,
+      "explanation": "Alkynes have a C≡C bond, so they are unsaturated."
+    },
+    {
+      "id": "q028",
+      "type": "tf",
+      "level": "beginner",
+      "topic": "hydrocarbons",
+      "prompt": "Teacher Mode is meant for classroom display.",
+      "answer": true,
+      "explanation": "Teacher Mode enlarges the tool for smart boards and projectors."
+    },
+    {
+      "id": "q029",
+      "type": "mcq",
+      "level": "intermediate",
+      "topic": "hydrocarbons",
+      "prompt": "But-1-ene and but-2-ene differ in",
+      "options": [
+        "The number of carbons",
+        "The position of the double bond",
+        "The molecular formula",
+        "The presence of oxygen"
+      ],
+      "answer": 1,
+      "explanation": "The position of the double bond matches the curated Lab content."
+    },
+    {
+      "id": "q030",
+      "type": "mcq",
+      "level": "intermediate",
+      "topic": "hydrocarbons",
+      "prompt": "General formula of acyclic alkenes (one C=C) is",
+      "options": [
+        "CnH2n+2",
+        "CnH2n",
+        "CnH2n-2",
+        "CnH2n+1"
+      ],
+      "answer": 1,
+      "explanation": "CnH2n matches the curated Lab content."
+    },
+    {
+      "id": "q031",
+      "type": "mcq",
+      "level": "intermediate",
+      "topic": "hydrocarbons",
+      "prompt": "General formula of acyclic alkynes (one C≡C) is",
+      "options": [
+        "CnH2n+2",
+        "CnH2n",
+        "CnH2n-2",
+        "CnHn"
+      ],
+      "answer": 2,
+      "explanation": "CnH2n-2 matches the curated Lab content."
+    },
+    {
+      "id": "q032",
+      "type": "mcq",
+      "level": "intermediate",
+      "topic": "groups",
+      "prompt": "Propanone belongs to which group?",
+      "options": [
+        "Aldehyde",
+        "Ketone",
+        "Ester",
+        "Amine"
+      ],
+      "answer": 1,
+      "explanation": "Ketone matches the curated Lab content."
+    },
+    {
+      "id": "q033",
+      "type": "mcq",
+      "level": "intermediate",
+      "topic": "reactions",
+      "prompt": "Ethanoic acid reacts with methanol to form",
+      "options": [
+        "Ethene only",
+        "Methyl ethanoate and water",
+        "Methane",
+        "Ethanol only"
+      ],
+      "answer": 1,
+      "explanation": "Methyl ethanoate and water matches the curated Lab content."
+    },
+    {
+      "id": "q034",
+      "type": "mcq",
+      "level": "intermediate",
+      "topic": "reactions",
+      "prompt": "Polymerization of ethene produces",
+      "options": [
+        "Ethanol",
+        "Poly(ethene)",
+        "Ethanoic acid",
+        "Methane"
+      ],
+      "answer": 1,
+      "explanation": "Poly(ethene) matches the curated Lab content."
+    },
+    {
+      "id": "q035",
+      "type": "mcq",
+      "level": "intermediate",
+      "topic": "formulas",
+      "prompt": "Mr of CH4 using C=12 and H=1 is",
+      "options": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "16 matches the curated Lab content."
+    },
+    {
+      "id": "q036",
+      "type": "mcq",
+      "level": "intermediate",
+      "topic": "reactions",
+      "prompt": "Dehydration of ethanol can give",
+      "options": [
+        "Methane",
+        "Ethene and water",
+        "Only oxygen",
+        "Sodium chloride"
+      ],
+      "answer": 1,
+      "explanation": "Ethene and water matches the curated Lab content."
+    },
+    {
+      "id": "q037",
+      "type": "mcq",
+      "level": "intermediate",
+      "topic": "groups",
+      "prompt": "Which molecule is an ester?",
+      "options": [
+        "Ethanol",
+        "Ethanal",
+        "Methyl ethanoate",
+        "Ethanamine"
+      ],
+      "answer": 2,
+      "explanation": "Methyl ethanoate matches the curated Lab content."
+    },
+    {
+      "id": "q038",
+      "type": "mcq",
+      "level": "intermediate",
+      "topic": "groups",
+      "prompt": "Which is a haloalkane?",
+      "options": [
+        "Methanol",
+        "Chloromethane",
+        "Methanal",
+        "Methanamide"
+      ],
+      "answer": 1,
+      "explanation": "Chloromethane matches the curated Lab content."
+    },
+    {
+      "id": "q039",
+      "type": "mcq",
+      "level": "intermediate",
+      "topic": "reactions",
+      "prompt": "Hydration of ethene gives",
+      "options": [
+        "Ethane",
+        "Ethanol",
+        "Ethyne",
+        "Ethanal"
+      ],
+      "answer": 1,
+      "explanation": "Ethanol matches the curated Lab content."
+    },
+    {
+      "id": "q040",
+      "type": "mcq",
+      "level": "intermediate",
+      "topic": "groups",
+      "prompt": "In naming alcohols, the ending is",
+      "options": [
+        "-ane",
+        "-ene",
+        "-ol",
+        "-oic acid"
+      ],
+      "answer": 2,
+      "explanation": "-ol matches the curated Lab content."
+    },
+    {
+      "id": "q041",
+      "type": "mcq",
+      "level": "intermediate",
+      "topic": "formulas",
+      "prompt": "CnH2n+2 for n=4 is",
+      "options": [
+        "C4H8",
+        "C4H10",
+        "C4H6",
+        "C4H12"
+      ],
+      "answer": 1,
+      "explanation": "C4H10 matches the curated Lab content."
+    },
+    {
+      "id": "q042",
+      "type": "mcq",
+      "level": "intermediate",
+      "topic": "homologous",
+      "prompt": "Which pair are consecutive homologous alkanes?",
+      "options": [
+        "Ethene and ethyne",
+        "Ethane and propane",
+        "Methanol and ethanol only as alkenes",
+        "CO2 and CO"
+      ],
+      "answer": 1,
+      "explanation": "Ethane and propane matches the curated Lab content."
+    },
+    {
+      "id": "q043",
+      "type": "mcq",
+      "level": "intermediate",
+      "topic": "reactions",
+      "prompt": "Substitution of methane with chlorine needs",
+      "options": [
+        "A nickel catalyst only",
+        "Ultraviolet light",
+        "Steam only",
+        "High pressure only"
+      ],
+      "answer": 1,
+      "explanation": "Ultraviolet light matches the curated Lab content."
+    },
+    {
+      "id": "q044",
+      "type": "tf",
+      "level": "intermediate",
+      "topic": "reactions",
+      "prompt": "Ethene decolourises bromine water.",
+      "answer": true,
+      "explanation": "The addition reaction removes Br2 from solution, so the orange colour fades."
+    },
+    {
+      "id": "q045",
+      "type": "tf",
+      "level": "intermediate",
+      "topic": "reactions",
+      "prompt": "Esters turn litmus red.",
+      "answer": false,
+      "explanation": "Esters are not acids; carboxylic acids turn litmus red."
+    },
+    {
+      "id": "q046",
+      "type": "tf",
+      "level": "intermediate",
+      "topic": "reactions",
+      "prompt": "Adding CH2 to ethanol gives propan-1-ol in the alcohol series.",
+      "answer": true,
+      "explanation": "Consecutive alcohols differ by CH2."
+    },
+    {
+      "id": "q047",
+      "type": "tf",
+      "level": "intermediate",
+      "topic": "reactions",
+      "prompt": "A ketone has the carbonyl carbon bonded to two carbons.",
+      "answer": true,
+      "explanation": "That is how ketones differ from aldehydes."
+    },
+    {
+      "id": "q048",
+      "type": "tf",
+      "level": "intermediate",
+      "topic": "reactions",
+      "prompt": "Complete combustion of methane: CH4 + 2O2 → CO2 + 2H2O.",
+      "answer": true,
+      "explanation": "The equation is balanced."
+    },
+    {
+      "id": "q049",
+      "type": "tf",
+      "level": "intermediate",
+      "topic": "reactions",
+      "prompt": "Poly(ethene) is made from many ethene monomers.",
+      "answer": true,
+      "explanation": "Polymerization joins many ethene molecules."
+    },
+    {
+      "id": "q050",
+      "type": "fill",
+      "level": "intermediate",
+      "topic": "hydrocarbons",
+      "prompt": "The alkane with one carbon is called _____.",
+      "answers": [
+        "methane"
+      ],
+      "explanation": "Accepted answer: methane."
+    },
+    {
+      "id": "q051",
+      "type": "fill",
+      "level": "intermediate",
+      "topic": "formulas",
+      "prompt": "The general formula of alkanes is _____.",
+      "answers": [
+        "CnH2n+2",
+        "cnH2n+2"
+      ],
+      "explanation": "Accepted answer: CnH2n+2."
+    },
+    {
+      "id": "q052",
+      "type": "fill",
+      "level": "intermediate",
+      "topic": "formulas",
+      "prompt": "Ethene has molecular formula _____.",
+      "answers": [
+        "C2H4",
+        "c2h4"
+      ],
+      "explanation": "Accepted answer: C2H4."
+    },
+    {
+      "id": "q053",
+      "type": "fill",
+      "level": "intermediate",
+      "topic": "groups",
+      "prompt": "Alcohols contain the _____ group.",
+      "answers": [
+        "OH",
+        "-OH",
+        "hydroxyl"
+      ],
+      "explanation": "Accepted answer: OH."
+    },
+    {
+      "id": "q054",
+      "type": "fill",
+      "level": "intermediate",
+      "topic": "groups",
+      "prompt": "Carboxylic acids contain the _____ group.",
+      "answers": [
+        "COOH",
+        "-COOH",
+        "carboxyl"
+      ],
+      "explanation": "Accepted answer: COOH."
+    },
+    {
+      "id": "q055",
+      "type": "fill",
+      "level": "intermediate",
+      "topic": "homologous",
+      "prompt": "Members of a homologous series differ by _____.",
+      "answers": [
+        "CH2",
+        "ch2"
+      ],
+      "explanation": "Accepted answer: CH2."
+    },
+    {
+      "id": "q056",
+      "type": "fill",
+      "level": "intermediate",
+      "topic": "homologous",
+      "prompt": "Mr increases by about _____ when CH2 is added.",
+      "answers": [
+        "14"
+      ],
+      "explanation": "Accepted answer: 14."
+    },
+    {
+      "id": "q057",
+      "type": "fill",
+      "level": "intermediate",
+      "topic": "reactions",
+      "prompt": "Ethene + H2 → _____.",
+      "answers": [
+        "ethane",
+        "C2H6"
+      ],
+      "explanation": "Accepted answer: ethane."
+    },
+    {
+      "id": "q058",
+      "type": "fill",
+      "level": "intermediate",
+      "topic": "hydrocarbons",
+      "prompt": "The functional group of alkenes is _____.",
+      "answers": [
+        "C=C",
+        "double bond",
+        "c=c"
+      ],
+      "explanation": "Accepted answer: C=C."
+    },
+    {
+      "id": "q059",
+      "type": "fill",
+      "level": "intermediate",
+      "topic": "groups",
+      "prompt": "Methanal is an _____.",
+      "answers": [
+        "aldehyde"
+      ],
+      "explanation": "Accepted answer: aldehyde."
+    },
+    {
+      "id": "q060",
+      "type": "mcq",
+      "level": "advanced",
+      "topic": "groups",
+      "prompt": "Which best describes an amide group?",
+      "options": [
+        "-NH2 only",
+        "-COOH",
+        "-CONH2",
+        "-CHO"
+      ],
+      "answer": 2,
+      "explanation": "-CONH2 is the best match to the Lab content."
+    },
+    {
+      "id": "q061",
+      "type": "mcq",
+      "level": "advanced",
+      "topic": "groups",
+      "prompt": "Ethanenitrile contains which bond?",
+      "options": [
+        "C=C",
+        "C≡C",
+        "C≡N",
+        "O-H"
+      ],
+      "answer": 2,
+      "explanation": "C≡N is the best match to the Lab content."
+    },
+    {
+      "id": "q062",
+      "type": "mcq",
+      "level": "advanced",
+      "topic": "reactions",
+      "prompt": "Esterification of ethanoic acid with methanol produces",
+      "options": [
+        "Only ethene",
+        "Methyl ethanoate and water",
+        "Only CO2",
+        "Chloromethane"
+      ],
+      "answer": 1,
+      "explanation": "Methyl ethanoate and water is the best match to the Lab content."
+    },
+    {
+      "id": "q063",
+      "type": "mcq",
+      "level": "advanced",
+      "topic": "formulas",
+      "prompt": "For n=5, an acyclic alkyne formula is",
+      "options": [
+        "C5H12",
+        "C5H10",
+        "C5H8",
+        "C5H6"
+      ],
+      "answer": 2,
+      "explanation": "C5H8 is the best match to the Lab content."
+    },
+    {
+      "id": "q064",
+      "type": "mcq",
+      "level": "advanced",
+      "topic": "reactions",
+      "prompt": "Which reaction type joins many ethene molecules?",
+      "options": [
+        "Substitution",
+        "Polymerization",
+        "Neutralisation",
+        "Distillation"
+      ],
+      "answer": 1,
+      "explanation": "Polymerization is the best match to the Lab content."
+    },
+    {
+      "id": "q065",
+      "type": "mcq",
+      "level": "advanced",
+      "topic": "groups",
+      "prompt": "Propan-2-ol is a",
+      "options": [
+        "Primary alcohol",
+        "Secondary alcohol",
+        "Tertiary alcohol",
+        "Phenol"
+      ],
+      "answer": 1,
+      "explanation": "Secondary alcohol is the best match to the Lab content."
+    },
+    {
+      "id": "q066",
+      "type": "mcq",
+      "level": "advanced",
+      "topic": "hydrocarbons",
+      "prompt": "Displayed formulas in this Lab do not show",
+      "options": [
+        "Carbon atoms",
+        "Hydrogen atoms",
+        "Cis/trans geometry",
+        "Bond order"
+      ],
+      "answer": 2,
+      "explanation": "Cis/trans geometry is the best match to the Lab content."
+    },
+    {
+      "id": "q067",
+      "type": "mcq",
+      "level": "advanced",
+      "topic": "reactions",
+      "prompt": "Pairing product atoms to reactant atoms in the Lab is used to",
+      "options": [
+        "Prove mechanisms",
+        "Animate overall change with stable keys",
+        "Measure pH",
+        "Find boiling points"
+      ],
+      "answer": 1,
+      "explanation": "Animate overall change with stable keys is the best match to the Lab content."
+    },
+    {
+      "id": "q068",
+      "type": "mcq",
+      "level": "advanced",
+      "topic": "hydrocarbons",
+      "prompt": "Which is NOT a Phase 1 Lab assumption for hydrocarbon formulas?",
+      "options": [
+        "Acyclic chains",
+        "At most one multiple bond",
+        "All rings are included automatically",
+        "Straight chains in the explorer"
+      ],
+      "answer": 2,
+      "explanation": "All rings are included automatically is the best match to the Lab content."
+    },
+    {
+      "id": "q069",
+      "type": "mcq",
+      "level": "advanced",
+      "topic": "groups",
+      "prompt": "Reduction of ethanenitrile with enough hydrogen can give",
+      "options": [
+        "Ethene",
+        "Ethanamine",
+        "Ethanoic acid",
+        "Methane"
+      ],
+      "answer": 1,
+      "explanation": "Ethanamine is the best match to the Lab content."
+    },
+    {
+      "id": "q070",
+      "type": "tf",
+      "level": "advanced",
+      "topic": "groups",
+      "prompt": "Alkynes can undergo addition reactions.",
+      "answer": true,
+      "explanation": "The C≡C bond can take part in addition."
+    },
+    {
+      "id": "q071",
+      "type": "tf",
+      "level": "advanced",
+      "topic": "groups",
+      "prompt": "Nitriles count the CN carbon in the parent chain name.",
+      "answer": true,
+      "explanation": "Ethanenitrile has two carbons including CN."
+    },
+    {
+      "id": "q072",
+      "type": "tf",
+      "level": "advanced",
+      "topic": "groups",
+      "prompt": "Hydrogenation of ethene needs a nickel catalyst in the school description.",
+      "answer": true,
+      "explanation": "That is the usual school-level condition stated in the Lab."
+    },
+    {
+      "id": "q073",
+      "type": "tf",
+      "level": "advanced",
+      "topic": "groups",
+      "prompt": "Mr of C2H6 using C=12 H=1 is 30.",
+      "answer": true,
+      "explanation": "2×12 + 6×1 = 30."
+    },
+    {
+      "id": "q074",
+      "type": "tf",
+      "level": "advanced",
+      "topic": "groups",
+      "prompt": "A match question can pair names with structures.",
+      "answer": true,
+      "explanation": "The Lab quiz supports match items."
+    },
+    {
+      "id": "q075",
+      "type": "tf",
+      "level": "advanced",
+      "topic": "groups",
+      "prompt": "Teacher Mode hides the site header for classroom focus.",
+      "answer": true,
+      "explanation": "Fullscreen/overlay classroom view hides chrome."
+    },
+    {
+      "id": "q076",
+      "type": "match",
+      "level": "beginner",
+      "topic": "groups",
+      "prompt": "Match each molecule to its functional group family.",
+      "pairs": [
+        {
+          "mol": "ethanol",
+          "label": "Alcohol"
+        },
+        {
+          "mol": "ethanal",
+          "label": "Aldehyde"
+        },
+        {
+          "mol": "ethanoic-acid",
+          "label": "Carboxylic acid"
+        },
+        {
+          "mol": "ethene",
+          "label": "Alkene"
+        }
+      ],
+      "explanation": "Each example molecule in the Lab carries a group tag used here."
+    },
+    {
+      "id": "q077",
+      "type": "match",
+      "level": "intermediate",
+      "topic": "hydrocarbons",
+      "prompt": "Match each formula to the correct name.",
+      "pairs": [
+        {
+          "left": "CH4",
+          "label": "Methane"
+        },
+        {
+          "left": "C2H6",
+          "label": "Ethane"
+        },
+        {
+          "left": "C2H4",
+          "label": "Ethene"
+        },
+        {
+          "left": "C2H2",
+          "label": "Ethyne"
+        }
+      ],
+      "explanation": "These are the first members of the three hydrocarbon families."
+    },
+    {
+      "id": "q078",
+      "type": "match",
+      "level": "advanced",
+      "topic": "reactions",
+      "prompt": "Match each overall change to its reaction type.",
+      "pairs": [
+        {
+          "left": "CH4 + Cl2 → CH3Cl + HCl",
+          "label": "Substitution"
+        },
+        {
+          "left": "C2H4 + Br2 → C2H4Br2",
+          "label": "Addition"
+        },
+        {
+          "left": "Many C2H4 → poly(ethene)",
+          "label": "Polymerization"
+        },
+        {
+          "left": "CH3COOH + CH3OH → ester + H2O",
+          "label": "Esterification"
+        }
+      ],
+      "explanation": "These overall changes are the nine curated studio patterns."
+    },
+    {
+      "id": "q079",
+      "type": "fill",
+      "level": "beginner",
+      "topic": "hydrocarbons",
+      "prompt": "The first member of the alkene series in the Lab is _____.",
+      "answers": [
+        "ethene"
+      ],
+      "explanation": "Accepted: ethene."
+    },
+    {
+      "id": "q080",
+      "type": "fill",
+      "level": "intermediate",
+      "topic": "reactions",
+      "prompt": "Nickel is used as a _____ in hydrogenation.",
+      "answers": [
+        "catalyst"
+      ],
+      "explanation": "Accepted: catalyst."
+    },
+    {
+      "id": "q081",
+      "type": "fill",
+      "level": "beginner",
+      "topic": "groups",
+      "prompt": "The carboxyl group is written _____.",
+      "answers": [
+        "COOH",
+        "-COOH"
+      ],
+      "explanation": "Accepted: COOH."
+    },
+    {
+      "id": "q082",
+      "type": "fill",
+      "level": "advanced",
+      "topic": "reactions",
+      "prompt": "Ultraviolet light is needed for methane _____ with chlorine.",
+      "answers": [
+        "substitution"
+      ],
+      "explanation": "Accepted: substitution."
+    },
+    {
+      "id": "q083",
+      "type": "fill",
+      "level": "beginner",
+      "topic": "hydrocarbons",
+      "prompt": "A molecule with C≡C is an _____.",
+      "answers": [
+        "alkyne"
+      ],
+      "explanation": "Accepted: alkyne."
+    }
+  ]
+}

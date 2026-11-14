@@ -1,0 +1,285 @@
+/* ==========================================================================
+   responsive.css  -  mobile-first breakpoints (min-width)
+   Loaded after style.css. Base (mobile) styles live in style.css.
+   Breakpoints: 640px, 768px, 960px, 1200px
+   ========================================================================== */
+
+/* ---------- 640px: large phones / small tablets ---------- */
+@media (min-width: 640px) {
+  :root {
+    --gutter: 1.75rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+
+  .to-top {
+    right: 1.5rem;
+    bottom: 1.5rem;
+  }
+
+  .hero-stats {
+    gap: 1.5rem;
+  }
+
+  .card-grid,
+  .tool-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tool-card--wide {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.25rem;
+  }
+
+  .tool-card--wide .tool-icon {
+    margin-bottom: 0;
+  }
+
+  .tool-card--wide h3 {
+    margin-bottom: 0.25rem;
+  }
+
+  .check-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .mini-cell {
+    font-size: 0.5rem;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 2.5rem;
+  }
+
+  .gallery {
+    gap: 1.1rem;
+  }
+}
+
+/* ---------- 768px: tablets ---------- */
+@media (min-width: 768px) {
+  .highlights {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+
+  .flow {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .flow li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 21px;
+    left: calc(50% + 34px);
+    right: calc(-50% + 34px);
+    border-top: 2px dashed rgba(13, 148, 136, 0.45);
+  }
+
+  .exp-summary {
+    padding: 2.25rem 2rem;
+  }
+
+  .timeline {
+    gap: 1rem;
+  }
+
+  .skill-group {
+    padding: 2rem;
+  }
+}
+
+/* ---------- 960px: desktop navigation and wide layouts ---------- */
+@media (min-width: 960px) {
+  :root {
+    --header-h: 76px;
+    --gutter: 2rem;
+  }
+
+  .brand-logo {
+    height: 32px;
+  }
+
+  .js .nav-toggle,
+  .nav-toggle {
+    display: none;
+  }
+
+  .primary-nav,
+  .js .primary-nav {
+    position: static;
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+    padding: 0;
+    background: none;
+    border: 0;
+    max-height: none;
+    overflow: visible;
+    transition: none;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    align-items: center;
+    gap: clamp(0.9rem, 1.6vw, 1.75rem);
+  }
+
+  .nav-link {
+    padding: 0.5rem 0.1rem;
+    font-size: 0.97rem;
+    border-bottom: 0;
+  }
+
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.1rem;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--amber-400);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform var(--t-med) var(--ease);
+  }
+
+  .nav-link:hover::after,
+  .nav-link.is-active::after {
+    transform: scaleX(1);
+  }
+
+  .nav-link--pt {
+    margin: 0 0 0 0.35rem;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.88rem;
+  }
+
+  .nav-link--pt::after {
+    display: none;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1.5fr 1fr 1.3fr;
+    align-items: start;
+  }
+
+  .footer-brand {
+    grid-column: auto;
+  }
+
+  .js [data-reveal="left"] {
+    transform: translateX(-30px);
+  }
+
+  .js [data-reveal="right"] {
+    transform: translateX(30px);
+  }
+
+  .js [data-reveal].is-visible {
+    transform: none;
+  }
+
+  .hero-grid {
+    grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr);
+    gap: 4rem;
+  }
+
+  .hero {
+    padding-bottom: 6rem;
+  }
+
+  .scroll-cue {
+    display: block;
+  }
+
+  .about-grid {
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+    gap: 5rem;
+  }
+
+  .card-grid,
+  .tool-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.75rem;
+  }
+
+  .exp-layout {
+    grid-template-columns: 340px minmax(0, 1fr);
+    gap: 3.5rem;
+  }
+
+  .exp-summary {
+    position: sticky;
+    top: calc(var(--header-h) + 1.5rem);
+  }
+
+  .pt-feature-grid {
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+    gap: 4rem;
+  }
+
+  .mini-cell {
+    font-size: 0.6rem;
+  }
+
+  .resources-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 4rem;
+  }
+
+  .skill-groups {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr) minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .beyond-grid {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    gap: 2rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+    gap: 2.5rem;
+    align-items: start;
+  }
+
+  .contact-info {
+    position: sticky;
+    top: calc(var(--header-h) + 1.5rem);
+  }
+
+  .lightbox-btn--prev {
+    left: 1.5rem;
+  }
+
+  .lightbox-btn--next {
+    right: 1.5rem;
+  }
+}
+
+/* ---------- 1200px: large desktop ---------- */
+@media (min-width: 1200px) {
+  .portrait {
+    width: min(86%, 440px);
+  }
+
+  .mini-cell {
+    font-size: 0.68rem;
+  }
+
+  .hero-grid {
+    gap: 5rem;
+  }
+}

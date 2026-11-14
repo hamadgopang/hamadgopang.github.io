@@ -1,0 +1,159 @@
+{
+  "note": "Nine curated overall-change reactions. Equations and atom pairing are checked by scripts/validate-organic.cjs. Animations are not mechanisms.",
+  "mechanismNote": "This animation shows the overall change, not the detailed mechanism.",
+  "reactions": [
+    {
+      "id": "combustion",
+      "name": "Combustion of methane",
+      "type": "Combustion",
+      "conditions": "Air or oxygen; a flame or spark to start",
+      "safety": "Flammable gas. Use only as a teacher demonstration with correct ventilation.",
+      "explanation": "Methane burns in oxygen to form carbon dioxide and water. Complete combustion needs a good supply of oxygen.",
+      "mechanismNote": "This animation shows the overall change, not the detailed mechanism.",
+      "contact": "row",
+      "reactants": [{ "mol": "methane" }, { "mol": "oxygen", "n": 2 }],
+      "products": [{ "mol": "carbon-dioxide" }, { "mol": "water", "n": 2 }],
+      "steps": [
+        { "scene": 0, "title": "Reactants", "text": "One methane molecule and two oxygen molecules are ready to react." },
+        { "scene": 1, "title": "Contact", "text": "In a flame the molecules collide with enough energy for bonds to rearrange." },
+        { "scene": 2, "title": "Products", "text": "Carbon dioxide and two water molecules form. Heat and light are released." }
+      ]
+    },
+    {
+      "id": "substitution",
+      "name": "Substitution: methane and chlorine",
+      "type": "Substitution",
+      "conditions": "Ultraviolet light",
+      "safety": "Chlorine is toxic. This is a classroom model only.",
+      "explanation": "In ultraviolet light, a hydrogen atom in methane is replaced by a chlorine atom. Chloromethane and hydrogen chloride form.",
+      "mechanismNote": "This animation shows the overall change, not the detailed mechanism.",
+      "contact": "row",
+      "reactants": [{ "mol": "methane" }, { "mol": "chlorine" }],
+      "products": [{ "mol": "chloromethane" }, { "mol": "hydrogen-chloride" }],
+      "steps": [
+        { "scene": 0, "title": "Reactants", "text": "Methane and chlorine are shown before the reaction." },
+        { "scene": 1, "title": "Under UV light", "text": "Ultraviolet light supplies the energy that starts the substitution." },
+        { "scene": 2, "title": "Products", "text": "Chloromethane and hydrogen chloride are the overall products." }
+      ]
+    },
+    {
+      "id": "addition",
+      "name": "Addition of bromine to ethene",
+      "type": "Addition",
+      "conditions": "Room temperature",
+      "safety": "Bromine is corrosive and toxic. Use bromine water only under teacher supervision.",
+      "explanation": "Bromine adds across the C=C bond of ethene. The orange colour of bromine disappears as 1,2-dibromoethane forms.",
+      "mechanismNote": "This animation shows the overall change, not the detailed mechanism.",
+      "contact": "row",
+      "reactants": [{ "mol": "ethene" }, { "mol": "bromine" }],
+      "products": [{ "mol": "dibromoethane" }],
+      "steps": [
+        { "scene": 0, "title": "Reactants", "text": "Ethene has a double bond. Bromine is the orange-brown halogen." },
+        { "scene": 1, "title": "Contact", "text": "The bromine molecule approaches the double bond." },
+        { "scene": 2, "title": "Product", "text": "Both bromine atoms join the carbon chain. The double bond becomes a single bond." }
+      ]
+    },
+    {
+      "id": "hydrogenation",
+      "name": "Hydrogenation of ethene",
+      "type": "Addition",
+      "conditions": "Hydrogen gas with a nickel catalyst, heat",
+      "safety": "Hydrogen is highly flammable.",
+      "explanation": "Hydrogen adds across the double bond of ethene to give ethane. A nickel catalyst is used in the school-level description.",
+      "mechanismNote": "This animation shows the overall change, not the detailed mechanism.",
+      "contact": "row",
+      "reactants": [{ "mol": "ethene" }, { "mol": "hydrogen" }],
+      "products": [{ "mol": "ethane" }],
+      "steps": [
+        { "scene": 0, "title": "Reactants", "text": "Ethene and hydrogen are the starting materials." },
+        { "scene": 1, "title": "On the catalyst", "text": "On a nickel surface the molecules can join more easily." },
+        { "scene": 2, "title": "Product", "text": "Ethane forms. The C=C bond has become a C–C bond." }
+      ]
+    },
+    {
+      "id": "halogenation",
+      "name": "Halogenation: ethene and hydrogen bromide",
+      "type": "Addition",
+      "conditions": "Room temperature",
+      "safety": "Hydrogen bromide is corrosive. Classroom model only.",
+      "explanation": "Hydrogen bromide adds across the double bond of ethene to give bromoethane.",
+      "mechanismNote": "This animation shows the overall change, not the detailed mechanism.",
+      "contact": "row",
+      "reactants": [{ "mol": "ethene" }, { "mol": "hydrogen-bromide" }],
+      "products": [{ "mol": "bromoethane" }],
+      "steps": [
+        { "scene": 0, "title": "Reactants", "text": "Ethene and hydrogen bromide are shown separately." },
+        { "scene": 1, "title": "Contact", "text": "HBr approaches the double bond." },
+        { "scene": 2, "title": "Product", "text": "Bromoethane forms as H and Br add to the two carbons." }
+      ]
+    },
+    {
+      "id": "hydration",
+      "name": "Hydration of ethene",
+      "type": "Addition",
+      "conditions": "Steam with an acid catalyst, heat and pressure",
+      "safety": "Industrial conditions are hot and pressurised. Classroom model only.",
+      "explanation": "Steam adds across the double bond of ethene to give ethanol. This is an important industrial route to ethanol.",
+      "mechanismNote": "This animation shows the overall change, not the detailed mechanism.",
+      "contact": "row",
+      "reactants": [{ "mol": "ethene" }, { "mol": "water" }],
+      "products": [{ "mol": "ethanol" }],
+      "steps": [
+        { "scene": 0, "title": "Reactants", "text": "Ethene and water (as steam) are the reactants." },
+        { "scene": 1, "title": "Contact", "text": "Under catalytic conditions water adds to the double bond." },
+        { "scene": 2, "title": "Product", "text": "Ethanol forms. An –OH group is now present." }
+      ]
+    },
+    {
+      "id": "dehydration",
+      "name": "Dehydration of ethanol",
+      "type": "Elimination",
+      "conditions": "Hot concentrated acid catalyst",
+      "safety": "Concentrated acids are corrosive. Teacher demonstration only.",
+      "explanation": "Water is removed from ethanol and ethene forms. Dehydration is the reverse of hydration in overall terms.",
+      "mechanismNote": "This animation shows the overall change, not the detailed mechanism.",
+      "contact": "row",
+      "reactants": [{ "mol": "ethanol" }],
+      "products": [{ "mol": "ethene" }, { "mol": "water" }],
+      "steps": [
+        { "scene": 0, "title": "Reactant", "text": "Ethanol contains an –OH group." },
+        { "scene": 1, "title": "Heating with catalyst", "text": "Strong heating with an acid catalyst drives water out." },
+        { "scene": 2, "title": "Products", "text": "Ethene and water are produced." }
+      ]
+    },
+    {
+      "id": "polymerization",
+      "name": "Polymerization of ethene",
+      "type": "Polymerization",
+      "conditions": "High pressure and a catalyst (industrial overview)",
+      "safety": "Industrial process. This Lab shows a short model segment only.",
+      "explanation": "Many ethene molecules join to make poly(ethene). Here three ethene units form a short open-chain segment to show the idea.",
+      "mechanismNote": "This animation shows the overall change, not the detailed mechanism.",
+      "contact": "row",
+      "reactants": [{ "mol": "ethene", "n": 3 }],
+      "products": [{ "mol": "poly-ethene" }],
+      "steps": [
+        { "scene": 0, "title": "Monomers", "text": "Three ethene monomers are shown." },
+        { "scene": 1, "title": "Joining", "text": "The double bonds open so the carbons can link into a chain." },
+        { "scene": 2, "title": "Polymer segment", "text": "A short poly(ethene) segment forms. Real chains are much longer." }
+      ]
+    },
+    {
+      "id": "esterification",
+      "name": "Esterification",
+      "type": "Condensation",
+      "conditions": "Warm, with an acid catalyst",
+      "safety": "Handle acids carefully. Classroom model of the organic change.",
+      "explanation": "Ethanoic acid reacts with methanol to form methyl ethanoate and water. Esters often have fruity smells.",
+      "mechanismNote": "This animation shows the overall change, not the detailed mechanism.",
+      "contact": "row",
+      "reactants": [{ "mol": "ethanoic-acid" }, { "mol": "methanol" }],
+      "products": [{ "mol": "methyl-ethanoate" }, { "mol": "water" }],
+      "steps": [
+        { "scene": 0, "title": "Reactants", "text": "A carboxylic acid and an alcohol are the starting materials." },
+        { "scene": 1, "title": "Contact", "text": "With an acid catalyst the molecules combine and water is released." },
+        { "scene": 2, "title": "Products", "text": "Methyl ethanoate and water are the overall products." }
+      ]
+    }
+  ]
+}

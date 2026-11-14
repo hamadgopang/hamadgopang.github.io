@@ -1,0 +1,70 @@
+{
+  "note": "Curated molecule library. chain/subs/bonds describe the displayed formula; the layout code adds hydrogens automatically. 'formula' is the molecular formula (checked by scripts/validate-organic.cjs), 'eq' is the way the formula is written inside equations, 'hl'/'hlb' mark the functional group.",
+  "molecules": {
+    "methane":   { "name": "Methane",  "formula": "CH4",   "eq": "CH4",   "condensed": "CH4",             "group": "alkane", "chain": ["C"] },
+    "ethane":    { "name": "Ethane",   "formula": "C2H6",  "eq": "C2H6",  "condensed": "CH3CH3",          "group": "alkane", "chain": ["C","C"], "bonds": [1] },
+    "propane":   { "name": "Propane",  "formula": "C3H8",  "eq": "C3H8",  "condensed": "CH3CH2CH3",       "group": "alkane", "chain": ["C","C","C"], "bonds": [1,1] },
+    "butane":    { "name": "Butane",   "formula": "C4H10", "eq": "C4H10", "condensed": "CH3CH2CH2CH3",    "group": "alkane", "chain": ["C","C","C","C"], "bonds": [1,1,1] },
+    "pentane":   { "name": "Pentane",  "formula": "C5H12", "eq": "C5H12", "condensed": "CH3CH2CH2CH2CH3", "group": "alkane", "chain": ["C","C","C","C","C"], "bonds": [1,1,1,1] },
+
+    "ethene":    { "name": "Ethene",   "formula": "C2H4",  "eq": "C2H4",  "condensed": "CH2=CH2",         "group": "alkene", "chain": ["C","C"], "bonds": [2], "hl": ["c0","c1"] },
+    "propene":   { "name": "Propene",  "formula": "C3H6",  "eq": "C3H6",  "condensed": "CH2=CHCH3",       "group": "alkene", "chain": ["C","C","C"], "bonds": [2,1], "hl": ["c0","c1"] },
+    "but-1-ene": { "name": "But-1-ene","formula": "C4H8",  "eq": "C4H8",  "condensed": "CH2=CHCH2CH3",    "group": "alkene", "chain": ["C","C","C","C"], "bonds": [2,1,1], "hl": ["c0","c1"] },
+
+    "ethyne":    { "name": "Ethyne",   "formula": "C2H2",  "eq": "C2H2",  "condensed": "CH\u2261CH",      "group": "alkyne", "chain": ["C","C"], "bonds": [3], "hl": ["c0","c1"] },
+    "propyne":   { "name": "Propyne",  "formula": "C3H4",  "eq": "C3H4",  "condensed": "CH\u2261CCH3",    "group": "alkyne", "chain": ["C","C","C"], "bonds": [3,1], "hl": ["c0","c1"] },
+    "but-1-yne": { "name": "But-1-yne","formula": "C4H6",  "eq": "C4H6",  "condensed": "CH\u2261CCH2CH3", "group": "alkyne", "chain": ["C","C","C","C"], "bonds": [3,1,1], "hl": ["c0","c1"] },
+
+    "methanol":     { "name": "Methanol",     "formula": "CH4O",  "eq": "CH3OH",    "condensed": "CH3OH",       "group": "alcohol", "chain": ["C","O"], "bonds": [1], "hl": ["c1","c1h0"] },
+    "ethanol":      { "name": "Ethanol",      "formula": "C2H6O", "eq": "C2H5OH",   "condensed": "CH3CH2OH",    "group": "alcohol", "chain": ["C","C","O"], "bonds": [1,1], "hl": ["c2","c2h0"] },
+    "propan-1-ol":  { "name": "Propan-1-ol",  "formula": "C3H8O", "eq": "C3H7OH",   "condensed": "CH3CH2CH2OH", "group": "alcohol", "chain": ["C","C","C","O"], "bonds": [1,1,1], "hl": ["c3","c3h0"] },
+    "propan-2-ol":  { "name": "Propan-2-ol",  "formula": "C3H8O", "eq": "C3H7OH",   "condensed": "CH3CH(OH)CH3","group": "alcohol", "chain": ["C","C","C"], "bonds": [1,1], "subs": [{ "at": 1, "dir": "up", "el": "O", "order": 1 }], "hl": ["s0","s0h0"] },
+
+    "methanal":     { "name": "Methanal",     "formula": "CH2O",  "eq": "HCHO",     "condensed": "HCHO",   "group": "aldehyde", "chain": ["C"], "subs": [{ "at": 0, "dir": "up", "el": "O", "order": 2 }], "hl": ["c0","s0","c0h0","c0h1"] },
+    "ethanal":      { "name": "Ethanal",      "formula": "C2H4O", "eq": "CH3CHO",   "condensed": "CH3CHO", "group": "aldehyde", "chain": ["C","C"], "bonds": [1], "subs": [{ "at": 1, "dir": "up", "el": "O", "order": 2 }], "hl": ["c1","s0","c1h0"] },
+    "propanal":     { "name": "Propanal",     "formula": "C3H6O", "eq": "C2H5CHO",  "condensed": "CH3CH2CHO", "group": "aldehyde", "chain": ["C","C","C"], "bonds": [1,1], "subs": [{ "at": 2, "dir": "up", "el": "O", "order": 2 }], "hl": ["c2","s0","c2h0"] },
+
+    "propanone":    { "name": "Propanone",    "formula": "C3H6O",  "eq": "CH3COCH3",    "condensed": "CH3COCH3",     "group": "ketone", "chain": ["C","C","C"], "bonds": [1,1], "subs": [{ "at": 1, "dir": "up", "el": "O", "order": 2 }], "hl": ["c1","s0"] },
+    "butanone":     { "name": "Butanone",     "formula": "C4H8O",  "eq": "CH3COC2H5",   "condensed": "CH3COCH2CH3",  "group": "ketone", "chain": ["C","C","C","C"], "bonds": [1,1,1], "subs": [{ "at": 1, "dir": "up", "el": "O", "order": 2 }], "hl": ["c1","s0"] },
+    "pentan-3-one": { "name": "Pentan-3-one", "formula": "C5H10O", "eq": "C2H5COC2H5",  "condensed": "CH3CH2COCH2CH3","group": "ketone", "chain": ["C","C","C","C","C"], "bonds": [1,1,1,1], "subs": [{ "at": 2, "dir": "up", "el": "O", "order": 2 }], "hl": ["c2","s0"] },
+
+    "methanoic-acid": { "name": "Methanoic acid", "formula": "CH2O2",  "eq": "HCOOH",     "condensed": "HCOOH",      "group": "carboxylic-acid", "chain": ["C","O"], "bonds": [1], "subs": [{ "at": 0, "dir": "up", "el": "O", "order": 2 }], "hl": ["c0","s0","c1","c1h0"] },
+    "ethanoic-acid":  { "name": "Ethanoic acid",  "formula": "C2H4O2", "eq": "CH3COOH",   "condensed": "CH3COOH",    "group": "carboxylic-acid", "chain": ["C","C","O"], "bonds": [1,1], "subs": [{ "at": 1, "dir": "up", "el": "O", "order": 2 }], "hl": ["c1","s0","c2","c2h0"] },
+    "propanoic-acid": { "name": "Propanoic acid", "formula": "C3H6O2", "eq": "C2H5COOH",  "condensed": "CH3CH2COOH", "group": "carboxylic-acid", "chain": ["C","C","C","O"], "bonds": [1,1,1], "subs": [{ "at": 2, "dir": "up", "el": "O", "order": 2 }], "hl": ["c2","s0","c3","c3h0"] },
+
+    "methyl-ethanoate": { "name": "Methyl ethanoate", "formula": "C3H6O2", "eq": "CH3COOCH3",    "condensed": "CH3COOCH3",    "group": "ester", "chain": ["C","C","O","C"], "bonds": [1,1,1], "subs": [{ "at": 1, "dir": "up", "el": "O", "order": 2 }], "hl": ["c1","s0","c2"] },
+    "ethyl-ethanoate":  { "name": "Ethyl ethanoate",  "formula": "C4H8O2", "eq": "CH3COOC2H5",   "condensed": "CH3COOCH2CH3", "group": "ester", "chain": ["C","C","O","C","C"], "bonds": [1,1,1,1], "subs": [{ "at": 1, "dir": "up", "el": "O", "order": 2 }], "hl": ["c1","s0","c2"] },
+    "ethyl-methanoate": { "name": "Ethyl methanoate", "formula": "C3H6O2", "eq": "HCOOC2H5",     "condensed": "HCOOCH2CH3",   "group": "ester", "chain": ["C","O","C","C"], "bonds": [1,1,1], "subs": [{ "at": 0, "dir": "up", "el": "O", "order": 2 }], "hl": ["c0","s0","c1"] },
+
+    "methoxymethane": { "name": "Methoxymethane", "formula": "C2H6O",  "eq": "CH3OCH3",   "condensed": "CH3OCH3",      "group": "ether", "chain": ["C","O","C"], "bonds": [1,1], "hl": ["c1"], "hlb": ["c0-c1","c1-c2"] },
+    "methoxyethane":  { "name": "Methoxyethane",  "formula": "C3H8O",  "eq": "CH3OC2H5",  "condensed": "CH3OCH2CH3",   "group": "ether", "chain": ["C","O","C","C"], "bonds": [1,1,1], "hl": ["c1"], "hlb": ["c0-c1","c1-c2"] },
+    "ethoxyethane":   { "name": "Ethoxyethane",   "formula": "C4H10O", "eq": "C2H5OC2H5", "condensed": "CH3CH2OCH2CH3","group": "ether", "chain": ["C","C","O","C","C"], "bonds": [1,1,1,1], "hl": ["c2"], "hlb": ["c1-c2","c2-c3"] },
+
+    "methanamine":    { "name": "Methanamine",    "formula": "CH5N",  "eq": "CH3NH2",    "condensed": "CH3NH2",       "group": "amine", "chain": ["C","N"], "bonds": [1], "hl": ["c1","c1h0","c1h1"] },
+    "ethanamine":     { "name": "Ethanamine",     "formula": "C2H7N", "eq": "C2H5NH2",   "condensed": "CH3CH2NH2",    "group": "amine", "chain": ["C","C","N"], "bonds": [1,1], "hl": ["c2","c2h0","c2h1"] },
+    "propan-1-amine": { "name": "Propan-1-amine", "formula": "C3H9N", "eq": "C3H7NH2",   "condensed": "CH3CH2CH2NH2", "group": "amine", "chain": ["C","C","C","N"], "bonds": [1,1,1], "hl": ["c3","c3h0","c3h1"] },
+
+    "methanamide":    { "name": "Methanamide",    "formula": "CH3NO",  "eq": "HCONH2",     "condensed": "HCONH2",      "group": "amide", "chain": ["C","N"], "bonds": [1], "subs": [{ "at": 0, "dir": "up", "el": "O", "order": 2 }], "hl": ["c0","s0","c1","c1h0","c1h1"] },
+    "ethanamide":     { "name": "Ethanamide",     "formula": "C2H5NO", "eq": "CH3CONH2",   "condensed": "CH3CONH2",    "group": "amide", "chain": ["C","C","N"], "bonds": [1,1], "subs": [{ "at": 1, "dir": "up", "el": "O", "order": 2 }], "hl": ["c1","s0","c2","c2h0","c2h1"] },
+    "propanamide":    { "name": "Propanamide",    "formula": "C3H7NO", "eq": "C2H5CONH2",  "condensed": "CH3CH2CONH2", "group": "amide", "chain": ["C","C","C","N"], "bonds": [1,1,1], "subs": [{ "at": 2, "dir": "up", "el": "O", "order": 2 }], "hl": ["c2","s0","c3","c3h0","c3h1"] },
+
+    "chloromethane":  { "name": "Chloromethane",  "formula": "CH3Cl",  "eq": "CH3Cl",   "condensed": "CH3Cl",   "group": "haloalkane", "chain": ["C","Cl"], "bonds": [1], "hl": ["c1"], "hlb": ["c0-c1"] },
+    "chloroethane":   { "name": "Chloroethane",   "formula": "C2H5Cl", "eq": "C2H5Cl",  "condensed": "CH3CH2Cl","group": "haloalkane", "chain": ["C","C","Cl"], "bonds": [1,1], "hl": ["c2"], "hlb": ["c1-c2"] },
+    "bromoethane":    { "name": "Bromoethane",    "formula": "C2H5Br", "eq": "C2H5Br",  "condensed": "CH3CH2Br","group": "haloalkane", "chain": ["C","C","Br"], "bonds": [1,1], "hl": ["c2"], "hlb": ["c1-c2"] },
+    "dibromoethane":  { "name": "1,2-Dibromoethane", "formula": "C2H4Br2", "eq": "C2H4Br2", "condensed": "BrCH2CH2Br", "group": "haloalkane", "chain": ["Br","C","C","Br"], "bonds": [1,1,1], "hl": ["c0","c3"], "hlb": ["c0-c1","c2-c3"] },
+
+    "ethanenitrile":    { "name": "Ethanenitrile",    "formula": "C2H3N", "eq": "CH3CN",    "condensed": "CH3CN",       "group": "nitrile", "chain": ["C","C","N"], "bonds": [1,3], "hl": ["c1","c2"] },
+    "propanenitrile":   { "name": "Propanenitrile",   "formula": "C3H5N", "eq": "C2H5CN",   "condensed": "CH3CH2CN",    "group": "nitrile", "chain": ["C","C","C","N"], "bonds": [1,1,3], "hl": ["c2","c3"] },
+    "butanenitrile":    { "name": "Butanenitrile",    "formula": "C4H7N", "eq": "C3H7CN",   "condensed": "CH3CH2CH2CN", "group": "nitrile", "chain": ["C","C","C","C","N"], "bonds": [1,1,1,3], "hl": ["c3","c4"] },
+
+    "hydrogen":  { "name": "Hydrogen",          "formula": "H2",  "eq": "H2",  "graph": { "atoms": [["H",-0.4,0],["H",0.4,0]], "bonds": [[0,1,1]] } },
+    "oxygen":    { "name": "Oxygen",            "formula": "O2",  "eq": "O2",  "graph": { "atoms": [["O",-0.45,0],["O",0.45,0]], "bonds": [[0,1,2]] } },
+    "chlorine":  { "name": "Chlorine",          "formula": "Cl2", "eq": "Cl2", "graph": { "atoms": [["Cl",-0.45,0],["Cl",0.45,0]], "bonds": [[0,1,1]] } },
+    "bromine":   { "name": "Bromine",           "formula": "Br2", "eq": "Br2", "graph": { "atoms": [["Br",-0.45,0],["Br",0.45,0]], "bonds": [[0,1,1]] } },
+    "hydrogen-chloride": { "name": "Hydrogen chloride", "formula": "HCl", "eq": "HCl", "graph": { "atoms": [["H",-0.45,0],["Cl",0.45,0]], "bonds": [[0,1,1]] } },
+    "hydrogen-bromide":  { "name": "Hydrogen bromide",  "formula": "HBr", "eq": "HBr", "graph": { "atoms": [["H",-0.45,0],["Br",0.45,0]], "bonds": [[0,1,1]] } },
+    "water":     { "name": "Water",             "formula": "H2O", "eq": "H2O", "graph": { "atoms": [["O",0,0],["H",-0.62,0.6],["H",0.62,0.6]], "bonds": [[0,1,1],[0,2,1]] } },
+    "carbon-dioxide": { "name": "Carbon dioxide", "formula": "CO2", "eq": "CO2", "chain": ["O","C","O"], "bonds": [2,2] },
+    "poly-ethene": { "name": "Poly(ethene), a short segment", "formula": "C6H12", "eq": "(C2H4)3", "condensed": "\u2013(CH2\u2013CH2)3\u2013", "chain": ["C","C","C","C","C","C"], "bonds": [1,1,1,1,1], "open": true }
+  }
+}

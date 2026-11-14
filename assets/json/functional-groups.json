@@ -1,0 +1,269 @@
+{
+  "note": "Twelve school-level functional groups. Example molecules and reaction balances are checked by scripts/validate-organic.cjs.",
+  "groups": [
+    {
+      "id": "alcohol",
+      "name": "Alcohol",
+      "symbol": "–OH",
+      "general": "R–OH",
+      "naming": "Name the longest chain that includes the carbon bonded to OH, then end with -ol. Number the chain so the OH gets the lowest number (ethanol, propan-1-ol, propan-2-ol).",
+      "explain": "An alcohol has a hydroxyl group (–OH) bonded to a saturated carbon. The oxygen makes alcohols more polar than hydrocarbons of similar size.",
+      "properties": [
+        "Lower alcohols are liquids and mix with water.",
+        "Burn in air to give carbon dioxide and water.",
+        "Can be dehydrated to alkenes."
+      ],
+      "examples": ["methanol", "ethanol", "propan-1-ol"],
+      "reaction": {
+        "title": "Dehydration of ethanol",
+        "conditions": "Hot concentrated acid catalyst",
+        "note": "Water is removed and a C=C bond forms.",
+        "reactants": [{ "mol": "ethanol" }],
+        "products": [{ "mol": "ethene" }, { "mol": "water" }]
+      },
+      "advanced": "Primary alcohols have the –OH on a carbon that is bonded to one other carbon (or to hydrogen in methanol). Secondary alcohols have the –OH on a carbon bonded to two carbons."
+    },
+    {
+      "id": "aldehyde",
+      "name": "Aldehyde",
+      "symbol": "–CHO",
+      "general": "R–CHO",
+      "naming": "Name the chain including the carbonyl carbon and end with -al (methanal, ethanal, propanal). The carbonyl carbon is always carbon 1.",
+      "explain": "An aldehyde has a carbonyl group (C=O) with at least one hydrogen on that carbon, written –CHO.",
+      "properties": [
+        "Small aldehydes are gases or volatile liquids.",
+        "The carbonyl group makes them reactive.",
+        "They burn in air."
+      ],
+      "examples": ["methanal", "ethanal", "propanal"],
+      "reaction": {
+        "title": "Combustion of methanal",
+        "conditions": "Air or oxygen",
+        "note": "Complete combustion gives carbon dioxide and water.",
+        "reactants": [{ "mol": "methanal" }, { "mol": "oxygen" }],
+        "products": [{ "mol": "carbon-dioxide" }, { "mol": "water" }]
+      },
+      "advanced": "Aldehydes can be oxidised to carboxylic acids. That oxidation is often used as a classroom test."
+    },
+    {
+      "id": "ketone",
+      "name": "Ketone",
+      "symbol": "C=O",
+      "general": "R–CO–R'",
+      "naming": "Name the chain that includes the carbonyl carbon and end with -one. Number so the carbonyl gets the lowest number (propanone, butanone).",
+      "explain": "A ketone has a carbonyl group (C=O) bonded to two carbon atoms. There is no hydrogen on the carbonyl carbon.",
+      "properties": [
+        "Propanone (acetone) is a common solvent.",
+        "Ketones are less easily oxidised than aldehydes under school conditions.",
+        "They burn in air."
+      ],
+      "examples": ["propanone", "butanone", "pentan-3-one"],
+      "reaction": {
+        "title": "Combustion of propanone",
+        "conditions": "Air or oxygen",
+        "note": "Complete combustion gives carbon dioxide and water.",
+        "reactants": [{ "mol": "propanone" }, { "mol": "oxygen", "n": 4 }],
+        "products": [{ "mol": "carbon-dioxide", "n": 3 }, { "mol": "water", "n": 3 }]
+      },
+      "advanced": "Because both sides of the carbonyl are carbon chains, ketones do not give the same simple oxidation tests as aldehydes."
+    },
+    {
+      "id": "carboxylic-acid",
+      "name": "Carboxylic acid",
+      "symbol": "–COOH",
+      "general": "R–COOH",
+      "naming": "Name the chain including the carboxyl carbon and end with -oic acid (methanoic acid, ethanoic acid).",
+      "explain": "A carboxylic acid has a carboxyl group (–COOH): a carbonyl and a hydroxyl on the same carbon.",
+      "properties": [
+        "Weak acids: they turn blue litmus red.",
+        "Lower members are soluble in water.",
+        "React with alcohols to form esters."
+      ],
+      "examples": ["methanoic-acid", "ethanoic-acid", "propanoic-acid"],
+      "reaction": {
+        "title": "Esterification",
+        "conditions": "Warm, with an acid catalyst",
+        "note": "Ethanoic acid and methanol form methyl ethanoate and water.",
+        "reactants": [{ "mol": "ethanoic-acid" }, { "mol": "methanol" }],
+        "products": [{ "mol": "methyl-ethanoate" }, { "mol": "water" }]
+      },
+      "advanced": "The carboxyl hydrogen is acidic because the anion left behind is stabilised by the neighbouring carbonyl group."
+    },
+    {
+      "id": "ester",
+      "name": "Ester",
+      "symbol": "–COO–",
+      "general": "R–COO–R'",
+      "naming": "Name the alkyl group from the alcohol first, then the acid part ending in -oate (methyl ethanoate, ethyl ethanoate).",
+      "explain": "An ester is formed from a carboxylic acid and an alcohol. Many esters have fruity smells.",
+      "properties": [
+        "Often pleasant-smelling liquids.",
+        "Do not turn litmus red (they are not acids).",
+        "Can be hydrolysed back to acid and alcohol."
+      ],
+      "examples": ["methyl-ethanoate", "ethyl-ethanoate", "ethyl-methanoate"],
+      "reaction": {
+        "title": "Hydrolysis of methyl ethanoate",
+        "conditions": "Heat with water (acid or base catalyst in the laboratory)",
+        "note": "The ester splits to give the parent acid and alcohol.",
+        "reactants": [{ "mol": "methyl-ethanoate" }, { "mol": "water" }],
+        "products": [{ "mol": "ethanoic-acid" }, { "mol": "methanol" }]
+      },
+      "advanced": "In naming, the alcohol provides the alkyl prefix and the acid provides the -oate stem."
+    },
+    {
+      "id": "ether",
+      "name": "Ether",
+      "symbol": "–O–",
+      "general": "R–O–R'",
+      "naming": "Name the shorter alkoxy group, then the longer alkane (methoxymethane, methoxyethane, ethoxyethane).",
+      "explain": "An ether has an oxygen atom linking two carbon groups. There is no –OH hydrogen on that oxygen.",
+      "properties": [
+        "Less polar than alcohols of similar size.",
+        "Ethoxyethane was once a common anaesthetic.",
+        "Burn in air."
+      ],
+      "examples": ["methoxymethane", "methoxyethane", "ethoxyethane"],
+      "reaction": {
+        "title": "Combustion of methoxymethane",
+        "conditions": "Air or oxygen",
+        "note": "Complete combustion gives carbon dioxide and water.",
+        "reactants": [{ "mol": "methoxymethane" }, { "mol": "oxygen", "n": 3 }],
+        "products": [{ "mol": "carbon-dioxide", "n": 2 }, { "mol": "water", "n": 3 }]
+      },
+      "advanced": "Ethers are isomers of alcohols with the same molecular formula, but they lack the hydrogen-bonding –OH group."
+    },
+    {
+      "id": "amine",
+      "name": "Amine",
+      "symbol": "–NH2",
+      "general": "R–NH2",
+      "naming": "Name the chain and end with -amine, or use the alkanamine form (methanamine, ethanamine).",
+      "explain": "A primary amine has an –NH2 group bonded to a carbon. Amines are related to ammonia.",
+      "properties": [
+        "Often have a fishy smell.",
+        "Act as weak bases.",
+        "Lower members are gases or volatile liquids."
+      ],
+      "examples": ["methanamine", "ethanamine", "propan-1-amine"],
+      "reaction": {
+        "title": "Reaction of methanamine with hydrogen chloride",
+        "conditions": "Room temperature",
+        "note": "The amine accepts a proton to form a salt.",
+        "reactants": [{ "mol": "methanamine" }, { "mol": "hydrogen-chloride" }],
+        "products": [{ "f": "CH6NCl" }]
+      },
+      "advanced": "Primary, secondary and tertiary amines differ by how many carbon groups are attached to nitrogen. This Lab shows primary amines only."
+    },
+    {
+      "id": "amide",
+      "name": "Amide",
+      "symbol": "–CONH2",
+      "general": "R–CONH2",
+      "naming": "Name the chain including the carbonyl carbon and end with -amide (methanamide, ethanamide).",
+      "explain": "An amide has a carbonyl group bonded to a nitrogen. Primary amides end in –CONH2.",
+      "properties": [
+        "Many are solids at room temperature.",
+        "The –CONH2 group can hydrogen-bond.",
+        "Can be hydrolysed to a carboxylic acid and ammonia."
+      ],
+      "examples": ["methanamide", "ethanamide", "propanamide"],
+      "reaction": {
+        "title": "Hydrolysis of ethanamide",
+        "conditions": "Heat with dilute acid or alkali",
+        "note": "The amide bond is broken to give ethanoic acid and ammonia.",
+        "reactants": [{ "mol": "ethanamide" }, { "mol": "water" }],
+        "products": [{ "mol": "ethanoic-acid" }, { "f": "NH3" }]
+      },
+      "advanced": "The amide link is the same kind of bond that joins amino acids in proteins."
+    },
+    {
+      "id": "haloalkane",
+      "name": "Haloalkane",
+      "symbol": "–X",
+      "general": "R–X",
+      "naming": "Name the halogen as a prefix (chloro-, bromo-) on the alkane name (chloromethane, chloroethane, bromoethane).",
+      "explain": "A haloalkane (alkyl halide) has a halogen atom bonded to a saturated carbon. X stands for F, Cl, Br or I.",
+      "properties": [
+        "Often denser than water.",
+        "Do not mix well with water.",
+        "Can take part in substitution reactions."
+      ],
+      "examples": ["chloromethane", "chloroethane", "bromoethane"],
+      "reaction": {
+        "title": "Substitution of chloromethane",
+        "conditions": "Warm aqueous conditions (school-level overview)",
+        "note": "Chlorine is replaced by OH to give methanol.",
+        "reactants": [{ "mol": "chloromethane" }, { "mol": "water" }],
+        "products": [{ "mol": "methanol" }, { "mol": "hydrogen-chloride" }]
+      },
+      "advanced": "In many school courses the reagent is written as aqueous sodium hydroxide; the organic change is still replacement of X by OH."
+    },
+    {
+      "id": "nitrile",
+      "name": "Nitrile",
+      "symbol": "–C≡N",
+      "general": "R–C≡N",
+      "naming": "Count the carbon of the –CN group in the chain and end with -nitrile (ethanenitrile, propanenitrile).",
+      "explain": "A nitrile has a carbon–nitrogen triple bond. The carbon of –CN is part of the parent chain for naming.",
+      "properties": [
+        "Contain a polar C≡N bond.",
+        "Can be reduced to amines.",
+        "Useful building blocks in organic synthesis."
+      ],
+      "examples": ["ethanenitrile", "propanenitrile", "butanenitrile"],
+      "reaction": {
+        "title": "Reduction of ethanenitrile",
+        "conditions": "Hydrogen with a suitable catalyst (overview)",
+        "note": "The triple bond is reduced and ethanamine forms.",
+        "reactants": [{ "mol": "ethanenitrile" }, { "mol": "hydrogen", "n": 2 }],
+        "products": [{ "mol": "ethanamine" }]
+      },
+      "advanced": "Older names such as acetonitrile are still common in laboratories for ethanenitrile."
+    },
+    {
+      "id": "alkene",
+      "name": "Alkene",
+      "symbol": "C=C",
+      "general": "CnH2n",
+      "naming": "Name the chain that includes the double bond and end with -ene. Number so the double bond gets the lowest number (ethene, propene, but-1-ene).",
+      "explain": "An alkene is an unsaturated hydrocarbon with a carbon–carbon double bond. The double bond is the functional group.",
+      "properties": [
+        "More reactive than alkanes.",
+        "Decolourise bromine water.",
+        "Take part in addition reactions."
+      ],
+      "examples": ["ethene", "propene", "but-1-ene"],
+      "reaction": {
+        "title": "Addition of bromine",
+        "conditions": "Room temperature",
+        "note": "Bromine adds across the double bond and the orange colour fades.",
+        "reactants": [{ "mol": "ethene" }, { "mol": "bromine" }],
+        "products": [{ "mol": "dibromoethane" }]
+      },
+      "advanced": "Displayed formulas in this Lab are flat and do not show cis/trans isomers."
+    },
+    {
+      "id": "alkyne",
+      "name": "Alkyne",
+      "symbol": "C≡C",
+      "general": "CnH2n−2",
+      "naming": "Name the chain that includes the triple bond and end with -yne. Number so the triple bond gets the lowest number (ethyne, propyne, but-1-yne).",
+      "explain": "An alkyne is an unsaturated hydrocarbon with a carbon–carbon triple bond.",
+      "properties": [
+        "Unsaturated and reactive at the triple bond.",
+        "Decolourise bromine water.",
+        "Can be hydrogenated to alkenes and then alkanes."
+      ],
+      "examples": ["ethyne", "propyne", "but-1-yne"],
+      "reaction": {
+        "title": "Hydrogenation of ethyne",
+        "conditions": "Hydrogen with a nickel catalyst",
+        "note": "Enough hydrogen converts ethyne all the way to ethane.",
+        "reactants": [{ "mol": "ethyne" }, { "mol": "hydrogen", "n": 2 }],
+        "products": [{ "mol": "ethane" }]
+      },
+      "advanced": "Partial hydrogenation can stop at the alkene if the conditions are controlled."
+    }
+  ]
+}

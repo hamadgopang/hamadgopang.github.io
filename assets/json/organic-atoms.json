@@ -1,0 +1,14 @@
+{
+  "note": "School-level relative atomic masses (Ar) and usual valencies used by the Organic Chemistry Lab. Values are the rounded figures used in Matriculation and O Level style calculations.",
+  "atoms": {
+    "H":  { "name": "Hydrogen", "valence": 1, "mass": 1 },
+    "C":  { "name": "Carbon",   "valence": 4, "mass": 12 },
+    "N":  { "name": "Nitrogen", "valence": 3, "mass": 14 },
+    "O":  { "name": "Oxygen",   "valence": 2, "mass": 16 },
+    "F":  { "name": "Fluorine", "valence": 1, "mass": 19 },
+    "S":  { "name": "Sulfur",   "valence": 2, "mass": 32 },
+    "Cl": { "name": "Chlorine", "valence": 1, "mass": 35.5 },
+    "Br": { "name": "Bromine",  "valence": 1, "mass": 80 },
+    "I":  { "name": "Iodine",   "valence": 1, "mass": 127 }
+  }
+}

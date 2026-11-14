@@ -1,0 +1,84 @@
+<!--META {"dir":"hydrocarbons","tool":"hydrocarbons","title":"Hydrocarbons Explorer","h1":"Hydrocarbons Explorer","sub":"Alkanes, alkenes and alkynes: change the carbon count and watch the structure, formula and properties update.","desc":"Interactive Hydrocarbons Explorer for school chemistry: alkanes, alkenes and alkynes with live structures, formulas, bond comparison and a Compare Families panel.","scripts":["lab-core.js","lab-teacher.js","lab-hydrocarbons.js"]}-->
+        <div class="hc-layout">
+          <div class="lab-panel hc-controls" data-teacher-hide>
+            <div class="lab-field">
+              <span class="lab-label" id="hcFamilyLabel">Family</span>
+              <div class="lab-seg" id="hcFamily" role="tablist" aria-labelledby="hcFamilyLabel"></div>
+            </div>
+            <div class="lab-field">
+              <label class="lab-label" for="hcCarbons">Number of carbon atoms <span id="hcCarbonVal" class="lab-chip">1</span></label>
+              <input type="range" id="hcCarbons" min="1" max="10" value="1" step="1">
+            </div>
+            <div class="lab-field" id="hcPosField" hidden>
+              <span class="lab-label" id="hcPosLabel">Multiple-bond position</span>
+              <div class="lab-seg" id="hcPos" role="group" aria-labelledby="hcPosLabel"></div>
+            </div>
+            <div class="lab-field lab-field--row">
+              <label class="lab-check">
+                <input type="checkbox" id="hcHighlight" checked>
+                <span>Highlight the C&ndash;C multiple bond</span>
+              </label>
+              <label class="lab-check">
+                <input type="checkbox" id="hcCompact">
+                <span>Compact condensed formula</span>
+              </label>
+            </div>
+            <p class="lab-muted lab-small">Straight-chain, acyclic compounds only. Displayed formulas do not show cis/trans geometry.</p>
+          </div>
+
+          <div class="lab-panel hc-stage-panel">
+            <div class="hc-stage-head">
+              <h2 id="hcName">Methane</h2>
+              <p class="hc-formula-line" id="hcFormulaLine"></p>
+            </div>
+            <div class="mol-stage" id="hcStage" aria-live="polite"></div>
+            <dl class="lab-stat-grid" id="hcStats"></dl>
+          </div>
+
+          <div class="lab-panel hc-info">
+            <span class="lab-eyebrow">About this compound</span>
+            <p id="hcDefinition"></p>
+            <ul class="lab-list" id="hcFeatures"></ul>
+            <h3>Properties</h3>
+            <ul class="lab-list" id="hcProps"></ul>
+            <div class="hc-reaction" id="hcReaction">
+              <h3 id="hcRxTitle">Sample reaction</h3>
+              <p id="hcRxNote"></p>
+              <p class="equation-line" id="hcRxEq"></p>
+              <p><a class="lab-btn lab-btn--teal lab-btn--small" id="hcRxLink" href="../reactions/">Open in Reaction Studio</a></p>
+            </div>
+            <p class="lab-note is-safety">Bromine-water and combustion notes are qualitative classroom tests. Real experiments need teacher supervision.</p>
+          </div>
+        </div>
+
+        <section class="hc-compare lab-panel" aria-labelledby="hcBondTitle">
+          <h2 id="hcBondTitle">Bond comparison</h2>
+          <p class="lab-lead">The same two carbons can share one, two or three pairs of electrons. Shared pairs: single 1, double 2, triple 3.</p>
+          <div class="hc-bond-grid" id="hcBondGrid"></div>
+          <div class="hc-morph" id="hcMorphBox">
+            <div class="hc-morph-head">
+              <h3>Bond formation (overall change)</h3>
+              <div class="lab-seg" id="hcMorphChoice" role="group" aria-label="Bond formation examples">
+                <button type="button" data-morph="ethane-ethene" aria-pressed="true">Ethane &rarr; ethene</button>
+                <button type="button" data-morph="ethane-ethyne" aria-pressed="false">Ethane &rarr; ethyne</button>
+              </div>
+              <div class="hc-morph-controls">
+                <button type="button" class="lab-btn lab-btn--teal lab-btn--small" id="hcMorphPlay">Play</button>
+                <button type="button" class="lab-btn lab-btn--ghost lab-btn--small" id="hcMorphReplay">Replay</button>
+              </div>
+            </div>
+            <div class="mol-stage mol-stage--wide" id="hcMorphStage"></div>
+            <p class="lab-note" id="hcMorphNote">Removing two hydrogen atoms from ethane and sharing a second electron pair gives ethene (C=C). This animation shows the overall change, not the detailed mechanism.</p>
+          </div>
+        </section>
+
+        <section class="hc-families lab-panel" aria-labelledby="hcFamTitle">
+          <h2 id="hcFamTitle">Compare families</h2>
+          <p class="lab-lead">For the same number of carbons, unsaturated compounds hold fewer hydrogen atoms.</p>
+          <div class="lab-field">
+            <label class="lab-label" for="hcCompareN">Carbons to compare <span id="hcCompareVal" class="lab-chip">4</span></label>
+            <input type="range" id="hcCompareN" min="2" max="10" value="4" step="1">
+          </div>
+          <div class="hc-family-grid" id="hcFamilyGrid"></div>
+          <p class="lab-note">Assumptions: acyclic chains with at most one multiple bond. General formulas are CnH2n+2 (alkanes), CnH2n (alkenes) and CnH2n&minus;2 (alkynes).</p>
+        </section>

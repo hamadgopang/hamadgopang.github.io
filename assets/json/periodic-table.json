@@ -1,0 +1,3125 @@
+{
+ "categories": [
+  "alkali",
+  "alkaline",
+  "transition",
+  "post",
+  "metalloid",
+  "nonmetal",
+  "halogen",
+  "noble",
+  "lanthanide",
+  "actinide"
+ ],
+ "families": {
+  "en": {
+   "alkali": "Alkali metals are soft, shiny and react strongly with water.",
+   "alkaline": "Alkaline earth metals are silvery and react readily, though less fiercely than alkali metals.",
+   "transition": "Transition metals are hard, dense and often form brightly coloured compounds.",
+   "post": "Post-transition metals are soft, with lower melting points than most transition metals.",
+   "metalloid": "Metalloids sit between metals and nonmetals, which makes many of them useful semiconductors.",
+   "nonmetal": "Nonmetals conduct heat and electricity poorly, and many are essential to life.",
+   "halogen": "Halogens are reactive nonmetals that readily form salts with metals.",
+   "noble": "Noble gases are colourless, odourless and almost completely unreactive.",
+   "lanthanide": "Lanthanides are silvery metals used in magnets, lasers and screens.",
+   "actinide": "Actinides are radioactive metals; the heaviest are made only in laboratories.",
+   "heavy": "A superheavy element made artificially in tiny amounts, lasting only a fraction of a second."
+  },
+  "ur": {
+   "alkali": "الکلی دھاتیں نرم، چمکدار اور پانی کے ساتھ شدت سے ردِعمل کرنے والی ہوتی ہیں۔",
+   "alkaline": "الکلائن ارتھ دھاتیں چاندی جیسی ہوتی ہیں اور آسانی سے ردِعمل کرتی ہیں، مگر الکلی دھاتوں جتنی شدت سے نہیں۔",
+   "transition": "ٹرانزیشن دھاتیں سخت اور بھاری ہوتی ہیں اور اکثر رنگین مرکبات بناتی ہیں۔",
+   "post": "پوسٹ ٹرانزیشن دھاتیں نرم ہوتی ہیں اور ان کا نقطۂ پگھلاؤ زیادہ تر ٹرانزیشن دھاتوں سے کم ہوتا ہے۔",
+   "metalloid": "نیم دھاتوں کی خصوصیات دھاتوں اور غیر دھاتوں کے درمیان ہوتی ہیں، اسی لیے ان میں سے کئی سیمی کنڈکٹر کے طور پر کارآمد ہیں۔",
+   "nonmetal": "غیر دھاتیں حرارت اور بجلی کی کمزور موصل ہوتی ہیں اور ان میں سے کئی زندگی کے لیے ضروری ہیں۔",
+   "halogen": "ہیلوجنز فعال غیر دھاتیں ہیں جو دھاتوں کے ساتھ آسانی سے نمک بناتی ہیں۔",
+   "noble": "نوبل گیسیں بے رنگ، بے بو اور تقریباً مکمل طور پر غیر فعال ہوتی ہیں۔",
+   "lanthanide": "لینتھینائیڈز چاندی جیسی دھاتیں ہیں جو مقناطیسوں، لیزرز اور اسکرینوں میں استعمال ہوتی ہیں۔",
+   "actinide": "ایکٹینائیڈز تابکار دھاتیں ہیں؛ سب سے بھاری صرف لیبارٹری میں بنائی جاتی ہیں۔",
+   "heavy": "یہ بہت بھاری مصنوعی عنصر ہے جو لیبارٹری میں انتہائی کم مقدار میں اور صرف لمحے بھر کے لیے بنتا ہے۔"
+  }
+ },
+ "elements": [
+  {
+   "z": 1,
+   "symbol": "H",
+   "name": {
+    "en": "Hydrogen",
+    "ur": "ہائیڈروجن"
+   },
+   "mass": 1.008,
+   "category": "nonmetal",
+   "row": 1,
+   "col": 1,
+   "period": 1,
+   "group": 1,
+   "block": "s",
+   "state": "gas",
+   "shells": [
+    1
+   ],
+   "latin": null,
+   "fact": {
+    "en": "The lightest and most abundant element in the universe; stars like the Sun fuse it into helium.",
+    "ur": "کائنات کا سب سے ہلکا اور سب سے زیادہ پایا جانے والا عنصر؛ سورج جیسے ستارے اسے ہیلیم میں بدل کر توانائی پیدا کرتے ہیں۔"
+   }
+  },
+  {
+   "z": 2,
+   "symbol": "He",
+   "name": {
+    "en": "Helium",
+    "ur": "ہیلیم"
+   },
+   "mass": 4.0026,
+   "category": "noble",
+   "row": 1,
+   "col": 18,
+   "period": 1,
+   "group": 18,
+   "block": "s",
+   "state": "gas",
+   "shells": [
+    2
+   ],
+   "latin": null,
+   "fact": {
+    "en": "Lighter than air and non-flammable, so it fills balloons; it also cools MRI magnets.",
+    "ur": "ہوا سے ہلکی اور نہ جلنے والی گیس، اسی لیے غباروں میں بھری جاتی ہے؛ ایم آر آئی کے مقناطیس ٹھنڈے رکھنے میں بھی کام آتی ہے۔"
+   }
+  },
+  {
+   "z": 3,
+   "symbol": "Li",
+   "name": {
+    "en": "Lithium",
+    "ur": "لیتھیم"
+   },
+   "mass": 6.94,
+   "category": "alkali",
+   "row": 2,
+   "col": 1,
+   "period": 2,
+   "group": 1,
+   "block": "s",
+   "state": "solid",
+   "shells": [
+    2,
+    1
+   ],
+   "latin": null,
+   "fact": {
+    "en": "The lightest metal; it powers rechargeable batteries in phones and electric cars.",
+    "ur": "سب سے ہلکی دھات؛ موبائل فون اور برقی گاڑیوں کی ری چارج ایبل بیٹریوں میں استعمال ہوتی ہے۔"
+   }
+  },
+  {
+   "z": 4,
+   "symbol": "Be",
+   "name": {
+    "en": "Beryllium",
+    "ur": "بیریلیم"
+   },
+   "mass": 9.0122,
+   "category": "alkaline",
+   "row": 2,
+   "col": 2,
+   "period": 2,
+   "group": 2,
+   "block": "s",
+   "state": "solid",
+   "shells": [
+    2,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 5,
+   "symbol": "B",
+   "name": {
+    "en": "Boron",
+    "ur": "بورون"
+   },
+   "mass": 10.81,
+   "category": "metalloid",
+   "row": 2,
+   "col": 13,
+   "period": 2,
+   "group": 13,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    3
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 6,
+   "symbol": "C",
+   "name": {
+    "en": "Carbon",
+    "ur": "کاربن"
+   },
+   "mass": 12.011,
+   "category": "nonmetal",
+   "row": 2,
+   "col": 14,
+   "period": 2,
+   "group": 14,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    4
+   ],
+   "latin": null,
+   "fact": {
+    "en": "The basis of all known life; diamond and graphite are both pure carbon in different arrangements.",
+    "ur": "تمام معلوم جانداروں کی بنیاد؛ ہیرا اور گریفائٹ دونوں خالص کاربن ہیں مگر ایٹموں کی ترتیب مختلف ہے۔"
+   }
+  },
+  {
+   "z": 7,
+   "symbol": "N",
+   "name": {
+    "en": "Nitrogen",
+    "ur": "نائٹروجن"
+   },
+   "mass": 14.007,
+   "category": "nonmetal",
+   "row": 2,
+   "col": 15,
+   "period": 2,
+   "group": 15,
+   "block": "p",
+   "state": "gas",
+   "shells": [
+    2,
+    5
+   ],
+   "latin": null,
+   "fact": {
+    "en": "Makes up about 78% of the air we breathe and is essential for fertilizers.",
+    "ur": "ہماری سانس کی ہوا کا تقریباً 78 فیصد حصہ نائٹروجن ہے؛ کھاد بنانے میں بھی ضروری ہے۔"
+   }
+  },
+  {
+   "z": 8,
+   "symbol": "O",
+   "name": {
+    "en": "Oxygen",
+    "ur": "آکسیجن"
+   },
+   "mass": 15.999,
+   "category": "nonmetal",
+   "row": 2,
+   "col": 16,
+   "period": 2,
+   "group": 16,
+   "block": "p",
+   "state": "gas",
+   "shells": [
+    2,
+    6
+   ],
+   "latin": null,
+   "fact": {
+    "en": "About 21% of air; needed for breathing and for fire to burn.",
+    "ur": "ہوا کا تقریباً 21 فیصد؛ سانس لینے اور آگ جلنے کے لیے ضروری ہے۔"
+   }
+  },
+  {
+   "z": 9,
+   "symbol": "F",
+   "name": {
+    "en": "Fluorine",
+    "ur": "فلورین"
+   },
+   "mass": 18.998,
+   "category": "halogen",
+   "row": 2,
+   "col": 17,
+   "period": 2,
+   "group": 17,
+   "block": "p",
+   "state": "gas",
+   "shells": [
+    2,
+    7
+   ],
+   "latin": null,
+   "fact": {
+    "en": "The most reactive element; fluoride in toothpaste helps protect teeth.",
+    "ur": "سب سے زیادہ تعامل پذیر عنصر؛ ٹوتھ پیسٹ میں فلورائیڈ دانتوں کی حفاظت کرتا ہے۔"
+   }
+  },
+  {
+   "z": 10,
+   "symbol": "Ne",
+   "name": {
+    "en": "Neon",
+    "ur": "نیون"
+   },
+   "mass": 20.18,
+   "category": "noble",
+   "row": 2,
+   "col": 18,
+   "period": 2,
+   "group": 18,
+   "block": "p",
+   "state": "gas",
+   "shells": [
+    2,
+    8
+   ],
+   "latin": null,
+   "fact": {
+    "en": "Glows reddish-orange in electric signs, the classic neon light.",
+    "ur": "برقی تار سے گزرنے پر سرخی مائل نارنجی روشنی دیتی ہے؛ نیون سائن اسی سے بنتے ہیں۔"
+   }
+  },
+  {
+   "z": 11,
+   "symbol": "Na",
+   "name": {
+    "en": "Sodium",
+    "ur": "سوڈیم"
+   },
+   "mass": 22.99,
+   "category": "alkali",
+   "row": 3,
+   "col": 1,
+   "period": 3,
+   "group": 1,
+   "block": "s",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    1
+   ],
+   "latin": "natrium",
+   "fact": {
+    "en": "Reacts violently with water; combined with chlorine it makes table salt.",
+    "ur": "پانی کے ساتھ شدید ردِعمل کرتا ہے؛ کلورین کے ساتھ مل کر کھانے کا نمک بناتا ہے۔"
+   }
+  },
+  {
+   "z": 12,
+   "symbol": "Mg",
+   "name": {
+    "en": "Magnesium",
+    "ur": "میگنیشیم"
+   },
+   "mass": 24.305,
+   "category": "alkaline",
+   "row": 3,
+   "col": 2,
+   "period": 3,
+   "group": 2,
+   "block": "s",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": {
+    "en": "Burns with a brilliant white flame and sits at the centre of chlorophyll in green plants.",
+    "ur": "تیز سفید روشنی کے ساتھ جلتا ہے؛ سبز پودوں کے کلوروفل کے مرکز میں ہوتا ہے۔"
+   }
+  },
+  {
+   "z": 13,
+   "symbol": "Al",
+   "name": {
+    "en": "Aluminium",
+    "ur": "ایلومینیم"
+   },
+   "mass": 26.982,
+   "category": "post",
+   "row": 3,
+   "col": 13,
+   "period": 3,
+   "group": 13,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    3
+   ],
+   "latin": null,
+   "fact": {
+    "en": "Light, strong and resistant to rust; used in aircraft, cans and foil.",
+    "ur": "ہلکا، مضبوط اور زنگ سے محفوظ؛ ہوائی جہاز، ڈبوں اور ورق میں استعمال ہوتا ہے۔"
+   }
+  },
+  {
+   "z": 14,
+   "symbol": "Si",
+   "name": {
+    "en": "Silicon",
+    "ur": "سلیکون"
+   },
+   "mass": 28.085,
+   "category": "metalloid",
+   "row": 3,
+   "col": 14,
+   "period": 3,
+   "group": 14,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    4
+   ],
+   "latin": null,
+   "fact": {
+    "en": "The core material of computer chips; sand is mostly silicon dioxide.",
+    "ur": "کمپیوٹر چپس کا بنیادی مادہ؛ ریت زیادہ تر سلیکون ڈائی آکسائیڈ ہوتی ہے۔"
+   }
+  },
+  {
+   "z": 15,
+   "symbol": "P",
+   "name": {
+    "en": "Phosphorus",
+    "ur": "فاسفورس"
+   },
+   "mass": 30.974,
+   "category": "nonmetal",
+   "row": 3,
+   "col": 15,
+   "period": 3,
+   "group": 15,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    5
+   ],
+   "latin": null,
+   "fact": {
+    "en": "Essential in DNA and bones; also found in matches and fertilizers.",
+    "ur": "ڈی این اے اور ہڈیوں کے لیے ضروری؛ ماچس اور کھاد میں بھی پایا جاتا ہے۔"
+   }
+  },
+  {
+   "z": 16,
+   "symbol": "S",
+   "name": {
+    "en": "Sulfur",
+    "ur": "سلفر (گندھک)"
+   },
+   "mass": 32.06,
+   "category": "nonmetal",
+   "row": 3,
+   "col": 16,
+   "period": 3,
+   "group": 16,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    6
+   ],
+   "latin": null,
+   "fact": {
+    "en": "Known since ancient times as brimstone; used to make sulfuric acid.",
+    "ur": "قدیم زمانے سے گندھک کے نام سے معروف؛ سلفیورک ایسڈ بنانے میں استعمال ہوتی ہے۔"
+   }
+  },
+  {
+   "z": 17,
+   "symbol": "Cl",
+   "name": {
+    "en": "Chlorine",
+    "ur": "کلورین"
+   },
+   "mass": 35.45,
+   "category": "halogen",
+   "row": 3,
+   "col": 17,
+   "period": 3,
+   "group": 17,
+   "block": "p",
+   "state": "gas",
+   "shells": [
+    2,
+    8,
+    7
+   ],
+   "latin": null,
+   "fact": {
+    "en": "Used to disinfect drinking water and swimming pools.",
+    "ur": "پینے کے پانی اور سوئمنگ پول کو جراثیم سے پاک کرنے کے لیے استعمال ہوتی ہے۔"
+   }
+  },
+  {
+   "z": 18,
+   "symbol": "Ar",
+   "name": {
+    "en": "Argon",
+    "ur": "آرگون"
+   },
+   "mass": 39.948,
+   "category": "noble",
+   "row": 3,
+   "col": 18,
+   "period": 3,
+   "group": 18,
+   "block": "p",
+   "state": "gas",
+   "shells": [
+    2,
+    8,
+    8
+   ],
+   "latin": null,
+   "fact": {
+    "en": "An inert gas used inside light bulbs and for welding.",
+    "ur": "غیر فعال گیس؛ بلب کے اندر اور ویلڈنگ میں استعمال ہوتی ہے۔"
+   }
+  },
+  {
+   "z": 19,
+   "symbol": "K",
+   "name": {
+    "en": "Potassium",
+    "ur": "پوٹاشیم"
+   },
+   "mass": 39.098,
+   "category": "alkali",
+   "row": 4,
+   "col": 1,
+   "period": 4,
+   "group": 1,
+   "block": "s",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    8,
+    1
+   ],
+   "latin": "kalium",
+   "fact": {
+    "en": "Needed by nerves and muscles; bananas are a well-known source.",
+    "ur": "اعصاب اور پٹھوں کے لیے ضروری؛ کیلا اس کا مشہور ذریعہ ہے۔"
+   }
+  },
+  {
+   "z": 20,
+   "symbol": "Ca",
+   "name": {
+    "en": "Calcium",
+    "ur": "کیلشیم"
+   },
+   "mass": 40.078,
+   "category": "alkaline",
+   "row": 4,
+   "col": 2,
+   "period": 4,
+   "group": 2,
+   "block": "s",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": {
+    "en": "Builds bones and teeth; plentiful in milk and limestone.",
+    "ur": "ہڈیوں اور دانتوں کی تعمیر کرتا ہے؛ دودھ اور چونے کے پتھر میں وافر ہے۔"
+   }
+  },
+  {
+   "z": 21,
+   "symbol": "Sc",
+   "name": {
+    "en": "Scandium",
+    "ur": "سکینڈیم"
+   },
+   "mass": 44.956,
+   "category": "transition",
+   "row": 4,
+   "col": 3,
+   "period": 4,
+   "group": 3,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    9,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 22,
+   "symbol": "Ti",
+   "name": {
+    "en": "Titanium",
+    "ur": "ٹائیٹینیم"
+   },
+   "mass": 47.867,
+   "category": "transition",
+   "row": 4,
+   "col": 4,
+   "period": 4,
+   "group": 4,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    10,
+    2
+   ],
+   "latin": null,
+   "fact": {
+    "en": "Nearly as strong as steel but much lighter; used in implants and aircraft.",
+    "ur": "فولاد جتنا مضبوط مگر بہت ہلکا؛ مصنوعی جوڑوں اور ہوائی جہازوں میں استعمال ہوتا ہے۔"
+   }
+  },
+  {
+   "z": 23,
+   "symbol": "V",
+   "name": {
+    "en": "Vanadium",
+    "ur": "وینیڈیم"
+   },
+   "mass": 50.942,
+   "category": "transition",
+   "row": 4,
+   "col": 5,
+   "period": 4,
+   "group": 5,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    11,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 24,
+   "symbol": "Cr",
+   "name": {
+    "en": "Chromium",
+    "ur": "کرومیم"
+   },
+   "mass": 51.996,
+   "category": "transition",
+   "row": 4,
+   "col": 6,
+   "period": 4,
+   "group": 6,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    13,
+    1
+   ],
+   "latin": null,
+   "fact": {
+    "en": "Gives stainless steel its shine and resistance to corrosion.",
+    "ur": "سٹین لیس سٹیل کو چمک اور زنگ سے بچاؤ کی خاصیت دیتا ہے۔"
+   }
+  },
+  {
+   "z": 25,
+   "symbol": "Mn",
+   "name": {
+    "en": "Manganese",
+    "ur": "مینگنیز"
+   },
+   "mass": 54.938,
+   "category": "transition",
+   "row": 4,
+   "col": 7,
+   "period": 4,
+   "group": 7,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    13,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 26,
+   "symbol": "Fe",
+   "name": {
+    "en": "Iron",
+    "ur": "آئرن (لوہا)"
+   },
+   "mass": 55.845,
+   "category": "transition",
+   "row": 4,
+   "col": 8,
+   "period": 4,
+   "group": 8,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    14,
+    2
+   ],
+   "latin": "ferrum",
+   "fact": {
+    "en": "The main metal in steel; iron in your blood helps carry oxygen.",
+    "ur": "فولاد کی بنیادی دھات؛ خون میں موجود آئرن آکسیجن لے جانے میں مدد دیتا ہے۔"
+   }
+  },
+  {
+   "z": 27,
+   "symbol": "Co",
+   "name": {
+    "en": "Cobalt",
+    "ur": "کوبالٹ"
+   },
+   "mass": 58.933,
+   "category": "transition",
+   "row": 4,
+   "col": 9,
+   "period": 4,
+   "group": 9,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    15,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 28,
+   "symbol": "Ni",
+   "name": {
+    "en": "Nickel",
+    "ur": "نکل"
+   },
+   "mass": 58.693,
+   "category": "transition",
+   "row": 4,
+   "col": 10,
+   "period": 4,
+   "group": 10,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    16,
+    2
+   ],
+   "latin": null,
+   "fact": {
+    "en": "Used in coins and stainless steel, and in many batteries.",
+    "ur": "سکوں اور سٹین لیس سٹیل میں اور کئی بیٹریوں میں استعمال ہوتا ہے۔"
+   }
+  },
+  {
+   "z": 29,
+   "symbol": "Cu",
+   "name": {
+    "en": "Copper",
+    "ur": "کاپر (تانبا)"
+   },
+   "mass": 63.546,
+   "category": "transition",
+   "row": 4,
+   "col": 11,
+   "period": 4,
+   "group": 11,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    1
+   ],
+   "latin": "cuprum",
+   "fact": {
+    "en": "An excellent conductor of electricity; used in wires and cookware.",
+    "ur": "بجلی کا بہترین موصل؛ تاروں اور برتنوں میں استعمال ہوتا ہے۔"
+   }
+  },
+  {
+   "z": 30,
+   "symbol": "Zn",
+   "name": {
+    "en": "Zinc",
+    "ur": "زنک (جست)"
+   },
+   "mass": 65.38,
+   "category": "transition",
+   "row": 4,
+   "col": 12,
+   "period": 4,
+   "group": 12,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    2
+   ],
+   "latin": null,
+   "fact": {
+    "en": "Coats steel to prevent rust (galvanizing) and is part of brass.",
+    "ur": "فولاد پر چڑھا کر اسے زنگ سے بچاتا ہے (گیلونائزنگ) اور پیتل کا جزو ہے۔"
+   }
+  },
+  {
+   "z": 31,
+   "symbol": "Ga",
+   "name": {
+    "en": "Gallium",
+    "ur": "گیلیم"
+   },
+   "mass": 69.723,
+   "category": "post",
+   "row": 4,
+   "col": 13,
+   "period": 4,
+   "group": 13,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    3
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 32,
+   "symbol": "Ge",
+   "name": {
+    "en": "Germanium",
+    "ur": "جرمینیم"
+   },
+   "mass": 72.63,
+   "category": "metalloid",
+   "row": 4,
+   "col": 14,
+   "period": 4,
+   "group": 14,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    4
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 33,
+   "symbol": "As",
+   "name": {
+    "en": "Arsenic",
+    "ur": "آرسینک"
+   },
+   "mass": 74.922,
+   "category": "metalloid",
+   "row": 4,
+   "col": 15,
+   "period": 4,
+   "group": 15,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    5
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 34,
+   "symbol": "Se",
+   "name": {
+    "en": "Selenium",
+    "ur": "سیلینیم"
+   },
+   "mass": 78.971,
+   "category": "nonmetal",
+   "row": 4,
+   "col": 16,
+   "period": 4,
+   "group": 16,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    6
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 35,
+   "symbol": "Br",
+   "name": {
+    "en": "Bromine",
+    "ur": "برومین"
+   },
+   "mass": 79.904,
+   "category": "halogen",
+   "row": 4,
+   "col": 17,
+   "period": 4,
+   "group": 17,
+   "block": "p",
+   "state": "liquid",
+   "shells": [
+    2,
+    8,
+    18,
+    7
+   ],
+   "latin": null,
+   "fact": {
+    "en": "One of only two elements that are liquid at room temperature; reddish-brown.",
+    "ur": "کمرے کے درجہ حرارت پر مائع رہنے والے صرف دو عناصر میں سے ایک؛ بھورا سرخ رنگ۔"
+   }
+  },
+  {
+   "z": 36,
+   "symbol": "Kr",
+   "name": {
+    "en": "Krypton",
+    "ur": "کرپٹون"
+   },
+   "mass": 83.798,
+   "category": "noble",
+   "row": 4,
+   "col": 18,
+   "period": 4,
+   "group": 18,
+   "block": "p",
+   "state": "gas",
+   "shells": [
+    2,
+    8,
+    18,
+    8
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 37,
+   "symbol": "Rb",
+   "name": {
+    "en": "Rubidium",
+    "ur": "روبیڈیم"
+   },
+   "mass": 85.468,
+   "category": "alkali",
+   "row": 5,
+   "col": 1,
+   "period": 5,
+   "group": 1,
+   "block": "s",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    8,
+    1
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 38,
+   "symbol": "Sr",
+   "name": {
+    "en": "Strontium",
+    "ur": "اسٹرانشیم"
+   },
+   "mass": 87.62,
+   "category": "alkaline",
+   "row": 5,
+   "col": 2,
+   "period": 5,
+   "group": 2,
+   "block": "s",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 39,
+   "symbol": "Y",
+   "name": {
+    "en": "Yttrium",
+    "ur": "یٹریم"
+   },
+   "mass": 88.906,
+   "category": "transition",
+   "row": 5,
+   "col": 3,
+   "period": 5,
+   "group": 3,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    9,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 40,
+   "symbol": "Zr",
+   "name": {
+    "en": "Zirconium",
+    "ur": "زرکونیم"
+   },
+   "mass": 91.224,
+   "category": "transition",
+   "row": 5,
+   "col": 4,
+   "period": 5,
+   "group": 4,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    10,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 41,
+   "symbol": "Nb",
+   "name": {
+    "en": "Niobium",
+    "ur": "نیوبیم"
+   },
+   "mass": 92.906,
+   "category": "transition",
+   "row": 5,
+   "col": 5,
+   "period": 5,
+   "group": 5,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    12,
+    1
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 42,
+   "symbol": "Mo",
+   "name": {
+    "en": "Molybdenum",
+    "ur": "مولبڈینم"
+   },
+   "mass": 95.95,
+   "category": "transition",
+   "row": 5,
+   "col": 6,
+   "period": 5,
+   "group": 6,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    13,
+    1
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 43,
+   "symbol": "Tc",
+   "name": {
+    "en": "Technetium",
+    "ur": "ٹیکنیشیم"
+   },
+   "mass": 98,
+   "category": "transition",
+   "row": 5,
+   "col": 7,
+   "period": 5,
+   "group": 7,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    13,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 44,
+   "symbol": "Ru",
+   "name": {
+    "en": "Ruthenium",
+    "ur": "روتھینیم"
+   },
+   "mass": 101.07,
+   "category": "transition",
+   "row": 5,
+   "col": 8,
+   "period": 5,
+   "group": 8,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    15,
+    1
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 45,
+   "symbol": "Rh",
+   "name": {
+    "en": "Rhodium",
+    "ur": "روڈیم"
+   },
+   "mass": 102.91,
+   "category": "transition",
+   "row": 5,
+   "col": 9,
+   "period": 5,
+   "group": 9,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    16,
+    1
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 46,
+   "symbol": "Pd",
+   "name": {
+    "en": "Palladium",
+    "ur": "پیلیڈیم"
+   },
+   "mass": 106.42,
+   "category": "transition",
+   "row": 5,
+   "col": 10,
+   "period": 5,
+   "group": 10,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    18
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 47,
+   "symbol": "Ag",
+   "name": {
+    "en": "Silver",
+    "ur": "سلور (چاندی)"
+   },
+   "mass": 107.87,
+   "category": "transition",
+   "row": 5,
+   "col": 11,
+   "period": 5,
+   "group": 11,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    1
+   ],
+   "latin": "argentum",
+   "fact": {
+    "en": "The best electrical conductor of all metals; used in jewellery and electronics.",
+    "ur": "تمام دھاتوں میں بجلی کا بہترین موصل؛ زیورات اور الیکٹرانکس میں استعمال ہوتی ہے۔"
+   }
+  },
+  {
+   "z": 48,
+   "symbol": "Cd",
+   "name": {
+    "en": "Cadmium",
+    "ur": "کیڈمیم"
+   },
+   "mass": 112.41,
+   "category": "transition",
+   "row": 5,
+   "col": 12,
+   "period": 5,
+   "group": 12,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 49,
+   "symbol": "In",
+   "name": {
+    "en": "Indium",
+    "ur": "انڈیم"
+   },
+   "mass": 114.82,
+   "category": "post",
+   "row": 5,
+   "col": 13,
+   "period": 5,
+   "group": 13,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    3
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 50,
+   "symbol": "Sn",
+   "name": {
+    "en": "Tin",
+    "ur": "ٹن (قلعی)"
+   },
+   "mass": 118.71,
+   "category": "post",
+   "row": 5,
+   "col": 14,
+   "period": 5,
+   "group": 14,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    4
+   ],
+   "latin": "stannum",
+   "fact": {
+    "en": "Used to coat food cans and in solder.",
+    "ur": "کھانے کے ڈبوں پر ملمع کاری اور سولڈر میں استعمال ہوتی ہے۔"
+   }
+  },
+  {
+   "z": 51,
+   "symbol": "Sb",
+   "name": {
+    "en": "Antimony",
+    "ur": "اینٹیمنی"
+   },
+   "mass": 121.76,
+   "category": "metalloid",
+   "row": 5,
+   "col": 15,
+   "period": 5,
+   "group": 15,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    5
+   ],
+   "latin": "stibium",
+   "fact": null
+  },
+  {
+   "z": 52,
+   "symbol": "Te",
+   "name": {
+    "en": "Tellurium",
+    "ur": "ٹیلوریم"
+   },
+   "mass": 127.6,
+   "category": "metalloid",
+   "row": 5,
+   "col": 16,
+   "period": 5,
+   "group": 16,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    6
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 53,
+   "symbol": "I",
+   "name": {
+    "en": "Iodine",
+    "ur": "آئیوڈین"
+   },
+   "mass": 126.9,
+   "category": "halogen",
+   "row": 5,
+   "col": 17,
+   "period": 5,
+   "group": 17,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    7
+   ],
+   "latin": null,
+   "fact": {
+    "en": "Needed by the thyroid gland; added to table salt to prevent deficiency.",
+    "ur": "تھائرائیڈ غدود کے لیے ضروری؛ کمی سے بچاؤ کے لیے نمک میں شامل کی جاتی ہے۔"
+   }
+  },
+  {
+   "z": 54,
+   "symbol": "Xe",
+   "name": {
+    "en": "Xenon",
+    "ur": "زینون"
+   },
+   "mass": 131.29,
+   "category": "noble",
+   "row": 5,
+   "col": 18,
+   "period": 5,
+   "group": 18,
+   "block": "p",
+   "state": "gas",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    8
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 55,
+   "symbol": "Cs",
+   "name": {
+    "en": "Caesium",
+    "ur": "سیزیم"
+   },
+   "mass": 132.91,
+   "category": "alkali",
+   "row": 6,
+   "col": 1,
+   "period": 6,
+   "group": 1,
+   "block": "s",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    8,
+    1
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 56,
+   "symbol": "Ba",
+   "name": {
+    "en": "Barium",
+    "ur": "بیریم"
+   },
+   "mass": 137.33,
+   "category": "alkaline",
+   "row": 6,
+   "col": 2,
+   "period": 6,
+   "group": 2,
+   "block": "s",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 57,
+   "symbol": "La",
+   "name": {
+    "en": "Lanthanum",
+    "ur": "لینتھینم"
+   },
+   "mass": 138.91,
+   "category": "lanthanide",
+   "row": 9,
+   "col": 3,
+   "period": 6,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    9,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 58,
+   "symbol": "Ce",
+   "name": {
+    "en": "Cerium",
+    "ur": "سیریم"
+   },
+   "mass": 140.12,
+   "category": "lanthanide",
+   "row": 9,
+   "col": 4,
+   "period": 6,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    19,
+    9,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 59,
+   "symbol": "Pr",
+   "name": {
+    "en": "Praseodymium",
+    "ur": "پراسیوڈیمیم"
+   },
+   "mass": 140.91,
+   "category": "lanthanide",
+   "row": 9,
+   "col": 5,
+   "period": 6,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    21,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 60,
+   "symbol": "Nd",
+   "name": {
+    "en": "Neodymium",
+    "ur": "نیوڈیمیم"
+   },
+   "mass": 144.24,
+   "category": "lanthanide",
+   "row": 9,
+   "col": 6,
+   "period": 6,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    22,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 61,
+   "symbol": "Pm",
+   "name": {
+    "en": "Promethium",
+    "ur": "پرومیتھیم"
+   },
+   "mass": 145,
+   "category": "lanthanide",
+   "row": 9,
+   "col": 7,
+   "period": 6,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    23,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 62,
+   "symbol": "Sm",
+   "name": {
+    "en": "Samarium",
+    "ur": "سماریم"
+   },
+   "mass": 150.36,
+   "category": "lanthanide",
+   "row": 9,
+   "col": 8,
+   "period": 6,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    24,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 63,
+   "symbol": "Eu",
+   "name": {
+    "en": "Europium",
+    "ur": "یوروپیم"
+   },
+   "mass": 151.96,
+   "category": "lanthanide",
+   "row": 9,
+   "col": 9,
+   "period": 6,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    25,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 64,
+   "symbol": "Gd",
+   "name": {
+    "en": "Gadolinium",
+    "ur": "گیڈولینیم"
+   },
+   "mass": 157.25,
+   "category": "lanthanide",
+   "row": 9,
+   "col": 10,
+   "period": 6,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    25,
+    9,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 65,
+   "symbol": "Tb",
+   "name": {
+    "en": "Terbium",
+    "ur": "ٹربیم"
+   },
+   "mass": 158.93,
+   "category": "lanthanide",
+   "row": 9,
+   "col": 11,
+   "period": 6,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    27,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 66,
+   "symbol": "Dy",
+   "name": {
+    "en": "Dysprosium",
+    "ur": "ڈسپروسیم"
+   },
+   "mass": 162.5,
+   "category": "lanthanide",
+   "row": 9,
+   "col": 12,
+   "period": 6,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    28,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 67,
+   "symbol": "Ho",
+   "name": {
+    "en": "Holmium",
+    "ur": "ہولمیم"
+   },
+   "mass": 164.93,
+   "category": "lanthanide",
+   "row": 9,
+   "col": 13,
+   "period": 6,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    29,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 68,
+   "symbol": "Er",
+   "name": {
+    "en": "Erbium",
+    "ur": "اربیم"
+   },
+   "mass": 167.26,
+   "category": "lanthanide",
+   "row": 9,
+   "col": 14,
+   "period": 6,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    30,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 69,
+   "symbol": "Tm",
+   "name": {
+    "en": "Thulium",
+    "ur": "تھولیم"
+   },
+   "mass": 168.93,
+   "category": "lanthanide",
+   "row": 9,
+   "col": 15,
+   "period": 6,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    31,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 70,
+   "symbol": "Yb",
+   "name": {
+    "en": "Ytterbium",
+    "ur": "یٹربیم"
+   },
+   "mass": 173.05,
+   "category": "lanthanide",
+   "row": 9,
+   "col": 16,
+   "period": 6,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 71,
+   "symbol": "Lu",
+   "name": {
+    "en": "Lutetium",
+    "ur": "لوٹیشیم"
+   },
+   "mass": 174.97,
+   "category": "lanthanide",
+   "row": 6,
+   "col": 3,
+   "period": 6,
+   "group": 3,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    9,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 72,
+   "symbol": "Hf",
+   "name": {
+    "en": "Hafnium",
+    "ur": "ہافنیم"
+   },
+   "mass": 178.49,
+   "category": "transition",
+   "row": 6,
+   "col": 4,
+   "period": 6,
+   "group": 4,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    10,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 73,
+   "symbol": "Ta",
+   "name": {
+    "en": "Tantalum",
+    "ur": "ٹینٹلم"
+   },
+   "mass": 180.95,
+   "category": "transition",
+   "row": 6,
+   "col": 5,
+   "period": 6,
+   "group": 5,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    11,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 74,
+   "symbol": "W",
+   "name": {
+    "en": "Tungsten",
+    "ur": "ٹنگسٹن"
+   },
+   "mass": 183.84,
+   "category": "transition",
+   "row": 6,
+   "col": 6,
+   "period": 6,
+   "group": 6,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    12,
+    2
+   ],
+   "latin": "wolfram",
+   "fact": {
+    "en": "Has the highest melting point of any metal; long used for bulb filaments.",
+    "ur": "تمام دھاتوں میں اس کا نقطۂ پگھلاؤ سب سے زیادہ ہے؛ بلب کے تار میں استعمال ہوتا رہا ہے۔"
+   }
+  },
+  {
+   "z": 75,
+   "symbol": "Re",
+   "name": {
+    "en": "Rhenium",
+    "ur": "رینیم"
+   },
+   "mass": 186.21,
+   "category": "transition",
+   "row": 6,
+   "col": 7,
+   "period": 6,
+   "group": 7,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    13,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 76,
+   "symbol": "Os",
+   "name": {
+    "en": "Osmium",
+    "ur": "اوسمیم"
+   },
+   "mass": 190.23,
+   "category": "transition",
+   "row": 6,
+   "col": 8,
+   "period": 6,
+   "group": 8,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    14,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 77,
+   "symbol": "Ir",
+   "name": {
+    "en": "Iridium",
+    "ur": "اریڈیم"
+   },
+   "mass": 192.22,
+   "category": "transition",
+   "row": 6,
+   "col": 9,
+   "period": 6,
+   "group": 9,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    15,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 78,
+   "symbol": "Pt",
+   "name": {
+    "en": "Platinum",
+    "ur": "پلاٹینم"
+   },
+   "mass": 195.08,
+   "category": "transition",
+   "row": 6,
+   "col": 10,
+   "period": 6,
+   "group": 10,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    17,
+    1
+   ],
+   "latin": null,
+   "fact": {
+    "en": "Rare, dense and corrosion-resistant; used in catalytic converters and jewellery.",
+    "ur": "نایاب، بھاری اور زنگ سے محفوظ؛ کیٹلیٹک کنورٹر اور زیورات میں استعمال ہوتا ہے۔"
+   }
+  },
+  {
+   "z": 79,
+   "symbol": "Au",
+   "name": {
+    "en": "Gold",
+    "ur": "گولڈ (سونا)"
+   },
+   "mass": 196.97,
+   "category": "transition",
+   "row": 6,
+   "col": 11,
+   "period": 6,
+   "group": 11,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    1
+   ],
+   "latin": "aurum",
+   "fact": {
+    "en": "Does not tarnish, which is why it has been prized for jewellery and coins for thousands of years.",
+    "ur": "اسے داغ نہیں لگتا، اسی لیے ہزاروں سال سے زیورات اور سکوں میں قیمتی سمجھا جاتا ہے۔"
+   }
+  },
+  {
+   "z": 80,
+   "symbol": "Hg",
+   "name": {
+    "en": "Mercury",
+    "ur": "مرکری (پارہ)"
+   },
+   "mass": 200.59,
+   "category": "transition",
+   "row": 6,
+   "col": 12,
+   "period": 6,
+   "group": 12,
+   "block": "d",
+   "state": "liquid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    2
+   ],
+   "latin": "hydrargyrum",
+   "fact": {
+    "en": "The only metal that is liquid at room temperature; toxic, so it is being phased out of thermometers.",
+    "ur": "کمرے کے درجہ حرارت پر مائع رہنے والی واحد دھات؛ زہریلا ہے، اس لیے تھرمامیٹروں سے ہٹایا جا رہا ہے۔"
+   }
+  },
+  {
+   "z": 81,
+   "symbol": "Tl",
+   "name": {
+    "en": "Thallium",
+    "ur": "تھیلیم"
+   },
+   "mass": 204.38,
+   "category": "post",
+   "row": 6,
+   "col": 13,
+   "period": 6,
+   "group": 13,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    3
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 82,
+   "symbol": "Pb",
+   "name": {
+    "en": "Lead",
+    "ur": "لیڈ (سیسہ)"
+   },
+   "mass": 207.2,
+   "category": "post",
+   "row": 6,
+   "col": 14,
+   "period": 6,
+   "group": 14,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    4
+   ],
+   "latin": "plumbum",
+   "fact": {
+    "en": "Dense and soft; once common in pipes and paint, but toxic, so now restricted.",
+    "ur": "بھاری اور نرم دھات؛ پہلے پائپوں اور رنگوں میں عام تھی مگر زہریلی ہونے کی وجہ سے اب محدود ہے۔"
+   }
+  },
+  {
+   "z": 83,
+   "symbol": "Bi",
+   "name": {
+    "en": "Bismuth",
+    "ur": "بسمتھ"
+   },
+   "mass": 208.98,
+   "category": "post",
+   "row": 6,
+   "col": 15,
+   "period": 6,
+   "group": 15,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    5
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 84,
+   "symbol": "Po",
+   "name": {
+    "en": "Polonium",
+    "ur": "پولونیم"
+   },
+   "mass": 209,
+   "category": "post",
+   "row": 6,
+   "col": 16,
+   "period": 6,
+   "group": 16,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    6
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 85,
+   "symbol": "At",
+   "name": {
+    "en": "Astatine",
+    "ur": "ایسٹیٹین"
+   },
+   "mass": 210,
+   "category": "halogen",
+   "row": 6,
+   "col": 17,
+   "period": 6,
+   "group": 17,
+   "block": "p",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    7
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 86,
+   "symbol": "Rn",
+   "name": {
+    "en": "Radon",
+    "ur": "ریڈون"
+   },
+   "mass": 222,
+   "category": "noble",
+   "row": 6,
+   "col": 18,
+   "period": 6,
+   "group": 18,
+   "block": "p",
+   "state": "gas",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    8
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 87,
+   "symbol": "Fr",
+   "name": {
+    "en": "Francium",
+    "ur": "فرانشیم"
+   },
+   "mass": 223,
+   "category": "alkali",
+   "row": 7,
+   "col": 1,
+   "period": 7,
+   "group": 1,
+   "block": "s",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    8,
+    1
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 88,
+   "symbol": "Ra",
+   "name": {
+    "en": "Radium",
+    "ur": "ریڈیم"
+   },
+   "mass": 226,
+   "category": "alkaline",
+   "row": 7,
+   "col": 2,
+   "period": 7,
+   "group": 2,
+   "block": "s",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 89,
+   "symbol": "Ac",
+   "name": {
+    "en": "Actinium",
+    "ur": "ایکٹینیم"
+   },
+   "mass": 227,
+   "category": "actinide",
+   "row": 10,
+   "col": 3,
+   "period": 7,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    9,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 90,
+   "symbol": "Th",
+   "name": {
+    "en": "Thorium",
+    "ur": "تھوریم"
+   },
+   "mass": 232.04,
+   "category": "actinide",
+   "row": 10,
+   "col": 4,
+   "period": 7,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    10,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 91,
+   "symbol": "Pa",
+   "name": {
+    "en": "Protactinium",
+    "ur": "پروٹیکٹینیم"
+   },
+   "mass": 231.04,
+   "category": "actinide",
+   "row": 10,
+   "col": 5,
+   "period": 7,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    20,
+    9,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 92,
+   "symbol": "U",
+   "name": {
+    "en": "Uranium",
+    "ur": "یورینیم"
+   },
+   "mass": 238.03,
+   "category": "actinide",
+   "row": 10,
+   "col": 6,
+   "period": 7,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    21,
+    9,
+    2
+   ],
+   "latin": null,
+   "fact": {
+    "en": "Fuel for nuclear power plants; a small amount releases a great deal of energy.",
+    "ur": "نیوکلیائی بجلی گھروں کا ایندھن؛ تھوڑی مقدار بہت زیادہ توانائی خارج کرتی ہے۔"
+   }
+  },
+  {
+   "z": 93,
+   "symbol": "Np",
+   "name": {
+    "en": "Neptunium",
+    "ur": "نیپچونیم"
+   },
+   "mass": 237,
+   "category": "actinide",
+   "row": 10,
+   "col": 7,
+   "period": 7,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    22,
+    9,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 94,
+   "symbol": "Pu",
+   "name": {
+    "en": "Plutonium",
+    "ur": "پلوٹونیم"
+   },
+   "mass": 244,
+   "category": "actinide",
+   "row": 10,
+   "col": 8,
+   "period": 7,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    24,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 95,
+   "symbol": "Am",
+   "name": {
+    "en": "Americium",
+    "ur": "امریشیم"
+   },
+   "mass": 243,
+   "category": "actinide",
+   "row": 10,
+   "col": 9,
+   "period": 7,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    25,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 96,
+   "symbol": "Cm",
+   "name": {
+    "en": "Curium",
+    "ur": "کیوریم"
+   },
+   "mass": 247,
+   "category": "actinide",
+   "row": 10,
+   "col": 10,
+   "period": 7,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    25,
+    9,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 97,
+   "symbol": "Bk",
+   "name": {
+    "en": "Berkelium",
+    "ur": "برکیلیم"
+   },
+   "mass": 247,
+   "category": "actinide",
+   "row": 10,
+   "col": 11,
+   "period": 7,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    27,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 98,
+   "symbol": "Cf",
+   "name": {
+    "en": "Californium",
+    "ur": "کیلیفورنیم"
+   },
+   "mass": 251,
+   "category": "actinide",
+   "row": 10,
+   "col": 12,
+   "period": 7,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    28,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 99,
+   "symbol": "Es",
+   "name": {
+    "en": "Einsteinium",
+    "ur": "آئن اسٹائنیم"
+   },
+   "mass": 252,
+   "category": "actinide",
+   "row": 10,
+   "col": 13,
+   "period": 7,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    29,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 100,
+   "symbol": "Fm",
+   "name": {
+    "en": "Fermium",
+    "ur": "فرمیم"
+   },
+   "mass": 257,
+   "category": "actinide",
+   "row": 10,
+   "col": 14,
+   "period": 7,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    30,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 101,
+   "symbol": "Md",
+   "name": {
+    "en": "Mendelevium",
+    "ur": "مینڈیلیویم"
+   },
+   "mass": 258,
+   "category": "actinide",
+   "row": 10,
+   "col": 15,
+   "period": 7,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    31,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 102,
+   "symbol": "No",
+   "name": {
+    "en": "Nobelium",
+    "ur": "نوبیلیم"
+   },
+   "mass": 259,
+   "category": "actinide",
+   "row": 10,
+   "col": 16,
+   "period": 7,
+   "group": null,
+   "block": "f",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    8,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 103,
+   "symbol": "Lr",
+   "name": {
+    "en": "Lawrencium",
+    "ur": "لارنشیم"
+   },
+   "mass": 266,
+   "category": "actinide",
+   "row": 7,
+   "col": 3,
+   "period": 7,
+   "group": 3,
+   "block": "d",
+   "state": "solid",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    8,
+    3
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 104,
+   "symbol": "Rf",
+   "name": {
+    "en": "Rutherfordium",
+    "ur": "رودرفورڈیم"
+   },
+   "mass": 267,
+   "category": "transition",
+   "row": 7,
+   "col": 4,
+   "period": 7,
+   "group": 4,
+   "block": "d",
+   "state": "unknown",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    10,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 105,
+   "symbol": "Db",
+   "name": {
+    "en": "Dubnium",
+    "ur": "ڈبنیم"
+   },
+   "mass": 268,
+   "category": "transition",
+   "row": 7,
+   "col": 5,
+   "period": 7,
+   "group": 5,
+   "block": "d",
+   "state": "unknown",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    11,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 106,
+   "symbol": "Sg",
+   "name": {
+    "en": "Seaborgium",
+    "ur": "سیبورگیم"
+   },
+   "mass": 269,
+   "category": "transition",
+   "row": 7,
+   "col": 6,
+   "period": 7,
+   "group": 6,
+   "block": "d",
+   "state": "unknown",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    12,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 107,
+   "symbol": "Bh",
+   "name": {
+    "en": "Bohrium",
+    "ur": "بوہریم"
+   },
+   "mass": 270,
+   "category": "transition",
+   "row": 7,
+   "col": 7,
+   "period": 7,
+   "group": 7,
+   "block": "d",
+   "state": "unknown",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    13,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 108,
+   "symbol": "Hs",
+   "name": {
+    "en": "Hassium",
+    "ur": "ہیسیم"
+   },
+   "mass": 277,
+   "category": "transition",
+   "row": 7,
+   "col": 8,
+   "period": 7,
+   "group": 8,
+   "block": "d",
+   "state": "unknown",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    14,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 109,
+   "symbol": "Mt",
+   "name": {
+    "en": "Meitnerium",
+    "ur": "مائٹنیریم"
+   },
+   "mass": 278,
+   "category": "transition",
+   "row": 7,
+   "col": 9,
+   "period": 7,
+   "group": 9,
+   "block": "d",
+   "state": "unknown",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    15,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 110,
+   "symbol": "Ds",
+   "name": {
+    "en": "Darmstadtium",
+    "ur": "ڈارمسٹیڈیم"
+   },
+   "mass": 281,
+   "category": "transition",
+   "row": 7,
+   "col": 10,
+   "period": 7,
+   "group": 10,
+   "block": "d",
+   "state": "unknown",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    16,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 111,
+   "symbol": "Rg",
+   "name": {
+    "en": "Roentgenium",
+    "ur": "رونٹجینیم"
+   },
+   "mass": 282,
+   "category": "transition",
+   "row": 7,
+   "col": 11,
+   "period": 7,
+   "group": 11,
+   "block": "d",
+   "state": "unknown",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    17,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 112,
+   "symbol": "Cn",
+   "name": {
+    "en": "Copernicium",
+    "ur": "کوپرنیشیم"
+   },
+   "mass": 285,
+   "category": "transition",
+   "row": 7,
+   "col": 12,
+   "period": 7,
+   "group": 12,
+   "block": "d",
+   "state": "unknown",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    18,
+    2
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 113,
+   "symbol": "Nh",
+   "name": {
+    "en": "Nihonium",
+    "ur": "نہونیم"
+   },
+   "mass": 286,
+   "category": "post",
+   "row": 7,
+   "col": 13,
+   "period": 7,
+   "group": 13,
+   "block": "p",
+   "state": "unknown",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    18,
+    3
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 114,
+   "symbol": "Fl",
+   "name": {
+    "en": "Flerovium",
+    "ur": "فلیروویم"
+   },
+   "mass": 289,
+   "category": "post",
+   "row": 7,
+   "col": 14,
+   "period": 7,
+   "group": 14,
+   "block": "p",
+   "state": "unknown",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    18,
+    4
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 115,
+   "symbol": "Mc",
+   "name": {
+    "en": "Moscovium",
+    "ur": "موسکوویم"
+   },
+   "mass": 289,
+   "category": "post",
+   "row": 7,
+   "col": 15,
+   "period": 7,
+   "group": 15,
+   "block": "p",
+   "state": "unknown",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    18,
+    5
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 116,
+   "symbol": "Lv",
+   "name": {
+    "en": "Livermorium",
+    "ur": "لیورمورم"
+   },
+   "mass": 293,
+   "category": "post",
+   "row": 7,
+   "col": 16,
+   "period": 7,
+   "group": 16,
+   "block": "p",
+   "state": "unknown",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    18,
+    6
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 117,
+   "symbol": "Ts",
+   "name": {
+    "en": "Tennessine",
+    "ur": "ٹینیسین"
+   },
+   "mass": 294,
+   "category": "halogen",
+   "row": 7,
+   "col": 17,
+   "period": 7,
+   "group": 17,
+   "block": "p",
+   "state": "unknown",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    18,
+    7
+   ],
+   "latin": null,
+   "fact": null
+  },
+  {
+   "z": 118,
+   "symbol": "Og",
+   "name": {
+    "en": "Oganesson",
+    "ur": "اوگانیسان"
+   },
+   "mass": 294,
+   "category": "noble",
+   "row": 7,
+   "col": 18,
+   "period": 7,
+   "group": 18,
+   "block": "p",
+   "state": "unknown",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    18,
+    8
+   ],
+   "latin": null,
+   "fact": null
+  }
+ ]
+}

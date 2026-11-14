@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hydrocarbons Explorer | Hamad Khan</title>
+<meta name="description" content="Interactive Hydrocarbons Explorer for school chemistry: alkanes, alkenes and alkynes with live structures, formulas, bond comparison and a Compare Families panel.">
+<meta name="theme-color" content="#101c32">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hydrocarbons Explorer | Hamad Khan">
+<meta property="og:description" content="Interactive Hydrocarbons Explorer for school chemistry: alkanes, alkenes and alkynes with live structures, formulas, bond comparison and a Compare Families panel.">
+<meta property="og:site_name" content="Hamad Khan | Chemistry Educator &amp; Science Teacher">
+<link rel="icon" type="image/png" href="../../assets/image/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Outfit:wght@500;600;700;800&amp;display=swap">
+<link rel="stylesheet" href="../../assets/css/style.css">
+<link rel="stylesheet" href="../../assets/css/responsive.css">
+<link rel="stylesheet" href="../../assets/css/lab.css">
+<script src="../../assets/js/boot.js"></script>
+</head>
+<body class="page-inner">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- Shared site header -->
+<header class="site-header is-solid" id="siteHeader">
+  <div class="container nav-inner">
+    <a class="brand" href="../../index.html" aria-label="Hamad Khan, home">
+      <img class="brand-logo" src="../../assets/image/logo.png" alt="Hamad Khan" width="936" height="136">
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primaryNav" aria-label="Open menu">
+      <span class="nav-toggle-bar"></span>
+    </button>
+    <nav class="primary-nav" id="primaryNav" aria-label="Primary">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="../../index.html#home">Home</a></li>
+        <li><a class="nav-link" href="../../index.html#about">About</a></li>
+        <li><a class="nav-link" href="../../index.html#expertise">Expertise</a></li>
+        <li><a class="nav-link" href="../../index.html#experience">Experience</a></li>
+        <li><a class="nav-link" href="../../index.html#resources">Resources</a></li>
+        <li><a class="nav-link" href="../../index.html#skills">Skills</a></li>
+        <li><a class="nav-link" href="../../index.html#contact">Contact</a></li>
+        <li><a class="nav-link nav-link--pt" href="../../periodic-table/"><span class="pt-mark" aria-hidden="true">Pt</span>Periodic Table</a></li>
+        <li><a class="nav-link nav-link--pt" href="../" aria-current="page"><span class="pt-mark" aria-hidden="true">Oc</span>Organic Chemistry</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="lab-page" data-json="../../assets/json/" data-tool="hydrocarbons">
+  <section class="lab-banner" aria-labelledby="labTitle">
+    <div class="lab-container lab-banner-inner">
+      <div>
+        <a class="lab-back" href="../">Organic Chemistry Lab</a>
+        <h1 id="labTitle">Hydrocarbons Explorer</h1>
+        <p>Alkanes, alkenes and alkynes: change the carbon count and watch the structure, formula and properties update.</p>
+      </div>
+      <div class="lab-banner-actions" data-teacher-slot></div>
+    </div>
+  </section>
+
+  <div class="lab-container lab-body">
+    <nav class="lab-toolnav" aria-label="Organic Chemistry tools">
+        <a href="../">Lab home</a>
+        <a href="../hydrocarbons/" aria-current="page">Hydrocarbons</a>
+        <a href="../homologous-series/">Homologous Series</a>
+        <a href="../functional-groups/">Functional Groups</a>
+        <a href="../reactions/">Reactions</a>
+        <a href="../quiz/">Quiz</a>
+        <a href="../flashcards/">Flashcards</a>
+    </nav>
+    <div class="lab-tool" id="labTool" data-tool-title="Hydrocarbons Explorer">
+      <noscript><p class="lab-note is-error">This tool needs JavaScript. Please enable it and reload the page.</p></noscript>
+      <p class="lab-note" id="labLoading" role="status">Loading...</p>
+      <div id="labApp" hidden>
+        <div class="hc-layout">
+          <div class="lab-panel hc-controls" data-teacher-hide>
+            <div class="lab-field">
+              <span class="lab-label" id="hcFamilyLabel">Family</span>
+              <div class="lab-seg" id="hcFamily" role="tablist" aria-labelledby="hcFamilyLabel"></div>
+            </div>
+            <div class="lab-field">
+              <label class="lab-label" for="hcCarbons">Number of carbon atoms <span id="hcCarbonVal" class="lab-chip">1</span></label>
+              <input type="range" id="hcCarbons" min="1" max="10" value="1" step="1">
+            </div>
+            <div class="lab-field" id="hcPosField" hidden>
+              <span class="lab-label" id="hcPosLabel">Multiple-bond position</span>
+              <div class="lab-seg" id="hcPos" role="group" aria-labelledby="hcPosLabel"></div>
+            </div>
+            <div class="lab-field lab-field--row">
+              <label class="lab-check">
+                <input type="checkbox" id="hcHighlight" checked>
+                <span>Highlight the C&ndash;C multiple bond</span>
+              </label>
+              <label class="lab-check">
+                <input type="checkbox" id="hcCompact">
+                <span>Compact condensed formula</span>
+              </label>
+            </div>
+            <p class="lab-muted lab-small">Straight-chain, acyclic compounds only. Displayed formulas do not show cis/trans geometry.</p>
+          </div>
+
+          <div class="lab-panel hc-stage-panel">
+            <div class="hc-stage-head">
+              <h2 id="hcName">Methane</h2>
+              <p class="hc-formula-line" id="hcFormulaLine"></p>
+            </div>
+            <div class="mol-stage" id="hcStage" aria-live="polite"></div>
+            <dl class="lab-stat-grid" id="hcStats"></dl>
+          </div>
+
+          <div class="lab-panel hc-info">
+            <span class="lab-eyebrow">About this compound</span>
+            <p id="hcDefinition"></p>
+            <ul class="lab-list" id="hcFeatures"></ul>
+            <h3>Properties</h3>
+            <ul class="lab-list" id="hcProps"></ul>
+            <div class="hc-reaction" id="hcReaction">
+              <h3 id="hcRxTitle">Sample reaction</h3>
+              <p id="hcRxNote"></p>
+              <p class="equation-line" id="hcRxEq"></p>
+              <p><a class="lab-btn lab-btn--teal lab-btn--small" id="hcRxLink" href="../reactions/">Open in Reaction Studio</a></p>
+            </div>
+            <p class="lab-note is-safety">Bromine-water and combustion notes are qualitative classroom tests. Real experiments need teacher supervision.</p>
+          </div>
+        </div>
+
+        <section class="hc-compare lab-panel" aria-labelledby="hcBondTitle">
+          <h2 id="hcBondTitle">Bond comparison</h2>
+          <p class="lab-lead">The same two carbons can share one, two or three pairs of electrons. Shared pairs: single 1, double 2, triple 3.</p>
+          <div class="hc-bond-grid" id="hcBondGrid"></div>
+          <div class="hc-morph" id="hcMorphBox">
+            <div class="hc-morph-head">
+              <h3>Bond formation (overall change)</h3>
+              <div class="lab-seg" id="hcMorphChoice" role="group" aria-label="Bond formation examples">
+                <button type="button" data-morph="ethane-ethene" aria-pressed="true">Ethane &rarr; ethene</button>
+                <button type="button" data-morph="ethane-ethyne" aria-pressed="false">Ethane &rarr; ethyne</button>
+              </div>
+              <div class="hc-morph-controls">
+                <button type="button" class="lab-btn lab-btn--teal lab-btn--small" id="hcMorphPlay">Play</button>
+                <button type="button" class="lab-btn lab-btn--ghost lab-btn--small" id="hcMorphReplay">Replay</button>
+              </div>
+            </div>
+            <div class="mol-stage mol-stage--wide" id="hcMorphStage"></div>
+            <p class="lab-note" id="hcMorphNote">Removing two hydrogen atoms from ethane and sharing a second electron pair gives ethene (C=C). This animation shows the overall change, not the detailed mechanism.</p>
+          </div>
+        </section>
+
+        <section class="hc-families lab-panel" aria-labelledby="hcFamTitle">
+          <h2 id="hcFamTitle">Compare families</h2>
+          <p class="lab-lead">For the same number of carbons, unsaturated compounds hold fewer hydrogen atoms.</p>
+          <div class="lab-field">
+            <label class="lab-label" for="hcCompareN">Carbons to compare <span id="hcCompareVal" class="lab-chip">4</span></label>
+            <input type="range" id="hcCompareN" min="2" max="10" value="4" step="1">
+          </div>
+          <div class="hc-family-grid" id="hcFamilyGrid"></div>
+          <p class="lab-note">Assumptions: acyclic chains with at most one multiple bond. General formulas are CnH2n+2 (alkanes), CnH2n (alkenes) and CnH2n&minus;2 (alkynes).</p>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Shared site footer -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="../../index.html" aria-label="Hamad Khan, home">
+        <img class="brand-logo" src="../../assets/image/logo.png" alt="Hamad Khan" width="936" height="136">
+      </a>
+      <p class="footer-name">Hamad Khan</p>
+      <p class="footer-role">Chemistry Educator</p>
+      <p class="footer-tagline">Making Chemistry Understandable, Practical &amp; Inspiring.</p>
+    </div>
+    <nav aria-label="Footer">
+      <h2 class="footer-title">Quick links</h2>
+      <ul class="footer-links">
+        <li><a href="../../index.html#home">Home</a></li>
+        <li><a href="../../index.html#about">About</a></li>
+        <li><a href="../../index.html#expertise">Expertise</a></li>
+        <li><a href="../../index.html#experience">Experience</a></li>
+        <li><a href="../../index.html#resources">Resources</a></li>
+        <li><a href="../../index.html#skills">Skills</a></li>
+        <li><a href="../../index.html#contact">Contact</a></li>
+        <li><a href="../../periodic-table/">Periodic Table</a></li>
+        <li><a href="../">Organic Chemistry Lab</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h2 class="footer-title">Get in touch</h2>
+      <ul class="footer-contact">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="m22 7-10 6L2 7"/></svg>
+          <a href="mailto:hamadgopang786@gmail.com">hamadgopang786@gmail.com</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          <a href="tel:+923012177879">+92 301 217 7879</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          <a href="tel:+923042216800">+92 304 221 6800</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Khizar Town, Alipur, Muzaffargarh, Punjab, Pakistan</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; <span data-year>2026</span> Hamad Khan. All rights reserved.</p>
+    <p>Chemistry Educator &middot; Alipur, Pakistan</p>
+  </div>
+</footer>
+
+<button class="to-top" type="button" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 15 7-7 7 7"/></svg>
+</button>
+
+<script src="../../assets/js/main.js" defer></script>
+<script src="../../assets/js/lab-core.js" defer></script>
+<script src="../../assets/js/lab-teacher.js" defer></script>
+<script src="../../assets/js/lab-hydrocarbons.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!--META {"dir":"functional-groups","tool":"functional-groups","title":"Functional Groups","h1":"Functional Groups Explorer","sub":"Twelve clickable cards with structures, highlighted groups, naming patterns and a sample reaction for each.","desc":"Interactive Functional Groups Explorer: alcohol, aldehyde, ketone, carboxylic acid, ester, ether, amine, amide, haloalkane, nitrile, alkene and alkyne.","scripts":["lab-core.js","lab-teacher.js","lab-groups.js"]}-->
+        <div class="fg-layout">
+          <div class="lab-panel fg-list-panel">
+            <div class="lab-field" data-teacher-hide>
+              <label class="lab-label" for="fgSearch">Search groups</label>
+              <input type="search" id="fgSearch" placeholder="e.g. alcohol, C=O, ester" autocomplete="off">
+            </div>
+            <ul class="fg-cards" id="fgCards" role="listbox" aria-label="Functional groups"></ul>
+          </div>
+
+          <div class="lab-panel fg-detail" id="fgDetail" tabindex="-1">
+            <p class="lab-note" id="fgEmpty">Choose a functional group card to see its structure, examples and reaction.</p>
+            <div id="fgBody" hidden>
+              <div class="fg-detail-head">
+                <div>
+                  <span class="lab-eyebrow" id="fgSymbol"></span>
+                  <h2 id="fgName"></h2>
+                  <p id="fgGeneralLine" class="hc-formula-line"></p>
+                </div>
+                <label class="lab-check" data-teacher-hide>
+                  <input type="checkbox" id="fgHighlight" checked>
+                  <span>Highlight the functional group</span>
+                </label>
+              </div>
+
+              <div class="fg-example-bar" data-teacher-hide>
+                <span class="lab-label" id="fgExLabel">Examples</span>
+                <div class="lab-seg" id="fgExamples" role="group" aria-labelledby="fgExLabel"></div>
+              </div>
+
+              <div class="mol-stage mol-stage--wide" id="fgStage" aria-live="polite"></div>
+              <p class="hc-formula-line" id="fgMolLine"></p>
+
+              <div class="fg-columns">
+                <div>
+                  <h3>What it is</h3>
+                  <p id="fgExplain"></p>
+                  <h3>IUPAC naming</h3>
+                  <p id="fgNaming"></p>
+                  <h3>Properties</h3>
+                  <ul class="lab-list" id="fgProps"></ul>
+                </div>
+                <div>
+                  <h3 id="fgRxTitle">Sample reaction</h3>
+                  <p id="fgRxNote"></p>
+                  <p class="equation-line" id="fgRxEq"></p>
+                  <p class="lab-muted" id="fgRxCond"></p>
+                  <details class="lab-note is-advanced" id="fgAdvancedWrap">
+                    <summary>Advanced details</summary>
+                    <p id="fgAdvanced"></p>
+                  </details>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>

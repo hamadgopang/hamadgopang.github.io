@@ -1,0 +1,506 @@
+{
+  "topics": [
+    {
+      "id": "hydrocarbons",
+      "name": "Hydrocarbons"
+    },
+    {
+      "id": "homologous",
+      "name": "Homologous series"
+    },
+    {
+      "id": "groups",
+      "name": "Functional groups"
+    },
+    {
+      "id": "reactions",
+      "name": "Reactions"
+    },
+    {
+      "id": "formulas",
+      "name": "Formulas and mass"
+    }
+  ],
+  "cards": [
+    {
+      "id": "c001",
+      "topic": "hydrocarbons",
+      "q": "What is a hydrocarbon?",
+      "a": "A compound that contains only carbon and hydrogen."
+    },
+    {
+      "id": "c002",
+      "topic": "hydrocarbons",
+      "q": "Alkane general formula (acyclic)?",
+      "a": "CnH2n+2"
+    },
+    {
+      "id": "c003",
+      "topic": "hydrocarbons",
+      "q": "Alkene general formula (acyclic, one C=C)?",
+      "a": "CnH2n"
+    },
+    {
+      "id": "c004",
+      "topic": "hydrocarbons",
+      "q": "Alkyne general formula (acyclic, one C≡C)?",
+      "a": "CnH2n−2"
+    },
+    {
+      "id": "c005",
+      "topic": "hydrocarbons",
+      "q": "Name of CH4",
+      "a": "Methane"
+    },
+    {
+      "id": "c006",
+      "topic": "hydrocarbons",
+      "q": "Name of C2H6",
+      "a": "Ethane"
+    },
+    {
+      "id": "c007",
+      "topic": "hydrocarbons",
+      "q": "Name of C2H4",
+      "a": "Ethene"
+    },
+    {
+      "id": "c008",
+      "topic": "hydrocarbons",
+      "q": "Name of C2H2",
+      "a": "Ethyne"
+    },
+    {
+      "id": "c009",
+      "topic": "hydrocarbons",
+      "q": "Are alkanes saturated?",
+      "a": "Yes — only C–C single bonds."
+    },
+    {
+      "id": "c010",
+      "topic": "hydrocarbons",
+      "q": "Are alkenes saturated?",
+      "a": "No — they have a C=C bond."
+    },
+    {
+      "id": "c011",
+      "topic": "hydrocarbons",
+      "q": "Test for unsaturation (school)",
+      "a": "Decolourise bromine water."
+    },
+    {
+      "id": "c012",
+      "topic": "hydrocarbons",
+      "q": "Ending of alkane names",
+      "a": "-ane"
+    },
+    {
+      "id": "c013",
+      "topic": "hydrocarbons",
+      "q": "Ending of alkene names",
+      "a": "-ene"
+    },
+    {
+      "id": "c014",
+      "topic": "hydrocarbons",
+      "q": "Ending of alkyne names",
+      "a": "-yne"
+    },
+    {
+      "id": "c015",
+      "topic": "hydrocarbons",
+      "q": "Prop- means how many carbons?",
+      "a": "Three"
+    },
+    {
+      "id": "c016",
+      "topic": "hydrocarbons",
+      "q": "But- means how many carbons?",
+      "a": "Four"
+    },
+    {
+      "id": "c017",
+      "topic": "homologous",
+      "q": "What is a homologous series?",
+      "a": "A family of compounds differing by CH2, with similar chemistry."
+    },
+    {
+      "id": "c018",
+      "topic": "homologous",
+      "q": "Mass step for CH2",
+      "a": "About +14"
+    },
+    {
+      "id": "c019",
+      "topic": "homologous",
+      "q": "Next alkane after ethane",
+      "a": "Propane"
+    },
+    {
+      "id": "c020",
+      "topic": "homologous",
+      "q": "Next alcohol after methanol",
+      "a": "Ethanol"
+    },
+    {
+      "id": "c021",
+      "topic": "homologous",
+      "q": "Do boiling points usually rise with chain length?",
+      "a": "Yes (advanced qualitative note)."
+    },
+    {
+      "id": "c022",
+      "topic": "homologous",
+      "q": "Same functional group along a series?",
+      "a": "Yes."
+    },
+    {
+      "id": "c023",
+      "topic": "homologous",
+      "q": "First alkene in Lab explorer",
+      "a": "Ethene (n=2)"
+    },
+    {
+      "id": "c024",
+      "topic": "homologous",
+      "q": "Formula difference between propane and butane",
+      "a": "CH2"
+    },
+    {
+      "id": "c025",
+      "topic": "groups",
+      "q": "Alcohol functional group",
+      "a": "–OH"
+    },
+    {
+      "id": "c026",
+      "topic": "groups",
+      "q": "Aldehyde group",
+      "a": "–CHO"
+    },
+    {
+      "id": "c027",
+      "topic": "groups",
+      "q": "Ketone feature",
+      "a": "C=O bonded to two carbons"
+    },
+    {
+      "id": "c028",
+      "topic": "groups",
+      "q": "Carboxylic acid group",
+      "a": "–COOH"
+    },
+    {
+      "id": "c029",
+      "topic": "groups",
+      "q": "Ester group",
+      "a": "–COO–"
+    },
+    {
+      "id": "c030",
+      "topic": "groups",
+      "q": "Ether feature",
+      "a": "R–O–R′"
+    },
+    {
+      "id": "c031",
+      "topic": "groups",
+      "q": "Amine (primary) group",
+      "a": "–NH2"
+    },
+    {
+      "id": "c032",
+      "topic": "groups",
+      "q": "Amide group",
+      "a": "–CONH2"
+    },
+    {
+      "id": "c033",
+      "topic": "groups",
+      "q": "Haloalkane general form",
+      "a": "R–X"
+    },
+    {
+      "id": "c034",
+      "topic": "groups",
+      "q": "Nitrile group",
+      "a": "–C≡N"
+    },
+    {
+      "id": "c035",
+      "topic": "groups",
+      "q": "Alkene functional group",
+      "a": "C=C"
+    },
+    {
+      "id": "c036",
+      "topic": "groups",
+      "q": "Alkyne functional group",
+      "a": "C≡C"
+    },
+    {
+      "id": "c037",
+      "topic": "groups",
+      "q": "Ethanol condensed formula",
+      "a": "CH3CH2OH"
+    },
+    {
+      "id": "c038",
+      "topic": "groups",
+      "q": "Ethanoic acid condensed formula",
+      "a": "CH3COOH"
+    },
+    {
+      "id": "c039",
+      "topic": "groups",
+      "q": "Naming alcohols ends with",
+      "a": "-ol"
+    },
+    {
+      "id": "c040",
+      "topic": "groups",
+      "q": "Naming carboxylic acids ends with",
+      "a": "-oic acid"
+    },
+    {
+      "id": "c041",
+      "topic": "groups",
+      "q": "Esters often smell",
+      "a": "Fruity"
+    },
+    {
+      "id": "c042",
+      "topic": "groups",
+      "q": "Example ketone",
+      "a": "Propanone"
+    },
+    {
+      "id": "c043",
+      "topic": "reactions",
+      "q": "Methane combustion products",
+      "a": "CO2 and H2O"
+    },
+    {
+      "id": "c044",
+      "topic": "reactions",
+      "q": "Methane + Cl2 (UV) products",
+      "a": "CH3Cl + HCl"
+    },
+    {
+      "id": "c045",
+      "topic": "reactions",
+      "q": "Ethene + Br2 product",
+      "a": "1,2-Dibromoethane"
+    },
+    {
+      "id": "c046",
+      "topic": "reactions",
+      "q": "Ethene hydrogenation product",
+      "a": "Ethane"
+    },
+    {
+      "id": "c047",
+      "topic": "reactions",
+      "q": "Ethene + HBr product",
+      "a": "Bromoethane"
+    },
+    {
+      "id": "c048",
+      "topic": "reactions",
+      "q": "Ethene hydration product",
+      "a": "Ethanol"
+    },
+    {
+      "id": "c049",
+      "topic": "reactions",
+      "q": "Ethanol dehydration products",
+      "a": "Ethene + water"
+    },
+    {
+      "id": "c050",
+      "topic": "reactions",
+      "q": "Polymer from ethene",
+      "a": "Poly(ethene)"
+    },
+    {
+      "id": "c051",
+      "topic": "reactions",
+      "q": "Esterification example products",
+      "a": "Methyl ethanoate + water"
+    },
+    {
+      "id": "c052",
+      "topic": "reactions",
+      "q": "Animation shows mechanism?",
+      "a": "No — overall change only."
+    },
+    {
+      "id": "c053",
+      "topic": "reactions",
+      "q": "Catalyst often quoted for hydrogenation",
+      "a": "Nickel"
+    },
+    {
+      "id": "c054",
+      "topic": "reactions",
+      "q": "UV light used in",
+      "a": "Methane/chlorine substitution"
+    },
+    {
+      "id": "c055",
+      "topic": "formulas",
+      "q": "Ar of H in the Lab",
+      "a": "1"
+    },
+    {
+      "id": "c056",
+      "topic": "formulas",
+      "q": "Ar of C in the Lab",
+      "a": "12"
+    },
+    {
+      "id": "c057",
+      "topic": "formulas",
+      "q": "Ar of O in the Lab",
+      "a": "16"
+    },
+    {
+      "id": "c058",
+      "topic": "formulas",
+      "q": "Ar of Cl in the Lab",
+      "a": "35.5"
+    },
+    {
+      "id": "c059",
+      "topic": "formulas",
+      "q": "Ar of Br in the Lab",
+      "a": "80"
+    },
+    {
+      "id": "c060",
+      "topic": "formulas",
+      "q": "Mr of methane",
+      "a": "16"
+    },
+    {
+      "id": "c061",
+      "topic": "formulas",
+      "q": "Mr of ethene",
+      "a": "28"
+    },
+    {
+      "id": "c062",
+      "topic": "formulas",
+      "q": "Mr of ethane",
+      "a": "30"
+    },
+    {
+      "id": "c063",
+      "topic": "formulas",
+      "q": "Hill order puts which first?",
+      "a": "Carbon, then hydrogen, then others alphabetically"
+    },
+    {
+      "id": "c064",
+      "topic": "formulas",
+      "q": "Molecular formula of ethanol",
+      "a": "C2H6O"
+    },
+    {
+      "id": "c065",
+      "topic": "formulas",
+      "q": "Displayed formula means",
+      "a": "Structural drawing showing atoms and bonds"
+    },
+    {
+      "id": "c066",
+      "topic": "formulas",
+      "q": "Condensed formula example for ethane",
+      "a": "CH3CH3"
+    },
+    {
+      "id": "c067",
+      "topic": "formulas",
+      "q": "C4H10 is an",
+      "a": "Alkane (butane)"
+    },
+    {
+      "id": "c068",
+      "topic": "formulas",
+      "q": "C4H8 could be an",
+      "a": "Alkene (e.g. butene)"
+    },
+    {
+      "id": "c069",
+      "topic": "formulas",
+      "q": "C4H6 could be an",
+      "a": "Alkyne (e.g. butyne)"
+    },
+    {
+      "id": "c070",
+      "topic": "formulas",
+      "q": "Balanced equation conserves",
+      "a": "Atoms of each element"
+    },
+    {
+      "id": "c071",
+      "topic": "hydrocarbons",
+      "q": "Straight-chain only in Phase 1 explorer?",
+      "a": "Yes"
+    },
+    {
+      "id": "c072",
+      "topic": "hydrocarbons",
+      "q": "Does Lab show cis/trans?",
+      "a": "No"
+    },
+    {
+      "id": "c073",
+      "topic": "groups",
+      "q": "Methanal is also known in industry as",
+      "a": "Formaldehyde (advanced name note)"
+    },
+    {
+      "id": "c074",
+      "topic": "groups",
+      "q": "Primary amine example",
+      "a": "Methanamine"
+    },
+    {
+      "id": "c075",
+      "topic": "reactions",
+      "q": "Safety note for bromine",
+      "a": "Corrosive/toxic — teacher supervision"
+    },
+    {
+      "id": "c076",
+      "topic": "reactions",
+      "q": "Complete vs incomplete combustion",
+      "a": "Complete needs enough oxygen for CO2"
+    },
+    {
+      "id": "c077",
+      "topic": "homologous",
+      "q": "Mr of CH2 using C=12 H=1",
+      "a": "14"
+    },
+    {
+      "id": "c078",
+      "topic": "formulas",
+      "q": "Number of hydrogens in propane",
+      "a": "8"
+    },
+    {
+      "id": "c079",
+      "topic": "groups",
+      "q": "Nitrile example",
+      "a": "Ethanenitrile"
+    },
+    {
+      "id": "c080",
+      "topic": "reactions",
+      "q": "Contact scene in studio means",
+      "a": "Reactants drawn closer before products"
+    }
+  ]
+}
