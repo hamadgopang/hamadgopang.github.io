@@ -34,12 +34,19 @@ const ICON = {
   pin: SVG_OPEN + '<path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>'
 };
 
+const SITE = 'https://hamadgopang.github.io';
+const SITE_NAME = 'Hamad Khan | Chemistry Educator &amp; Science Teacher';
+const OG_IMAGE = SITE + '/assets/image/og-image.png';
+
 function shell(meta, main) {
   const depth = meta.dir ? 2 : 1;
   const root = depth === 2 ? '../../' : '../';
   const lab = depth === 2 ? '../' : './';
   const toolBase = depth === 2 ? '../' : '';
   const fullTitle = meta.title + ' | Hamad Khan';
+  const pagePath = meta.dir ? '/organic-chemistry/' + meta.dir + '/' : '/organic-chemistry/';
+  const pageUrl = SITE + pagePath;
+  const keywords = meta.keywords || ('Organic Chemistry, Hamad Khan, Chemistry Educator, Matriculation, ' + meta.title + ', Alipur, Pakistan');
   const scripts = (meta.scripts || []).map((s) => '<script src="' + root + 'assets/js/' + s + '" defer></script>').join('\n');
 
   let body = main;
@@ -77,14 +84,29 @@ ${main}
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
 <title>${fullTitle}</title>
+<meta name="title" content="${fullTitle}">
 <meta name="description" content="${meta.desc}">
+<meta name="keywords" content="${keywords}">
+<meta name="author" content="Hamad Khan">
+<meta name="generator" content="Inixio Technologies">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="7 days">
 <meta name="theme-color" content="#101c32">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="${SITE_NAME}">
 <meta property="og:title" content="${fullTitle}">
 <meta property="og:description" content="${meta.desc}">
-<meta property="og:site_name" content="Hamad Khan | Chemistry Educator &amp; Science Teacher">
+<meta property="og:url" content="${pageUrl}">
+<meta property="og:image" content="${OG_IMAGE}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${fullTitle}">
+<meta name="twitter:description" content="${meta.desc}">
+<meta name="twitter:image" content="${OG_IMAGE}">
+<link rel="canonical" href="${pageUrl}">
 <link rel="icon" type="image/png" href="${root}assets/image/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -100,7 +122,7 @@ ${main}
 <!-- Shared site header -->
 <header class="site-header is-solid" id="siteHeader">
   <div class="container nav-inner">
-    <a class="brand" href="${root}index.html" aria-label="Hamad Khan, home">
+    <a class="brand" href="${root}" aria-label="Hamad Khan, home">
       <img class="brand-logo" src="${root}assets/image/logo.png" alt="Hamad Khan" width="936" height="136">
     </a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primaryNav" aria-label="Open menu">
@@ -108,13 +130,13 @@ ${main}
     </button>
     <nav class="primary-nav" id="primaryNav" aria-label="Primary">
       <ul class="nav-list">
-        <li><a class="nav-link" href="${root}index.html#home">Home</a></li>
-        <li><a class="nav-link" href="${root}index.html#about">About</a></li>
-        <li><a class="nav-link" href="${root}index.html#expertise">Expertise</a></li>
-        <li><a class="nav-link" href="${root}index.html#experience">Experience</a></li>
-        <li><a class="nav-link" href="${root}index.html#resources">Resources</a></li>
-        <li><a class="nav-link" href="${root}index.html#skills">Skills</a></li>
-        <li><a class="nav-link" href="${root}index.html#contact">Contact</a></li>
+        <li><a class="nav-link" href="${root}">Home</a></li>
+        <li><a class="nav-link" href="${root}#about">About</a></li>
+        <li><a class="nav-link" href="${root}#expertise">Expertise</a></li>
+        <li><a class="nav-link" href="${root}#experience">Experience</a></li>
+        <li><a class="nav-link" href="${root}#resources">Resources</a></li>
+        <li><a class="nav-link" href="${root}#skills">Skills</a></li>
+        <li><a class="nav-link" href="${root}#contact">Contact</a></li>
         <li><a class="nav-link nav-link--pt" href="${root}periodic-table/"><span class="pt-mark" aria-hidden="true">Pt</span>Periodic Table</a></li>
         <li><a class="nav-link nav-link--pt" href="${meta.dir ? lab : './'}" aria-current="page"><span class="pt-mark" aria-hidden="true">Oc</span>Organic Chemistry</a></li>
       </ul>
@@ -129,7 +151,7 @@ ${main}
 <footer class="site-footer">
   <div class="container footer-grid">
     <div class="footer-brand">
-      <a class="brand" href="${root}index.html" aria-label="Hamad Khan, home">
+      <a class="brand" href="${root}" aria-label="Hamad Khan, home">
         <img class="brand-logo" src="${root}assets/image/logo.png" alt="Hamad Khan" width="936" height="136">
       </a>
       <p class="footer-name">Hamad Khan</p>
@@ -139,13 +161,13 @@ ${main}
     <nav aria-label="Footer">
       <h2 class="footer-title">Quick links</h2>
       <ul class="footer-links">
-        <li><a href="${root}index.html#home">Home</a></li>
-        <li><a href="${root}index.html#about">About</a></li>
-        <li><a href="${root}index.html#expertise">Expertise</a></li>
-        <li><a href="${root}index.html#experience">Experience</a></li>
-        <li><a href="${root}index.html#resources">Resources</a></li>
-        <li><a href="${root}index.html#skills">Skills</a></li>
-        <li><a href="${root}index.html#contact">Contact</a></li>
+        <li><a href="${root}">Home</a></li>
+        <li><a href="${root}#about">About</a></li>
+        <li><a href="${root}#expertise">Expertise</a></li>
+        <li><a href="${root}#experience">Experience</a></li>
+        <li><a href="${root}#resources">Resources</a></li>
+        <li><a href="${root}#skills">Skills</a></li>
+        <li><a href="${root}#contact">Contact</a></li>
         <li><a href="${root}periodic-table/">Periodic Table</a></li>
         <li><a href="${meta.dir ? lab : './'}">Organic Chemistry Lab</a></li>
       </ul>

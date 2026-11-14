@@ -124,6 +124,13 @@
   })();
 
   /* ------------------------------------------------------------------ *
+   * Homepage: clear a bare #home hash without reloading
+   * ------------------------------------------------------------------ */
+  if (document.getElementById('home') && location.hash === '#home' && window.history && history.replaceState) {
+    history.replaceState(null, '', location.pathname + location.search);
+  }
+
+  /* ------------------------------------------------------------------ *
    * Footer year
    * ------------------------------------------------------------------ */
   var year = String(new Date().getFullYear());
