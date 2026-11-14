@@ -29,11 +29,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Outfit:wght@500;600;700;800&amp;display=swap">
-<link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" href="../assets/css/responsive.css">
-<link rel="stylesheet" href="../assets/css/results.css">
-<link rel="stylesheet" href="../assets/css/teacher.css">
-<script src="../assets/js/boot.js"></script>
+<link rel="stylesheet" href="../assets/css/style.css?v=1.0.3">
+<link rel="stylesheet" href="../assets/css/responsive.css?v=1.0.3">
+<link rel="stylesheet" href="../assets/css/results.css?v=1.0.3">
+<link rel="stylesheet" href="../assets/css/teacher.css?v=1.0.3">
+<script src="../assets/js/boot.js?v=1.0.3"></script>
 </head>
 <body class="page-inner">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -55,7 +55,7 @@
         <li><a class="nav-link" href="../#resources">Resources</a></li>
         <li><a class="nav-link" href="../#skills">Skills</a></li>
         <li><a class="nav-link" href="../#contact">Contact</a></li>
-        <li><a class="nav-link nav-link--pt" href="./" aria-current="page"><span class="pt-mark" aria-hidden="true">Rs</span>Results</a></li>
+        <li><a class="nav-link" href="../#results">Results</a></li>
         <li><a class="nav-link nav-link--pt" href="../periodic-table/"><span class="pt-mark" aria-hidden="true">Pt</span>Periodic Table</a></li>
         <li><a class="nav-link nav-link--pt" href="../organic-chemistry/"><span class="pt-mark" aria-hidden="true">Oc</span>Organic Chemistry</a></li>
       </ul>
@@ -80,20 +80,20 @@
     <p class="rs-empty" id="rsStatus" role="status">Loading results…</p>
 
     <div class="results-filters">
-      <div class="rs-filter-full">
+      <div class="rs-filter-year">
         <span class="rs-label" id="rsYearsLabel">Year</span>
         <div class="rs-chips" id="rsYears" role="group" aria-labelledby="rsYearsLabel"></div>
       </div>
-      <div>
+      <div class="rs-filter-class">
         <span class="rs-label" id="rsClassLabel">Class</span>
         <div class="rs-chips" id="rsClass" role="group" aria-labelledby="rsClassLabel"></div>
       </div>
-      <div>
-        <label class="rs-label" for="rsSearch">Search by name</label>
+      <div class="rs-filter-search">
+        <div class="rs-search-head">
+          <label class="rs-label" for="rsSearch">Search by name</label>
+          <label class="rs-check"><input type="checkbox" id="rsFullOnly"> <span>Full marks only</span></label>
+        </div>
         <input class="rs-search" type="search" id="rsSearch" placeholder="e.g. Fatima" autocomplete="off">
-      </div>
-      <div>
-        <label class="rs-check"><input type="checkbox" id="rsFullOnly"> <span>Full marks only</span></label>
       </div>
     </div>
 
@@ -148,9 +148,9 @@
   <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
 </svg>
 
-<script src="../assets/js/main.js" defer></script>
-<script src="../assets/js/results-core.js" defer></script>
-<script src="../assets/js/results-page.js" defer></script>
-<script src="../assets/js/lab-teacher.js" defer></script>
+<script src="../assets/js/main.js?v=1.0.3" defer></script>
+<script src="../assets/js/results-core.js?v=1.0.3" defer></script>
+<script src="../assets/js/results-page.js?v=1.0.3" defer></script>
+<script src="../assets/js/lab-teacher.js?v=1.0.3" defer></script>
 </body>
 </html>

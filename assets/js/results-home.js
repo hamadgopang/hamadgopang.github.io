@@ -77,12 +77,12 @@
 
     var statsGrid = el('div', 'ach-stats');
     [
-      [String(stats.total), 'Total students'],
-      [String(stats.full), 'Full marks'],
-      [String(stats.gap1), '1 mark below'],
-      [String(stats.gap2), '2 marks below'],
-      [String(stats.passed), 'Passed'],
-      [stats.passPct + '%', 'Pass rate']
+      [String(stats.total), 'Total Students'],
+      [String(stats.passed), 'Students Passed'],
+      [stats.passPct + '%', 'Pass Rate'],
+      [String(stats.full), 'Full Marks'],
+      [String(stats.gap1), '1 Mark Short'],
+      [String(stats.gap2), '2 Marks Short']
     ].forEach(function (row) {
       var card = el('div', 'ach-stat');
       card.appendChild(el('span', null, row[0]));

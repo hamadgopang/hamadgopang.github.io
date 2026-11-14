@@ -17,6 +17,12 @@ const path = require('path');
 
 const project = path.join(__dirname, '..', '..', '..');
 const fragDir = path.join(__dirname, 'fragments');
+const ASSET_V = JSON.parse(
+  fs.readFileSync(path.join(project, 'assets', 'asset-version.json'), 'utf8')
+).v;
+function assetUrl(url) {
+  return url + (url.indexOf('?') >= 0 ? '&' : '?') + 'v=' + ASSET_V;
+}
 
 const TOOLS = [
   ['hydrocarbons', 'Hydrocarbons'],
@@ -47,7 +53,7 @@ function shell(meta, main) {
   const pagePath = meta.dir ? '/organic-chemistry/' + meta.dir + '/' : '/organic-chemistry/';
   const pageUrl = SITE + pagePath;
   const keywords = meta.keywords || ('Organic Chemistry, Hamad Khan, Chemistry Educator, Matriculation, ' + meta.title + ', Alipur, Pakistan');
-  const scripts = (meta.scripts || []).map((s) => '<script src="' + root + 'assets/js/' + s + '" defer></script>').join('\n');
+  const scripts = (meta.scripts || []).map((s) => '<script src="' + assetUrl(root + 'assets/js/' + s) + '" defer></script>').join('\n');
 
   let body = main;
   if (meta.dir) {
@@ -111,11 +117,11 @@ ${main}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Outfit:wght@500;600;700;800&amp;display=swap">
-<link rel="stylesheet" href="${root}assets/css/style.css">
-<link rel="stylesheet" href="${root}assets/css/responsive.css">
-<link rel="stylesheet" href="${root}assets/css/lab.css">
-<link rel="stylesheet" href="${root}assets/css/teacher.css">
-<script src="${root}assets/js/boot.js"></script>
+<link rel="stylesheet" href="${assetUrl(root + 'assets/css/style.css')}">
+<link rel="stylesheet" href="${assetUrl(root + 'assets/css/responsive.css')}">
+<link rel="stylesheet" href="${assetUrl(root + 'assets/css/lab.css')}">
+<link rel="stylesheet" href="${assetUrl(root + 'assets/css/teacher.css')}">
+<script src="${assetUrl(root + 'assets/js/boot.js')}"></script>
 </head>
 <body class="page-inner">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -138,7 +144,7 @@ ${main}
         <li><a class="nav-link" href="${root}#resources">Resources</a></li>
         <li><a class="nav-link" href="${root}#skills">Skills</a></li>
         <li><a class="nav-link" href="${root}#contact">Contact</a></li>
-        <li><a class="nav-link nav-link--pt" href="${root}results/"><span class="pt-mark" aria-hidden="true">Rs</span>Results</a></li>
+        <li><a class="nav-link" href="${root}#results">Results</a></li>
         <li><a class="nav-link nav-link--pt" href="${root}periodic-table/"><span class="pt-mark" aria-hidden="true">Pt</span>Periodic Table</a></li>
         <li><a class="nav-link nav-link--pt" href="${meta.dir ? lab : './'}" aria-current="page"><span class="pt-mark" aria-hidden="true">Oc</span>Organic Chemistry</a></li>
       </ul>
@@ -202,7 +208,7 @@ ${main}
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 15 7-7 7 7"/></svg>
 </button>
 
-<script src="${root}assets/js/main.js" defer></script>
+<script src="${assetUrl(root + 'assets/js/main.js')}" defer></script>
 ${scripts}
 </body>
 </html>

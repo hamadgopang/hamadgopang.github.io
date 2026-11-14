@@ -78,12 +78,12 @@
     });
     var m = Core.mergeStats(parts);
     [
-      ['Students', String(m.total)],
-      ['Full marks', String(m.full)],
-      ['1 mark below', String(m.gap1)],
-      ['2 marks below', String(m.gap2)],
-      ['Passed', String(m.passed)],
-      ['Pass rate', m.passPct + '%']
+      ['Total Students', String(m.total)],
+      ['Students Passed', String(m.passed)],
+      ['Pass Rate', m.passPct + '%'],
+      ['Full Marks', String(m.full)],
+      ['1 Mark Short', String(m.gap1)],
+      ['2 Marks Short', String(m.gap2)]
     ].forEach(function (row) {
       var wrap = document.createElement('div');
       wrap.className = 'rs-stat';
