@@ -199,7 +199,7 @@ ${main}
     </div>
   </div>
   <div class="container footer-bottom">
-    <p>&copy; <span data-year>2026</span> Hamad Khan. All rights reserved.</p>
+    <p>&copy; <span data-year>2026</span> Hamad Khan. All rights reserved. <span data-asset-version>v${ASSET_V}</span></p>
     <p>Chemistry Educator &middot; Alipur, Pakistan &middot; Developed by <a href="https://inixiotechnologies.com" target="_blank" rel="noopener noreferrer">Inixio Technologies</a></p>
   </div>
 </footer>

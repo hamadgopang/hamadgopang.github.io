@@ -564,6 +564,12 @@ button {
   margin: 0;
 }
 
+.footer-bottom [data-asset-version] {
+  margin-left: 0.35rem;
+  color: var(--text-on-dark-muted);
+  opacity: 0.85;
+}
+
 .footer-bottom a {
   color: var(--teal-300);
   text-decoration: none;

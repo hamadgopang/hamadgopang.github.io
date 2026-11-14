@@ -17,11 +17,14 @@ if (!version) {
 }
 
 const ASSET_RE = /\b((?:href|src)=["'])([^"']*assets\/(?:css|js)\/[^"'?#]+)(?:\?[^"'#]*)?(["'])/g;
+const FOOTER_VER_RE = /(<span\b[^>]*\bdata-asset-version\b[^>]*>)\s*v?[^<]*(<\/span>)/g;
 
 function stampHtml(html) {
-  return html.replace(ASSET_RE, function (_m, pre, url, post) {
-    return pre + url + '?v=' + version + post;
-  });
+  return html
+    .replace(ASSET_RE, function (_m, pre, url, post) {
+      return pre + url + '?v=' + version + post;
+    })
+    .replace(FOOTER_VER_RE, '$1v' + version + '$2');
 }
 
 function walk(dir, out) {
@@ -42,7 +45,7 @@ walk(root, files);
 let changed = 0;
 files.forEach(function (file) {
   const before = fs.readFileSync(file, 'utf8');
-  if (!/assets\/(?:css|js)\//.test(before)) return;
+  if (!/assets\/(?:css|js)\//.test(before) && before.indexOf('data-asset-version') === -1) return;
   const after = stampHtml(before);
   if (after !== before) {
     fs.writeFileSync(file, after);
@@ -59,14 +62,13 @@ if (genRun.stdout) process.stdout.write(genRun.stdout);
 if (genRun.stderr) process.stderr.write(genRun.stderr);
 if (genRun.status !== 0) process.exit(genRun.status || 1);
 
-/* Gen rewrites lab HTML without a second pass if gen already embeds ?v=.
-   Re-stamp once so any page still missing the query gets it. */
+/* Gen rewrites lab HTML; re-stamp so ?v= and footer version stay in sync. */
 const again = [];
 walk(root, again);
 let restamped = 0;
 again.forEach(function (file) {
   const before = fs.readFileSync(file, 'utf8');
-  if (!/assets\/(?:css|js)\//.test(before)) return;
+  if (!/assets\/(?:css|js)\//.test(before) && before.indexOf('data-asset-version') === -1) return;
   const after = stampHtml(before);
   if (after !== before) {
     fs.writeFileSync(file, after);
