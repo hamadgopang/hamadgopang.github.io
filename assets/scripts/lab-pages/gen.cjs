@@ -165,10 +165,10 @@ ${main}
         <li><a class="nav-link" href="${root}#about">About</a></li>
         <li><a class="nav-link" href="${root}#expertise">Expertise</a></li>
         <li><a class="nav-link" href="${root}#experience">Experience</a></li>
+        <li><a class="nav-link" href="${root}#results">Results</a></li>
         <li><a class="nav-link" href="${root}#resources">Resources</a></li>
         <li><a class="nav-link" href="${root}#skills">Skills</a></li>
         <li><a class="nav-link" href="${root}#contact">Contact</a></li>
-        <li><a class="nav-link" href="${root}#results">Results</a></li>
         <li><a class="nav-link nav-link--pt" href="${root}periodic-table/"><span class="pt-mark" aria-hidden="true">Pt</span>Periodic Table</a></li>
         <li><a class="nav-link nav-link--pt" href="${meta.dir ? lab : './'}" aria-current="page"><span class="pt-mark" aria-hidden="true">Oc</span>Organic Chemistry</a></li>
       </ul>
