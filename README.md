@@ -1,6 +1,6 @@
 # Hamad Khan
 
-**Matriculation Chemistry Educator · Alipur, Muzaffargarh, Pakistan**
+**Chemistry  Educator · Alipur, Muzaffargarh, Pakistan**
 
 This website is the professional portfolio of Hamad Khan, a Chemistry educator with fifteen years of teaching experience. It presents his work with Matriculation students (Classes 9 and 10), his approach to clear and practical science teaching, and the learning resources he has developed for the classroom.
 

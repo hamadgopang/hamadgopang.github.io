@@ -41,7 +41,7 @@ const ICON = {
 };
 
 const SITE = 'https://hamadgopang.github.io';
-const SITE_NAME = 'Hamad Khan | Matriculation Chemistry Educator &amp; Science Teacher';
+const SITE_NAME = 'Hamad Khan | Chemistry  Educator &amp; Science Teacher';
 const OG_IMAGE = SITE + '/assets/image/og-image.png';
 
 function shell(meta, main) {
@@ -52,7 +52,7 @@ function shell(meta, main) {
   const fullTitle = meta.title + ' | Hamad Khan';
   const pagePath = meta.dir ? '/organic-chemistry/' + meta.dir + '/' : '/organic-chemistry/';
   const pageUrl = SITE + pagePath;
-  const keywords = meta.keywords || ('Organic Chemistry, Hamad Khan, Matriculation Chemistry Educator, Matriculation, ' + meta.title + ', Alipur, Pakistan');
+  const keywords = meta.keywords || ('Organic Chemistry, Hamad Khan, Chemistry  Educator, Matriculation, ' + meta.title + ', Alipur, Pakistan');
   const scripts = (meta.scripts || []).map((s) => '<script src="' + assetUrl(root + 'assets/js/' + s) + '" defer></script>').join('\n');
 
   let body = main;
@@ -163,7 +163,7 @@ ${main}
         <img class="brand-logo" src="${root}assets/image/logo.png" alt="Hamad Khan" width="936" height="136">
       </a>
       <p class="footer-name">Hamad Khan</p>
-      <p class="footer-role">Matriculation Chemistry Educator</p>
+      <p class="footer-role">Chemistry  Educator</p>
       <p class="footer-tagline">Making Chemistry Understandable, Practical & Inspiring — with clear explanations, classroom-ready tools, and steady support for Matriculation students everywhere.</p>
     </div>
     <nav aria-label="Footer">
@@ -200,7 +200,7 @@ ${main}
   </div>
   <div class="container footer-bottom">
     <p>&copy; <span data-year>2026</span> Hamad Khan. All rights reserved. <span data-asset-version>v${ASSET_V}</span></p>
-    <p>Matriculation Chemistry Educator &middot; Alipur, Pakistan &middot; Developed by <a href="https://inixiotechnologies.com" target="_blank" rel="noopener noreferrer">Inixio Technologies</a></p>
+    <p>Chemistry  Educator &middot; Alipur, Pakistan &middot; Developed by <a href="https://inixiotechnologies.com" target="_blank" rel="noopener noreferrer">Inixio Technologies</a></p>
   </div>
 </footer>
 
