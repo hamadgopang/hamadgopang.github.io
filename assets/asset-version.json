@@ -1,4 +1,4 @@
 {
-  "v": "1.0.29",
+  "v": "1.0.30",
   "note": "Bump v after CSS/JS changes, then run: node assets/scripts/stamp-asset-version.cjs"
 }

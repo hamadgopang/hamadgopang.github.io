@@ -7,6 +7,7 @@
  *  - Back-to-top button
  *  - Footer year
  *  - Mini periodic table preview on the homepage
+ *  - Service worker registration for offline shell support
  * Every feature is guarded so the script is safe on pages that lack the markup.
  */
 (function () {
@@ -196,4 +197,25 @@
       })
       .catch(hidePreview);
   })();
+
+  /* ------------------------------------------------------------------ *
+   * Service worker (offline shell) — register once from site root
+   * ------------------------------------------------------------------ */
+  if ('serviceWorker' in navigator) {
+    var swRoot = './';
+    var scripts = document.getElementsByTagName('script');
+    for (var s = 0; s < scripts.length; s += 1) {
+      var src = scripts[s].getAttribute('src') || '';
+      var at = src.indexOf('assets/js/');
+      if (at !== -1) {
+        swRoot = src.slice(0, at) || './';
+        break;
+      }
+    }
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register(swRoot + 'sw.js', { scope: swRoot }).catch(function () {
+        /* Registration failures are non-fatal for the live site. */
+      });
+    });
+  }
 })();

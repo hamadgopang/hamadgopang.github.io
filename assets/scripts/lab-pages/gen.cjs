@@ -126,6 +126,12 @@ ${main}
 <meta name="robots" content="index, follow">
 <meta name="revisit-after" content="7 days">
 <meta name="theme-color" content="#101c32">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Hamad Khan">
+<link rel="manifest" href="${root}manifest.json">
+<link rel="apple-touch-icon" href="${root}assets/image/icon-192.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="${SITE_NAME}">
 <meta property="og:title" content="${fullTitle}">
