@@ -221,8 +221,8 @@
 
 .pt-app[data-lang="ur"] {
   --f-body: var(--f-ur);
-  font-size: 17px;
-  line-height: 2.1;
+  font-size: 19px;
+  line-height: 2.15;
 }
 
 .pt-app[lang="ur"],
@@ -232,8 +232,65 @@
 
 .pt-app .seg [lang="ur"] {
   font-family: var(--f-ur);
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.7;
+}
+
+/* Urdu needs larger type; English sizes stay as defined above */
+.pt-app[data-lang="ur"] .tabs button,
+.pt-app[data-lang="ur"] .chip,
+.pt-app[data-lang="ur"] .status,
+.pt-app[data-lang="ur"] .seg button,
+.pt-app[data-lang="ur"] .pill,
+.pt-app[data-lang="ur"] dt,
+.pt-app[data-lang="ur"] .qstats,
+.pt-app[data-lang="ur"] .lhead,
+.pt-app[data-lang="ur"] .lab,
+.pt-app[data-lang="ur"] .muted,
+.pt-app[data-lang="ur"] .callouts,
+.pt-app[data-lang="ur"] .pt-btn {
+  font-size: 16px;
+}
+
+.pt-app[data-lang="ur"] .d-head .alt {
+  font-size: 20px;
+}
+
+.pt-app[data-lang="ur"] .d-head .display {
+  font-size: clamp(28px, 3.2vw, 34px);
+  line-height: 1.85;
+}
+
+.pt-app[data-lang="ur"] .fact {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.pt-app[data-lang="ur"] .tip {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.pt-app[data-lang="ur"] .lesson h2,
+.pt-app[data-lang="ur"] .qcard h2 {
+  font-size: clamp(26px, 3.4vw, 34px);
+  line-height: 1.85;
+}
+
+.pt-app[data-lang="ur"] .lbody,
+.pt-app[data-lang="ur"] .fb,
+.pt-app[data-lang="ur"] .opts button {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.pt-app[data-lang="ur"] .bigcell .nm {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.pt-app[data-lang="ur"] dd {
+  font-size: 15px;
 }
 
 /* --------------------------------------------------------------------------
@@ -636,7 +693,7 @@
 }
 
 .pt-app[data-lang="ur"] .cell .nm {
-  font: 400 11px / 1.9 var(--f-ur);
+  font: 400 16px / 1.9 var(--f-ur);
   margin-top: 0;
 }
 
@@ -848,7 +905,7 @@
 .pt-app[data-lang="ur"] .fact b {
   letter-spacing: 0;
   text-transform: none;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .pt-app .bohr {
