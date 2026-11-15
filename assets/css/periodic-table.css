@@ -737,6 +737,10 @@
   font-size: 13px;
   color: var(--muted);
   margin: 8px 0 0;
+  text-align: justify;
+  hyphens: none;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 /* --------------------------------------------------------------------------
@@ -891,6 +895,10 @@
 .pt-app .fact {
   margin: 12px 0;
   font-size: 14px;
+  text-align: justify;
+  hyphens: none;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 .pt-app .fact b {
@@ -1034,6 +1042,10 @@
 .pt-app .lbody {
   max-width: 70ch;
   margin: 0 0 14px;
+  text-align: justify;
+  hyphens: none;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 .pt-app .lextra {

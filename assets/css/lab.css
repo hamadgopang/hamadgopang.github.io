@@ -271,6 +271,15 @@
   color: var(--muted);
 }
 
+.lab-lead,
+.hub-section > .lab-container > .lab-lead,
+.lab-note {
+  text-align: justify;
+  hyphens: none;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
 .lab-note {
   margin: 1em 0;
   padding: 0.85em 1.05em;
