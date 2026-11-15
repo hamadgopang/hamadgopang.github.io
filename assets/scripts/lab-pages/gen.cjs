@@ -33,12 +33,36 @@ const TOOLS = [
   ['flashcards', 'Flashcards']
 ];
 
-const SVG_OPEN = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">';
+const SVG_OPEN = '<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">';
 const ICON = {
   mail: SVG_OPEN + '<path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="m22 7-10 6L2 7"/></svg>',
   phone: SVG_OPEN + '<path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>',
-  pin: SVG_OPEN + '<path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>'
+  pin: SVG_OPEN + '<path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>',
+  youtube: SVG_OPEN + '<path d="M2.5 8.2A3.2 3.2 0 0 1 5.7 5h12.6a3.2 3.2 0 0 1 3.2 3.2v7.6a3.2 3.2 0 0 1-3.2 3.2H5.7a3.2 3.2 0 0 1-3.2-3.2z"/><path d="m10 9.2 5.2 2.8L10 14.8z"/></svg>',
+  facebook: SVG_OPEN + '<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>',
+  instagram: SVG_OPEN + '<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>'
 };
+
+const FOOTER_SOCIAL = `
+      <nav class="social-links social-links--footer" aria-label="Social media">
+        <ul class="social-icons">
+          <li>
+            <a class="social-icon social-icon--youtube" href="https://www.youtube.com/@easychemistry7177" target="_blank" rel="noopener noreferrer" aria-label="YouTube: Easy Chemistry">
+              ${ICON.youtube}
+            </a>
+          </li>
+          <li>
+            <a class="social-icon social-icon--facebook" href="https://www.facebook.com/hammadkhangopang" target="_blank" rel="noopener noreferrer" aria-label="Facebook: Hamad Khan">
+              ${ICON.facebook}
+            </a>
+          </li>
+          <li>
+            <a class="social-icon social-icon--instagram" href="https://www.instagram.com/hamad.gopang" target="_blank" rel="noopener noreferrer" aria-label="Instagram: hamad.gopang">
+              ${ICON.instagram}
+            </a>
+          </li>
+        </ul>
+      </nav>`;
 
 const SITE = 'https://hamadgopang.github.io';
 const SITE_NAME = 'Hamad Khan | Chemistry  Educator &amp; Science Teacher';
@@ -196,6 +220,7 @@ ${main}
           <span>Khizar Town, Alipur, Muzaffargarh, Punjab, Pakistan</span>
         </li>
       </ul>
+${FOOTER_SOCIAL}
     </div>
   </div>
   <div class="container footer-bottom">
