@@ -738,9 +738,9 @@
   color: var(--muted);
   margin: 8px 0 0;
   text-align: justify;
-  hyphens: none;
-  word-break: normal;
-  overflow-wrap: normal;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 /* --------------------------------------------------------------------------
@@ -896,9 +896,9 @@
   margin: 12px 0;
   font-size: 14px;
   text-align: justify;
-  hyphens: none;
-  word-break: normal;
-  overflow-wrap: normal;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .pt-app .fact b {
@@ -1043,9 +1043,9 @@
   max-width: 70ch;
   margin: 0 0 14px;
   text-align: justify;
-  hyphens: none;
-  word-break: normal;
-  overflow-wrap: normal;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .pt-app .lextra {

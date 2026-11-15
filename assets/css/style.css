@@ -111,9 +111,9 @@ p {
 .achievements .section-sub,
 .skill-list span {
   text-align: justify;
-  hyphens: none;
-  word-break: normal;
-  overflow-wrap: normal;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 img,
