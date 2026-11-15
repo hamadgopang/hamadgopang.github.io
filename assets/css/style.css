@@ -993,9 +993,9 @@ button {
 
 .lab-feature-desc {
   margin: 0;
-  max-width: 28rem;
+  max-width: 34rem;
   color: rgba(244, 247, 250, 0.82);
-  font-size: 0.95rem;
+  font-size: 1.3rem;
   line-height: 1.55;
 }
 
@@ -2002,12 +2002,13 @@ button {
 
 .gallery-media {
   flex: 1 1 auto;
-  aspect-ratio: 4 / 3;
+  /* ~30% shorter than previous 4/3 */
+  aspect-ratio: 4 / 2.1;
 }
 
 .gallery-item--tall .gallery-media {
   aspect-ratio: auto;
-  min-height: 200px;
+  min-height: 140px;
 }
 
 .gallery-item:nth-of-type(4) .gallery-media {
