@@ -360,13 +360,13 @@
 
 .pt-banner h1 {
   margin: 0 0 0.5rem;
-  font: 800 clamp(2rem, 5vw, 3.1rem) / 1.05 var(--f-display);
+  font: 800 28px / 1.2 var(--f-display);
   letter-spacing: -0.02em;
   color: var(--white);
 }
 
 .pt-app[data-lang="ur"] .pt-banner h1 {
-  font: 400 clamp(30px, 4.4vw, 44px) / 1.9 var(--f-urd);
+  font: 400 28px / 1.7 var(--f-urd);
   letter-spacing: 0;
 }
 
@@ -374,6 +374,8 @@
   margin: 0;
   max-width: 54ch;
   color: var(--text-on-dark-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 .pt-banner .seg {

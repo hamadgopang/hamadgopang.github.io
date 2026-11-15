@@ -6,7 +6,7 @@
 (function () {
   'use strict';
   window.PT_TEXT = {
-en:{backHome:"Back to portfolio",loading:"Loading the periodic table...",loadError:"The periodic table data could not be loaded. Please open this page through a web server (or the live website) and reload.",appTitle:"Periodic Table Explorer",appSub:"Tap any element, learn how the table is organised, then test yourself.",
+en:{backHome:"Back to portfolio",loading:"Loading the periodic table...",loadError:"The periodic table data could not be loaded. Please open this page through a web server (or the live website) and reload.",appTitle:"Periodic Table Explorer",appSub:"Tap any element to open a clear card with symbols, shells and family notes. Switch to Lessons to see how groups and periods are organised, then try the Quiz to check what you remember.",
 tabExplore:"Explore",tabLessons:"Lessons",tabQuiz:"Quiz",searchPh:"Search name, symbol or number",colourBy:"Colour by",
 schCategory:"Family",schState:"State",schBlock:"Block",tip:"Tip: tap a group number (top) or period number (left) to highlight it.",
 showing:"Showing {n} of 118 elements",clear:"Show all",close:"Close",
@@ -27,7 +27,7 @@ s8t:"Solid, liquid or gas?",s8b:"At room temperature most elements are solids. O
 qMode:"Question type",qPool:"Elements",qm_sym2name:"Symbol → name",qm_name2sym:"Name → symbol",qm_z:"Atomic number",qm_cat:"Family",qm_find:"Find on table",qp20:"First 20",qp54:"First 54",qp118:"All 118",
 p_sym2name:"Which element has the symbol {s}?",p_name2sym:"What is the symbol for {n}?",p_z:"What is the atomic number of {n}?",p_cat:"Which family does {n} belong to?",p_find:"Find {n} on the table.",
 findHint:"Tap the element on the table below.",correct:"Correct!",wrong:"Not quite. The answer is {a}.",nextQ:"Next question",seeRes:"See result",qnum:"Question {i} of {n}",score:"Score",streak:"Streak",done:"Round complete",res:"You scored {s} out of {n}.",again:"Play again",review:"Review lessons"},
-ur:{backHome:"پورٹ فولیو پر واپس",loading:"پیریوڈک ٹیبل لوڈ ہو رہا ہے...",loadError:"پیریوڈک ٹیبل کا ڈیٹا لوڈ نہیں ہو سکا۔ براہِ کرم اس پیج کو ویب سرور (یا لائیو ویب سائٹ) سے کھولیں اور ری لوڈ کریں۔",appTitle:"پیریوڈک ٹیبل ایکسپلورر",appSub:"کسی بھی ایلیمنٹ پر ٹیپ کریں، ٹیبل کا سسٹم سمجھیں، پھر خود کو ٹیسٹ کریں۔",
+ur:{backHome:"پورٹ فولیو پر واپس",loading:"پیریوڈک ٹیبل لوڈ ہو رہا ہے...",loadError:"پیریوڈک ٹیبل کا ڈیٹا لوڈ نہیں ہو سکا۔ براہِ کرم اس پیج کو ویب سرور (یا لائیو ویب سائٹ) سے کھولیں اور ری لوڈ کریں۔",appTitle:"پیریوڈک ٹیبل ایکسپلورر",appSub:"کسی بھی ایلیمنٹ پر ٹیپ کریں تاکہ علامت، شیلز اور فیملی نوٹس والا کارڈ کھلے۔ Lessons میں دیکھیں کہ گروپس اور پیریڈز کیسے ترتیب دیے گئے ہیں، پھر Quiz سے اپنی یادداشت چیک کریں۔",
 tabExplore:"ایکسپلور",tabLessons:"لیسنز",tabQuiz:"کوئز",searchPh:"نام، سمبل یا نمبر تلاش کریں",colourBy:"کلر بائی",
 schCategory:"فیملی",schState:"سٹیٹ",schBlock:"بلاک",tip:"ٹپ: گروپ نمبر (اوپر) یا پیریڈ نمبر (بائیں) پر ٹیپ کر کے اسے ہائی لائٹ کریں۔",
 showing:"118 میں سے {n} ایلیمنٹس ہائی لائٹ ہیں",clear:"سب دکھائیں",close:"بند کریں",
