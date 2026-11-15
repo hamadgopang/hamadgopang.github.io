@@ -102,14 +102,14 @@ p {
 .prose p,
 .exp-body p,
 .exp-summary-text,
+.exp-disclaimer > span,
 .tool-card p,
 .resources-copy > p,
 .lab-feature-desc,
 .agri-body p:not(.agri-years),
 .pt-feature-copy > .section-sub,
 .form-note,
-.achievements .section-sub,
-.skill-list span {
+.footer-tagline {
   text-align: justify;
   text-justify: inter-word;
   hyphens: auto;
@@ -1589,8 +1589,14 @@ button {
 }
 
 .exp-disclaimer .icon {
+  flex: none;
   margin-top: 0.2rem;
   color: var(--teal-300);
+}
+
+.exp-disclaimer > span {
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .timeline {

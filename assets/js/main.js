@@ -124,6 +124,33 @@
   })();
 
   /* ------------------------------------------------------------------ *
+   * Header logo: always load/reload the home page (no #home)
+   * ------------------------------------------------------------------ */
+  (function initBrandHome() {
+    if (!header) return;
+    var brand = header.querySelector('.brand');
+    if (!brand) return;
+
+    function normPath(path) {
+      return String(path || '/')
+        .replace(/\\/g, '/')
+        .replace(/\/index\.html$/i, '/')
+        .replace(/\/+$/, '') || '/';
+    }
+
+    brand.addEventListener('click', function (e) {
+      e.preventDefault();
+      var url = new URL(brand.getAttribute('href') || './', location.href);
+      url.hash = '';
+      if (normPath(url.pathname) === normPath(location.pathname)) {
+        location.reload();
+        return;
+      }
+      location.assign(url.pathname + url.search);
+    });
+  })();
+
+  /* ------------------------------------------------------------------ *
    * Homepage: clear a bare #home hash without reloading
    * ------------------------------------------------------------------ */
   if (document.getElementById('home') && location.hash === '#home' && window.history && history.replaceState) {
