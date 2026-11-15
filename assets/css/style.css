@@ -993,9 +993,9 @@ button {
 
 .lab-feature-desc {
   margin: 0;
-  max-width: 34rem;
+  max-width: 36rem;
   color: rgba(244, 247, 250, 0.82);
-  font-size: 1.3rem;
+  font-size: 0.95rem;
   line-height: 1.55;
 }
 
