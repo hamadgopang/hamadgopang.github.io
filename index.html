@@ -52,11 +52,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Outfit:wght@500;600;700;800&amp;display=swap" />
 
-        <link rel="stylesheet" href="assets/css/style.css?v=1.0.33" />
-        <link rel="stylesheet" href="assets/css/responsive.css?v=1.0.33" />
-        <link rel="stylesheet" href="assets/css/results.css?v=1.0.33" />
+        <link rel="stylesheet" href="assets/css/style.css?v=1.0.34" />
+        <link rel="stylesheet" href="assets/css/responsive.css?v=1.0.34" />
+        <link rel="stylesheet" href="assets/css/results.css?v=1.0.34" />
+        <link rel="stylesheet" href="assets/css/welcome.css?v=1.0.34" />
 
-        <script src="assets/js/boot.js?v=1.0.33"></script>
+        <script src="assets/js/boot.js?v=1.0.34"></script>
     </head>
     <body>
         <!-- SVG sprite: icons and decorative illustrations (referenced with <use>) -->
@@ -1797,7 +1798,7 @@
             <div class="container footer-bottom">
                 <p>
                     &copy; <span data-year>2026</span> Hamad Khan. All rights reserved.
-                    <span data-asset-version>v1.0.33</span>
+                    <span data-asset-version>v1.0.34</span>
                 </p>
                 <p>
                     Chemistry Educator &middot; Alipur, Pakistan &middot; Developed by
@@ -1812,10 +1813,49 @@
             <svg class="icon" aria-hidden="true"><use href="#i-arrow-up" /></svg>
         </button>
 
-        <script src="assets/js/main.js?v=1.0.33" defer></script>
-        <script src="assets/js/animations.js?v=1.0.33" defer></script>
-        <script src="assets/js/interactions.js?v=1.0.33" defer></script>
-        <script src="assets/js/results-core.js?v=1.0.33" defer></script>
-        <script src="assets/js/results-home.js?v=1.0.33" defer></script>
+        <dialog
+            class="welcome-dialog"
+            id="welcomeDialog"
+            aria-labelledby="welcomeTitle"
+            aria-describedby="welcomeCopy"
+        >
+            <button class="welcome-close" type="button" data-welcome-close aria-label="Close welcome message">
+                <svg class="icon" aria-hidden="true"><use href="#i-close" /></svg>
+            </button>
+            <div class="welcome-layout">
+                <div class="welcome-media" aria-hidden="true">
+                    <img
+                        src="assets/image/profile.png"
+                        alt=""
+                        width="640"
+                        height="800"
+                        decoding="async"
+                    />
+                    <p class="welcome-media-label">Chemistry Educator · Alipur</p>
+                </div>
+                <div class="welcome-body">
+                    <p class="welcome-eyebrow">A note from Hamad</p>
+                    <h2 class="welcome-title" id="welcomeTitle">
+                        Looking for clear Matriculation Chemistry tuition?
+                    </h2>
+                    <p class="welcome-copy" id="welcomeCopy">
+                        I offer steady, respectful tutoring focused on understanding — not rushed notes.
+                        You are also welcome to browse my Dictionary of Chemistry anytime.
+                    </p>
+                    <div class="welcome-actions">
+                        <a class="btn btn--amber" href="#contact" data-welcome-close>Enquire about tuition</a>
+                        <a class="btn btn--teal" href="dictionary/" data-welcome-close>Explore dictionary</a>
+                    </div>
+                    <button class="welcome-dismiss" type="button" data-welcome-close>Maybe later</button>
+                </div>
+            </div>
+        </dialog>
+
+        <script src="assets/js/main.js?v=1.0.34" defer></script>
+        <script src="assets/js/animations.js?v=1.0.34" defer></script>
+        <script src="assets/js/interactions.js?v=1.0.34" defer></script>
+        <script src="assets/js/results-core.js?v=1.0.34" defer></script>
+        <script src="assets/js/results-home.js?v=1.0.34" defer></script>
+        <script src="assets/js/welcome.js?v=1.0.34" defer></script>
     </body>
 </html>
