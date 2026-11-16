@@ -120,11 +120,28 @@
   pointer-events: none;
 }
 
-.welcome-media-label {
+.welcome-media-caption {
   position: absolute;
   left: 1.15rem;
+  right: 1.15rem;
   bottom: 1.15rem;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+.welcome-media-kicker {
+  margin: 0;
+  color: #fff;
+  font: 800 clamp(1.55rem, 2.6vw, 2rem) / 1 "Outfit", system-ui, sans-serif;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-shadow: 0 8px 24px rgba(8, 14, 28, 0.45);
+}
+
+.welcome-media-label {
   margin: 0;
   padding: 0.4rem 0.7rem;
   border: 1px solid rgba(94, 234, 212, 0.35);
@@ -219,9 +236,17 @@
     object-position: 50% 12%;
   }
 
-  .welcome-media-label {
+  .welcome-media-caption {
     left: 0.9rem;
+    right: 0.9rem;
     bottom: 0.85rem;
+  }
+
+  .welcome-media-kicker {
+    letter-spacing: 0.12em;
+  }
+
+  .welcome-media-label {
     font-size: 0.72rem;
   }
 
