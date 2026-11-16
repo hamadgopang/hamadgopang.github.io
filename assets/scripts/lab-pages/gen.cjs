@@ -169,6 +169,7 @@ ${main}
 <link rel="stylesheet" href="${assetUrl(root + 'assets/css/responsive.css')}">
 <link rel="stylesheet" href="${assetUrl(root + 'assets/css/lab.css')}">
 <link rel="stylesheet" href="${assetUrl(root + 'assets/css/teacher.css')}">
+<link rel="stylesheet" href="${assetUrl(root + 'assets/css/inixio-about.css')}">
 
 <script src="${assetUrl(root + 'assets/js/boot.js')}"></script>
 </head>
@@ -249,7 +250,7 @@ ${FOOTER_SOCIAL}
   </div>
   <div class="container footer-bottom">
     <p>&copy; <span data-year>2026</span> Hamad Khan. All rights reserved. <span data-asset-version>v${ASSET_V}</span></p>
-    <p>Chemistry  Educator &middot; Alipur, Pakistan &middot; Developed by <a href="https://inixiotechnologies.com" target="_blank" rel="noopener noreferrer">Inixio Technologies</a></p>
+    <p>Chemistry  Educator &middot; Alipur, Pakistan &middot; Developed by <a href="#" data-inixio-about>Inixio Technologies</a></p>
   </div>
 </footer>
 
@@ -258,6 +259,7 @@ ${FOOTER_SOCIAL}
 </button>
 
 <script src="${assetUrl(root + 'assets/js/main.js')}" defer></script>
+<script src="${assetUrl(root + 'assets/js/inixio-about.js')}" defer></script>
 ${scripts}
 </body>
 </html>
