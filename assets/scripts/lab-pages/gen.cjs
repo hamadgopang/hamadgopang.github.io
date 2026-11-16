@@ -213,7 +213,7 @@ ${main}
       <a class="brand" href="${root}" aria-label="Hamad Khan, home">
         <img class="brand-logo" src="${root}assets/image/logo.png" alt="Hamad Khan" width="936" height="136">
       </a>
-      <p class="footer-name">Hamad Ullah Khan</p>
+      <p class="footer-name">Hamad Khan</p>
       <p class="footer-role">Chemistry Teacher</p>
       <p class="footer-tagline">Making Chemistry Understandable, Practical & Inspiring — with clear explanations, classroom-ready tools, and steady support for Matriculation students everywhere.</p>
     </div>
@@ -222,6 +222,8 @@ ${main}
       <ul class="footer-links">
         <li><a href="${root}#experience">My Experience</a></li>
         <li><a href="${root}results/">Student Results</a></li>
+        <li><a href="${root}books-past-papers/">Books &amp; Past Papers</a></li>
+        <li><a href="${root}dictionary/">Chemistry Dictionary</a></li>
         <li><a href="${root}periodic-table/">Periodic Table</a></li>
         <li><a href="${meta.dir ? lab : './'}">Organic Chemistry</a></li>
       </ul>
