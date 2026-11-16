@@ -1,0 +1,40 @@
+<!--META {"dir":"properties","tool":"properties","title":"Properties Lab","h1":"Properties Lab","sub":"Compare boiling points, state, solubility and combustion notes for Matriculation organic compounds.","desc":"Interactive Properties Lab: compare physical and chemical properties of alkanes, alkenes, alcohols, acids and more for Matriculation Chemistry.","keywords":"Organic Properties, Boiling Point, Solubility, Alkanes, Alcohols, Carboxylic Acids, Organic Chemistry Lab, Hamad Khan, Matriculation, Alipur, Pakistan","scripts":["lab-core.js","lab-teacher.js","lab-properties.js"]}-->
+        <div class="pl-layout">
+          <aside class="lab-panel pl-side">
+            <div class="lab-field">
+              <label class="lab-label" for="plSearch">Search compounds</label>
+              <input type="search" id="plSearch" placeholder="e.g. ethanol, C2H6O, acid" autocomplete="off">
+            </div>
+            <div class="lab-field">
+              <span class="lab-label" id="plFamLabel">Family</span>
+              <div class="pl-chips" id="plFamilies" role="group" aria-labelledby="plFamLabel"></div>
+            </div>
+            <ul class="pl-list" id="plList" role="listbox" aria-label="Compounds"></ul>
+          </aside>
+
+          <section class="lab-panel pl-detail" id="plDetail" tabindex="-1">
+            <p class="lab-note" id="plEmpty">Choose a compound to inspect its properties, then add up to three into the compare tray.</p>
+            <div id="plBody" hidden>
+              <div class="pl-detail-head">
+                <div>
+                  <span class="lab-eyebrow" id="plFamily"></span>
+                  <h2 id="plName"></h2>
+                  <p class="hc-formula-line" id="plFormula"></p>
+                </div>
+                <button class="lab-btn lab-btn--teal lab-btn--small" type="button" id="plAddCompare">Add to compare</button>
+              </div>
+              <div class="mol-stage mol-stage--wide" id="plStage" aria-live="polite"></div>
+              <dl class="pl-facts" id="plFacts"></dl>
+              <p class="lab-muted" id="plNote"></p>
+            </div>
+          </section>
+
+          <section class="lab-panel pl-compare" aria-labelledby="plCompareTitle">
+            <div class="pl-compare-head">
+              <h2 id="plCompareTitle">Compare</h2>
+              <button class="lab-btn lab-btn--ghost lab-btn--small" type="button" id="plClearCompare">Clear</button>
+            </div>
+            <p class="lab-muted" id="plCompareHint">Select up to three compounds to compare side by side.</p>
+            <div class="pl-compare-table-wrap" id="plCompareTable"></div>
+          </section>
+        </div>

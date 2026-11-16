@@ -1,0 +1,19 @@
+<!--META {"dir":"isomerism","tool":"isomerism","title":"Isomerism Explorer","h1":"Isomerism Explorer","sub":"Compare compounds that share a molecular formula and see how their structures differ.","desc":"Interactive Isomerism Explorer for Matriculation Chemistry: chain, position, functional and geometric isomers with structures and clear comparisons.","keywords":"Isomerism, Chain Isomers, Functional Isomers, Geometric Isomers, Organic Chemistry Lab, Hamad Khan, Matriculation, Alipur, Pakistan","scripts":["lab-core.js","lab-teacher.js","lab-isomerism.js"]}-->
+        <div class="iso-layout">
+          <aside class="lab-panel iso-side">
+            <div class="lab-field">
+              <span class="lab-label" id="isoSetLabel">Formula set</span>
+              <div class="iso-sets" id="isoSets" role="group" aria-labelledby="isoSetLabel"></div>
+            </div>
+            <div class="lab-field">
+              <span class="lab-label" id="isoTypeLabel">Filter by type</span>
+              <div class="iso-types" id="isoTypes" role="group" aria-labelledby="isoTypeLabel"></div>
+            </div>
+            <p class="iso-blurb" id="isoBlurb"></p>
+          </aside>
+
+          <section class="lab-panel iso-main">
+            <div class="iso-grid" id="isoGrid" aria-live="polite"></div>
+            <div class="iso-compare lab-note" id="isoCompare" hidden></div>
+          </section>
+        </div>

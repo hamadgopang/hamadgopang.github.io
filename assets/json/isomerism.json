@@ -1,0 +1,75 @@
+{
+  "note": "Curated Matriculation isomer sets. Specs may reference molecules.json ids or embed chain/graph specs.",
+  "sets": [
+    {
+      "id": "c4h10",
+      "formula": "C4H10",
+      "title": "Chain isomers of C4H10",
+      "blurb": "Same molecular formula, different carbon skeleton. Both are saturated alkanes.",
+      "types": ["chain"],
+      "isomers": [
+        { "id": "butane", "name": "Butane", "type": "chain", "mol": "butane", "diff": "Straight chain of four carbons." },
+        { "id": "2-methylpropane", "name": "2-Methylpropane", "type": "chain", "diff": "Branched: a methyl group on carbon-2.", "spec": { "name": "2-Methylpropane", "formula": "C4H10", "condensed": "CH3CH(CH3)CH3", "chain": ["C","C","C"], "bonds": [1,1], "subs": [{ "at": 1, "dir": "up", "el": "C", "order": 1 }] } }
+      ]
+    },
+    {
+      "id": "c5h12",
+      "formula": "C5H12",
+      "title": "Chain isomers of C5H12",
+      "blurb": "Three alkanes share C5H12. Branching lowers boiling point compared with the straight chain.",
+      "types": ["chain"],
+      "isomers": [
+        { "id": "pentane", "name": "Pentane", "type": "chain", "mol": "pentane", "diff": "Unbranched five-carbon chain." },
+        { "id": "2-methylbutane", "name": "2-Methylbutane", "type": "chain", "diff": "Methyl branch on carbon-2.", "spec": { "name": "2-Methylbutane", "formula": "C5H12", "condensed": "CH3CH(CH3)CH2CH3", "chain": ["C","C","C","C"], "bonds": [1,1,1], "subs": [{ "at": 1, "dir": "up", "el": "C", "order": 1 }] } },
+        { "id": "22-dimethylpropane", "name": "2,2-Dimethylpropane", "type": "chain", "diff": "Central carbon bonded to four methyl groups (neopentane).", "spec": { "name": "2,2-Dimethylpropane", "formula": "C5H12", "condensed": "C(CH3)4", "graph": { "atoms": [["C",0,0],["C",-1,0],["C",1,0],["C",0,-1],["C",0,1]], "bonds": [[0,1,1],[0,2,1],[0,3,1],[0,4,1]] } } }
+      ]
+    },
+    {
+      "id": "c4h8",
+      "formula": "C4H8",
+      "title": "Position and geometric isomers of C4H8",
+      "blurb": "Butene isomers differ by double-bond position; but-2-ene also shows cis–trans (geometric) isomerism.",
+      "types": ["position", "geometric"],
+      "isomers": [
+        { "id": "but-1-ene", "name": "But-1-ene", "type": "position", "mol": "but-1-ene", "diff": "Double bond between C1 and C2." },
+        { "id": "but-2-ene-cis", "name": "cis-But-2-ene", "type": "geometric", "diff": "Double bond at C2–C3; methyl groups on the same side.", "spec": { "name": "cis-But-2-ene", "formula": "C4H8", "condensed": "CH3CH=CHCH3 (cis)", "hl": ["c1","c2"], "graph": { "atoms": [["C",-1.2,0.55],["C",-0.4,0],["C",0.4,0],["C",1.2,0.55]], "bonds": [[0,1,1],[1,2,2],[2,3,1]] } } },
+        { "id": "but-2-ene-trans", "name": "trans-But-2-ene", "type": "geometric", "diff": "Double bond at C2–C3; methyl groups on opposite sides.", "spec": { "name": "trans-But-2-ene", "formula": "C4H8", "condensed": "CH3CH=CHCH3 (trans)", "hl": ["c1","c2"], "graph": { "atoms": [["C",-1.2,-0.55],["C",-0.4,0],["C",0.4,0],["C",1.2,0.55]], "bonds": [[0,1,1],[1,2,2],[2,3,1]] } } }
+      ]
+    },
+    {
+      "id": "c2h6o",
+      "formula": "C2H6O",
+      "title": "Functional isomers of C2H6O",
+      "blurb": "Ethanol and methoxymethane have the same formula but different functional groups — alcohol vs ether.",
+      "types": ["functional"],
+      "isomers": [
+        { "id": "ethanol", "name": "Ethanol", "type": "functional", "mol": "ethanol", "diff": "Contains an –OH group (alcohol); hydrogen bonds; liquid, b.p. 78 °C." },
+        { "id": "methoxymethane", "name": "Methoxymethane", "type": "functional", "mol": "methoxymethane", "diff": "Contains C–O–C (ether); no OH hydrogen bonding; gas at room temperature." }
+      ]
+    },
+    {
+      "id": "c3h8o",
+      "formula": "C3H8O",
+      "title": "Isomers of C3H8O",
+      "blurb": "Two alcohol position isomers and one ether functional isomer share C3H8O.",
+      "types": ["position", "functional"],
+      "isomers": [
+        { "id": "propan-1-ol", "name": "Propan-1-ol", "type": "position", "mol": "propan-1-ol", "diff": "Primary alcohol; OH on carbon-1." },
+        { "id": "propan-2-ol", "name": "Propan-2-ol", "type": "position", "mol": "propan-2-ol", "diff": "Secondary alcohol; OH on carbon-2." },
+        { "id": "methoxyethane", "name": "Methoxyethane", "type": "functional", "mol": "methoxyethane", "diff": "Ether functional isomer of the propanols." }
+      ]
+    },
+    {
+      "id": "c3h6o2",
+      "formula": "C3H6O2",
+      "title": "Functional isomers of C3H6O2",
+      "blurb": "A carboxylic acid and an ester can share the same molecular formula.",
+      "types": ["functional"],
+      "isomers": [
+        { "id": "propanoic-acid", "name": "Propanoic acid", "type": "functional", "mol": "propanoic-acid", "diff": "–COOH acid group; higher boiling point; acidic solution." },
+        { "id": "methyl-ethanoate", "name": "Methyl ethanoate", "type": "functional", "mol": "methyl-ethanoate", "diff": "Ester; fruity smell; no acidic hydrogen like a carboxylic acid." },
+        { "id": "ethyl-methanoate", "name": "Ethyl methanoate", "type": "functional", "mol": "ethyl-methanoate", "diff": "Another ester isomer of the same formula." }
+      ]
+    }
+  ]
+}

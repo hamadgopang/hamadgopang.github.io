@@ -1,0 +1,38 @@
+<!--META {"dir":"molecular-builder","tool":"molecular-builder","title":"Molecular Builder","h1":"Molecular Builder","sub":"Place atoms, add bonds and check valencies for small Matriculation organic molecules.","desc":"Interactive Molecular Builder for Classes 9–10: build with C, H, O, N, Cl and Br, validate valencies, and load common presets.","keywords":"Molecular Builder, Valency, Organic Structure, Organic Chemistry Lab, Hamad Khan, Matriculation, Alipur, Pakistan","scripts":["lab-core.js","lab-teacher.js","lab-molecular-builder.js"]}-->
+        <div class="mb-layout">
+          <aside class="lab-panel mb-tools">
+            <div class="lab-field">
+              <span class="lab-label">Element</span>
+              <div class="mb-atoms" id="mbAtoms" role="group" aria-label="Elements"></div>
+            </div>
+            <div class="lab-field">
+              <span class="lab-label">Bond order</span>
+              <div class="lab-seg" id="mbBonds" role="group" aria-label="Bond order"></div>
+            </div>
+            <div class="mb-actions">
+              <button class="lab-btn lab-btn--ghost lab-btn--small" type="button" id="mbUndo">Undo</button>
+              <button class="lab-btn lab-btn--ghost lab-btn--small" type="button" id="mbDelete">Delete</button>
+              <button class="lab-btn lab-btn--ghost lab-btn--small" type="button" id="mbClear">Clear</button>
+              <button class="lab-btn lab-btn--teal lab-btn--small" type="button" id="mbAutoH">Auto-add H</button>
+            </div>
+            <div class="lab-field">
+              <span class="lab-label">Presets</span>
+              <div class="mb-presets" id="mbPresets"></div>
+            </div>
+            <p class="lab-muted">Click empty canvas to place the selected atom. Click two atoms to bond them. Click an atom to select it.</p>
+          </aside>
+
+          <section class="lab-panel mb-stage-panel">
+            <svg class="mb-canvas" id="mbCanvas" viewBox="-40 -40 480 320" role="img" aria-label="Molecular builder canvas"></svg>
+          </section>
+
+          <aside class="lab-panel mb-status">
+            <h2 class="mb-status-title">Live check</h2>
+            <dl class="mb-facts">
+              <div><dt>Formula</dt><dd id="mbFormula">—</dd></div>
+              <div><dt>Mr (approx.)</dt><dd id="mbMass">—</dd></div>
+              <div><dt>Atoms</dt><dd id="mbCounts">—</dd></div>
+            </dl>
+            <p class="mb-valence" id="mbValence" role="status">Add atoms to begin.</p>
+          </aside>
+        </div>

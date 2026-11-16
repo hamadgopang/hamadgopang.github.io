@@ -155,7 +155,7 @@
   var strip = document.getElementById('hubProgress');
   if (!strip || !window.Lab) { return; }
 
-  var TOOLS = ['hydrocarbons', 'homologous-series', 'functional-groups', 'reactions', 'quiz', 'flashcards'];
+  var TOOLS = ['hydrocarbons', 'homologous-series', 'functional-groups', 'reactions', 'quiz', 'flashcards', 'properties', 'isomerism', 'nomenclature', 'molecular-builder'];
 
   function barClass(pct) {
     var step = Math.max(0, Math.min(100, Math.round(pct / 10) * 10));

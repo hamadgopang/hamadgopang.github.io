@@ -1,0 +1,13 @@
+{
+  "note": "Presets for the Matriculation Molecular Builder. Graphs use unit coordinates; hydrogens may be incomplete in skeletal-style presets until Auto-H is used.",
+  "atoms": ["C", "H", "O", "N", "Cl", "Br"],
+  "bondOrders": [1, 2, 3],
+  "presets": [
+    { "id": "ethane", "name": "Ethane", "mol": "ethane" },
+    { "id": "ethene", "name": "Ethene", "mol": "ethene" },
+    { "id": "ethyne", "name": "Ethyne", "mol": "ethyne" },
+    { "id": "methanol", "name": "Methanol", "mol": "methanol" },
+    { "id": "ethanol", "name": "Ethanol", "mol": "ethanol" },
+    { "id": "ethanoic-acid", "name": "Ethanoic acid", "mol": "ethanoic-acid" }
+  ]
+}

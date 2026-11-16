@@ -1491,3 +1491,85 @@ a.tool-card:hover {
     align-items: start;
   }
 }
+
+/* ===== Properties Lab ===== */
+.pl-layout { display: grid; gap: 1rem; }
+.pl-side, .pl-detail, .pl-compare { min-width: 0; }
+.pl-chips, .iso-sets, .iso-types, .mb-atoms, .mb-presets, .nom-choices { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.pl-chip, .iso-chip, .mb-atom-btn, .mb-preset, .nom-choice {
+  min-height: 2rem; padding: 0.35rem 0.7rem; border: 1px solid var(--line); border-radius: 999px;
+  background: var(--surface); color: var(--fg); font: 600 0.82rem/1 Inter, system-ui, sans-serif; cursor: pointer;
+}
+.pl-chip.is-active, .iso-chip.is-active, .mb-atom-btn.is-active, .nom-choice:hover { background: var(--teal-700, #0f766e); border-color: transparent; color: #fff; }
+.iso-chip--soft.is-active { background: var(--navy-800, #172a43); }
+.pl-list { list-style: none; margin: 0.75rem 0 0; padding: 0; max-height: 28rem; overflow: auto; scrollbar-width: thin; }
+.pl-item {
+  width: 100%; display: flex; flex-direction: column; align-items: flex-start; gap: 0.15rem;
+  margin-bottom: 0.4rem; padding: 0.7rem 0.8rem; border: 1px solid var(--line); border-radius: 12px;
+  background: #fff; text-align: left; cursor: pointer;
+}
+.pl-item.is-selected { border-color: var(--teal-700, #0f766e); box-shadow: 0 0 0 1px var(--teal-700, #0f766e); }
+.pl-item-name { font: 700 0.95rem/1.3 Outfit, system-ui, sans-serif; }
+.pl-item-meta { color: var(--muted); font-size: 0.8rem; }
+.pl-detail-head, .pl-compare-head, .iso-card-head { display: flex; justify-content: space-between; gap: 0.75rem; align-items: flex-start; }
+.pl-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: 0.75rem; margin: 1rem 0; }
+.pl-facts div { padding: 0.7rem 0.8rem; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+.pl-facts dt { margin: 0 0 0.25rem; color: var(--muted); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
+.pl-facts dd { margin: 0; font-weight: 600; }
+.pl-compare-table-wrap { overflow-x: auto; }
+.pl-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.pl-table th, .pl-table td { padding: 0.55rem 0.65rem; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.pl-table th[scope="row"] { color: var(--muted); font-weight: 600; white-space: nowrap; }
+.pl-remove { border: 0; background: transparent; color: var(--muted); cursor: pointer; font-size: 1.1rem; }
+
+/* ===== Isomerism ===== */
+.iso-layout { display: grid; gap: 1rem; }
+.iso-blurb { margin: 0.85rem 0 0; color: var(--muted); font-size: 0.92rem; line-height: 1.55; }
+.iso-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 0.85rem; }
+.iso-card { display: flex; flex-direction: column; gap: 0.65rem; padding: 0.9rem; border: 1px solid var(--line); border-radius: 14px; background: #fff; }
+.iso-card.is-selected { border-color: var(--teal-700, #0f766e); box-shadow: 0 0 0 1px rgba(15,118,110,0.25); }
+.iso-type { padding: 0.2rem 0.5rem; border-radius: 999px; background: var(--surface); color: var(--muted); font-size: 0.72rem; font-weight: 700; text-transform: uppercase; }
+.iso-diff { margin: 0; color: var(--muted); font-size: 0.88rem; line-height: 1.45; flex: 1; }
+.iso-stage { min-height: 8rem; }
+.iso-compare { margin-top: 1rem; }
+
+/* ===== Nomenclature ===== */
+.nom-layout { display: grid; gap: 1rem; }
+.nom-toolbar { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; justify-content: space-between; }
+.nom-score { display: flex; gap: 1rem; color: var(--muted); font-size: 0.9rem; }
+.nom-name-prompt { margin: 0.35rem 0 0; font: 800 clamp(1.4rem, 3vw, 2rem)/1.2 Outfit, system-ui, sans-serif; }
+.nom-input { width: 100%; min-height: 46px; margin: 0.35rem 0 0.75rem; padding: 0.65rem 0.85rem; border: 1px solid var(--line); border-radius: 12px; font: 600 1rem/1.3 Inter, system-ui, sans-serif; }
+.nom-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.85rem; }
+.nom-feedback { min-height: 1.4em; margin: 0.75rem 0 0; font-weight: 600; }
+.nom-feedback.is-ok { color: #15803d; }
+.nom-feedback.is-bad { color: #b91c1c; }
+.nom-feedback.is-warn { color: #a16207; }
+.nom-struct-choices { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 0.65rem; }
+.nom-struct-card { padding: 0.55rem; border: 1px solid var(--line); border-radius: 12px; background: #fff; cursor: pointer; }
+.nom-struct-card:hover { border-color: var(--teal-700, #0f766e); }
+
+/* ===== Molecular Builder ===== */
+.mb-layout { display: grid; gap: 1rem; }
+.mb-actions { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.75rem 0; }
+.mb-canvas { width: 100%; min-height: 280px; border: 1px dashed var(--line); border-radius: 14px; background: linear-gradient(180deg, #f8fafc, #fff); touch-action: manipulation; }
+.mb-bond { stroke: #334155; stroke-width: 2.4; }
+.mb-atom-label { fill: #fff; font: 700 12px Outfit, system-ui, sans-serif; pointer-events: none; }
+.mb-atom.is-selected circle { stroke: #f2b84b; stroke-width: 3; }
+.mb-atom.is-bond-from circle { stroke: #0f766e; stroke-width: 3; }
+.mb-facts { display: grid; gap: 0.65rem; margin: 0 0 1rem; }
+.mb-facts div { padding: 0.7rem 0.8rem; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+.mb-facts dt { margin: 0 0 0.2rem; color: var(--muted); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
+.mb-facts dd { margin: 0; font-weight: 700; }
+.mb-status-title { margin: 0 0 0.75rem; font: 700 1.05rem/1.2 Outfit, system-ui, sans-serif; }
+.mb-valence { margin: 0; padding: 0.75rem 0.85rem; border-radius: 10px; background: var(--surface); border: 1px solid var(--line); font-size: 0.9rem; line-height: 1.45; }
+.mb-valence.is-ok { background: #ecfdf5; border-color: #86efac; color: #166534; }
+.mb-valence.is-bad { background: #fef2f2; border-color: #fecaca; color: #991b1b; }
+
+@media (min-width: 960px) {
+  .pl-layout { grid-template-columns: minmax(15rem, 0.9fr) minmax(0, 1.3fr); grid-template-areas: "side detail" "compare compare"; }
+  .pl-side { grid-area: side; }
+  .pl-detail { grid-area: detail; }
+  .pl-compare { grid-area: compare; }
+  .iso-layout { grid-template-columns: minmax(14rem, 0.75fr) minmax(0, 1.4fr); align-items: start; }
+  .mb-layout { grid-template-columns: minmax(13rem, 0.75fr) minmax(0, 1.4fr) minmax(12rem, 0.7fr); align-items: start; }
+}

@@ -53,13 +53,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Outfit:wght@500;600;700;800&amp;display=swap">
 
-<link rel="stylesheet" href="../assets/css/style.css?v=1.0.45">
-<link rel="stylesheet" href="../assets/css/responsive.css?v=1.0.45">
-<link rel="stylesheet" href="../assets/css/lab.css?v=1.0.45">
-<link rel="stylesheet" href="../assets/css/teacher.css?v=1.0.45">
-<link rel="stylesheet" href="../assets/css/inixio-about.css?v=1.0.45">
+<link rel="stylesheet" href="../assets/css/style.css?v=1.0.46">
+<link rel="stylesheet" href="../assets/css/responsive.css?v=1.0.46">
+<link rel="stylesheet" href="../assets/css/lab.css?v=1.0.46">
+<link rel="stylesheet" href="../assets/css/teacher.css?v=1.0.46">
+<link rel="stylesheet" href="../assets/css/inixio-about.css?v=1.0.46">
 
-<script src="../assets/js/boot.js?v=1.0.45"></script>
+<script src="../assets/js/boot.js?v=1.0.46"></script>
 </head>
 <body class="page-inner">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -84,7 +84,7 @@
         <li><a class="nav-link" href="../#skills">Skills</a></li>
         <li><a class="nav-link" href="../#contact">Contact</a></li>
         <li><a class="nav-link nav-link--pt" href="../periodic-table/"><span class="pt-mark" aria-hidden="true">Pt</span>Periodic Table</a></li>
-        <li><a class="nav-link nav-link--pt" href="../dictionary/"><span class="pt-mark" aria-hidden="true">Dc</span>Dictionary</a></li>
+        <li><a class="nav-link nav-link--pt" href="./" aria-current="page"><span class="pt-mark" aria-hidden="true">Oc</span>Organic Chemistry</a></li>
       </ul>
     </nav>
   </div>
@@ -178,20 +178,36 @@
           <p>Flip through revision cards by topic, shuffle them and mark the ones you already know.</p>
           <span class="tool-open">Open tool &rarr; <span data-visited="flashcards" hidden>&middot; visited</span></span>
         </a></li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="hub-section" aria-labelledby="soonTitle">
-    <div class="lab-container">
-      <h2 id="soonTitle">Coming next</h2>
-      <p class="lab-lead">These tools are planned for a later release.</p>
-      <ul class="tool-grid">
-        <li><div class="tool-card is-soon"><span class="tool-badge">Coming soon</span><h3>Molecular Builder</h3><p>Build molecules atom by atom and check the valencies.</p></div></li>
-        <li><div class="tool-card is-soon"><span class="tool-badge">Coming soon</span><h3>Nomenclature Trainer</h3><p>Practise naming simple organic compounds.</p></div></li>
-        <li><div class="tool-card is-soon"><span class="tool-badge">Coming soon</span><h3>Isomerism Explorer</h3><p>Compare compounds that share a formula.</p></div></li>
-        <li><div class="tool-card is-soon"><span class="tool-badge">Coming soon</span><h3>Properties Lab</h3><p>Compare physical and chemical properties.</p></div></li>
-        <li><div class="tool-card is-soon"><span class="tool-badge">Coming soon</span><h3>Dictionary</h3><p>An A to Z glossary of organic chemistry terms.</p></div></li>
+        <li><a class="tool-card" href="../dictionary/">
+          <span class="tool-num">07</span>
+          <h3>Chemistry Dictionary</h3>
+          <p>Browse the on-site A–Z chemistry dictionary for clear Matriculation definitions.</p>
+          <span class="tool-open">Open dictionary &rarr;</span>
+        </a></li>
+        <li><a class="tool-card" href="properties/">
+          <span class="tool-num">08</span>
+          <h3>Properties Lab</h3>
+          <p>Compare boiling points, state, solubility and combustion notes across organic families.</p>
+          <span class="tool-open">Open tool &rarr; <span data-visited="properties" hidden>&middot; visited</span></span>
+        </a></li>
+        <li><a class="tool-card" href="isomerism/">
+          <span class="tool-num">09</span>
+          <h3>Isomerism Explorer</h3>
+          <p>Compare compounds that share a formula and see how their structures differ.</p>
+          <span class="tool-open">Open tool &rarr; <span data-visited="isomerism" hidden>&middot; visited</span></span>
+        </a></li>
+        <li><a class="tool-card" href="nomenclature/">
+          <span class="tool-num">10</span>
+          <h3>Nomenclature Trainer</h3>
+          <p>Practise naming simple organic compounds with instant, clear feedback.</p>
+          <span class="tool-open">Open tool &rarr; <span data-visited="nomenclature" hidden>&middot; visited</span></span>
+        </a></li>
+        <li><a class="tool-card" href="molecular-builder/">
+          <span class="tool-num">11</span>
+          <h3>Molecular Builder</h3>
+          <p>Build molecules atom by atom and check the valencies as you go.</p>
+          <span class="tool-open">Open tool &rarr; <span data-visited="molecular-builder" hidden>&middot; visited</span></span>
+        </a></li>
       </ul>
     </div>
   </section>
@@ -225,7 +241,7 @@
       <div class="lab-panel hub-progress" id="hubProgress">
         <div>
           <dl class="hub-progress-items">
-            <div><dt>Tools visited</dt><dd id="progTools">0 of 6</dd></div>
+            <div><dt>Tools visited</dt><dd id="progTools">0 of 10</dd></div>
             <div><dt>Best quiz score</dt><dd id="progQuiz">Not taken yet</dd></div>
             <div><dt>Flashcards known</dt><dd id="progCards">0</dd></div>
           </dl>
@@ -304,7 +320,7 @@
     </div>
   </div>
   <div class="container footer-bottom">
-    <p>&copy; <span data-year>2026</span> Hamad Khan. All rights reserved. <span data-asset-version>v1.0.45</span></p>
+    <p>&copy; <span data-year>2026</span> Hamad Khan. All rights reserved. <span data-asset-version>v1.0.46</span></p>
     <p>Chemistry  Educator &middot; Alipur, Pakistan &middot; Developed by <a href="#" data-inixio-about>Inixio Technologies</a></p>
   </div>
 </footer>
@@ -313,9 +329,9 @@
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 15 7-7 7 7"/></svg>
 </button>
 
-<script src="../assets/js/main.js?v=1.0.45" defer></script>
-<script src="../assets/js/inixio-about.js?v=1.0.45" defer></script>
-<script src="../assets/js/lab-core.js?v=1.0.45" defer></script>
-<script src="../assets/js/lab-hub.js?v=1.0.45" defer></script>
+<script src="../assets/js/main.js?v=1.0.46" defer></script>
+<script src="../assets/js/inixio-about.js?v=1.0.46" defer></script>
+<script src="../assets/js/lab-core.js?v=1.0.46" defer></script>
+<script src="../assets/js/lab-hub.js?v=1.0.46" defer></script>
 </body>
 </html>

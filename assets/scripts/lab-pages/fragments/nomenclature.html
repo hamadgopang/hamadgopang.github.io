@@ -1,0 +1,28 @@
+<!--META {"dir":"nomenclature","tool":"nomenclature","title":"Nomenclature Trainer","h1":"Nomenclature Trainer","sub":"Practise naming Matriculation organic compounds with instant feedback and helpful hints.","desc":"Interactive nomenclature trainer for alkanes, alkenes, alkynes, alcohols, aldehydes, ketones, acids and esters.","keywords":"IUPAC Nomenclature, Organic Naming, Alkanes, Alcohols, Organic Chemistry Lab, Hamad Khan, Matriculation, Alipur, Pakistan","scripts":["lab-core.js","lab-teacher.js","lab-nomenclature.js"]}-->
+        <div class="nom-layout">
+          <div class="lab-panel nom-toolbar">
+            <div class="lab-seg" id="nomMode" role="group" aria-label="Practice mode">
+              <button type="button" class="is-active" data-mode="structure-name">Structure → name</button>
+              <button type="button" data-mode="name-structure">Name → structure</button>
+            </div>
+            <div class="lab-seg" id="nomLevel" role="group" aria-label="Difficulty"></div>
+            <div class="nom-score" aria-live="polite">
+              <span>Score <strong id="nomScore">0</strong></span>
+              <span>Streak <strong id="nomStreak">0</strong></span>
+            </div>
+          </div>
+
+          <section class="lab-panel nom-prompt" id="nomPrompt" aria-live="polite">
+            <p class="lab-note" id="nomLoadingItem">Preparing a question…</p>
+          </section>
+
+          <section class="lab-panel nom-answer">
+            <div id="nomAnswerMount"></div>
+            <div class="nom-actions">
+              <button class="lab-btn lab-btn--ghost" type="button" id="nomHint">Hint</button>
+              <button class="lab-btn lab-btn--teal" type="button" id="nomCheck">Check</button>
+              <button class="lab-btn lab-btn--amber" type="button" id="nomNext">Next</button>
+            </div>
+            <p class="nom-feedback" id="nomFeedback" role="status"></p>
+          </section>
+        </div>

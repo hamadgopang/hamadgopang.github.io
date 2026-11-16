@@ -30,7 +30,11 @@ const TOOLS = [
   ['functional-groups', 'Functional Groups'],
   ['reactions', 'Reactions'],
   ['quiz', 'Quiz'],
-  ['flashcards', 'Flashcards']
+  ['flashcards', 'Flashcards'],
+  ['properties', 'Properties'],
+  ['isomerism', 'Isomerism'],
+  ['nomenclature', 'Nomenclature'],
+  ['molecular-builder', 'Builder']
 ];
 
 const SVG_OPEN = '<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">';
@@ -197,7 +201,7 @@ ${main}
         <li><a class="nav-link" href="${root}#skills">Skills</a></li>
         <li><a class="nav-link" href="${root}#contact">Contact</a></li>
         <li><a class="nav-link nav-link--pt" href="${root}periodic-table/"><span class="pt-mark" aria-hidden="true">Pt</span>Periodic Table</a></li>
-        <li><a class="nav-link nav-link--pt" href="${root}dictionary/"><span class="pt-mark" aria-hidden="true">Dc</span>Dictionary</a></li>
+        <li><a class="nav-link nav-link--pt" href="${lab}" aria-current="page"><span class="pt-mark" aria-hidden="true">Oc</span>Organic Chemistry</a></li>
       </ul>
     </nav>
   </div>

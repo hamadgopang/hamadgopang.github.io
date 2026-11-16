@@ -1,0 +1,30 @@
+{
+  "note": "Matriculation nomenclature practice items. acceptedNames are matched case-insensitively after stripping spaces and hyphens variants.",
+  "levels": [
+    { "id": "easy", "label": "Easy" },
+    { "id": "medium", "label": "Medium" },
+    { "id": "groups", "label": "Groups" }
+  ],
+  "items": [
+    { "id": "methane", "level": "easy", "topic": "alkane", "mol": "methane", "acceptedNames": ["methane"], "hints": ["One carbon only.", "Ending for alkanes is -ane."], "choices": ["Methane", "Ethane", "Methene", "Methanol"] },
+    { "id": "ethane", "level": "easy", "topic": "alkane", "mol": "ethane", "acceptedNames": ["ethane"], "hints": ["Two carbons, single bonds only.", "Prefix for 2 carbons is eth-."], "choices": ["Ethane", "Ethene", "Ethyne", "Ethanol"] },
+    { "id": "propane", "level": "easy", "topic": "alkane", "mol": "propane", "acceptedNames": ["propane"], "hints": ["Three carbons in a chain.", "Alkane ending -ane."], "choices": ["Propane", "Propene", "Propyne", "Propanol"] },
+    { "id": "butane", "level": "easy", "topic": "alkane", "mol": "butane", "acceptedNames": ["butane"], "hints": ["Four-carbon alkane.", "Prefix but-."], "choices": ["Butane", "Butene", "Butyne", "Butanol"] },
+    { "id": "pentane", "level": "easy", "topic": "alkane", "mol": "pentane", "acceptedNames": ["pentane"], "hints": ["Five carbons.", "Prefix pent-."], "choices": ["Pentane", "Pentene", "Hexane", "Propane"] },
+    { "id": "ethene", "level": "easy", "topic": "alkene", "mol": "ethene", "acceptedNames": ["ethene", "ethylene"], "hints": ["C=C double bond.", "Alkene ending -ene."], "choices": ["Ethene", "Ethane", "Ethyne", "Ethanol"] },
+    { "id": "propene", "level": "easy", "topic": "alkene", "mol": "propene", "acceptedNames": ["propene", "propylene"], "hints": ["Three carbons with one double bond.", "Also called propylene."], "choices": ["Propene", "Propane", "Propyne", "Propanone"] },
+    { "id": "ethyne", "level": "easy", "topic": "alkyne", "mol": "ethyne", "acceptedNames": ["ethyne", "acetylene"], "hints": ["Carbon–carbon triple bond.", "Common name: acetylene."], "choices": ["Ethyne", "Ethene", "Ethane", "Ethanal"] },
+    { "id": "propyne", "level": "medium", "topic": "alkyne", "mol": "propyne", "acceptedNames": ["propyne"], "hints": ["Three carbons, triple bond at the end.", "Alkynes end in -yne."], "choices": ["Propyne", "Propene", "Propane", "Propyne acid"] },
+    { "id": "but-1-ene", "level": "medium", "topic": "alkene", "mol": "but-1-ene", "acceptedNames": ["but-1-ene", "but1ene", "1-butene"], "hints": ["Number the chain from the end nearer the double bond.", "Double bond starts at carbon 1."], "choices": ["But-1-ene", "But-2-ene", "Butane", "Butyne"] },
+    { "id": "but-1-yne", "level": "medium", "topic": "alkyne", "mol": "but-1-yne", "acceptedNames": ["but-1-yne", "but1yne", "1-butyne"], "hints": ["Four carbons with a terminal triple bond.", "Number so the triple bond gets the lowest number."], "choices": ["But-1-yne", "But-2-yne", "But-1-ene", "Butane"] },
+    { "id": "methanol", "level": "groups", "topic": "alcohol", "mol": "methanol", "acceptedNames": ["methanol", "methyl alcohol"], "hints": ["One carbon alcohol.", "Alcohols end in -ol."], "choices": ["Methanol", "Methanal", "Methane", "Methanoic acid"] },
+    { "id": "ethanol", "level": "groups", "topic": "alcohol", "mol": "ethanol", "acceptedNames": ["ethanol", "ethyl alcohol"], "hints": ["Two-carbon alcohol.", "Common drinking alcohol (when pure)."], "choices": ["Ethanol", "Ethanal", "Ethane", "Ethanoic acid"] },
+    { "id": "propan-1-ol", "level": "groups", "topic": "alcohol", "mol": "propan-1-ol", "acceptedNames": ["propan-1-ol", "propan1ol", "1-propanol", "propanol"], "hints": ["OH on carbon 1 (primary).", "Number the chain to give OH the lowest number."], "choices": ["Propan-1-ol", "Propan-2-ol", "Propanal", "Propanoic acid"] },
+    { "id": "propan-2-ol", "level": "groups", "topic": "alcohol", "mol": "propan-2-ol", "acceptedNames": ["propan-2-ol", "propan2ol", "2-propanol", "isopropanol"], "hints": ["Secondary alcohol.", "OH attached to the middle carbon."], "choices": ["Propan-2-ol", "Propan-1-ol", "Propanone", "Propene"] },
+    { "id": "ethanal", "level": "groups", "topic": "aldehyde", "mol": "ethanal", "acceptedNames": ["ethanal", "acetaldehyde"], "hints": ["Aldehyde ending -al.", "Two carbons including the CHO carbon."], "choices": ["Ethanal", "Ethanol", "Ethanoic acid", "Ethane"] },
+    { "id": "propanone", "level": "groups", "topic": "ketone", "mol": "propanone", "acceptedNames": ["propanone", "acetone"], "hints": ["Ketone ending -one.", "Common name: acetone."], "choices": ["Propanone", "Propanal", "Propan-2-ol", "Propane"] },
+    { "id": "ethanoic-acid", "level": "groups", "topic": "acid", "mol": "ethanoic-acid", "acceptedNames": ["ethanoic acid", "acetic acid"], "hints": ["Carboxylic acids end in -oic acid.", "Vinegar contains dilute ethanoic acid."], "choices": ["Ethanoic acid", "Ethanol", "Ethanal", "Methyl ethanoate"] },
+    { "id": "methanoic-acid", "level": "groups", "topic": "acid", "mol": "methanoic-acid", "acceptedNames": ["methanoic acid", "formic acid"], "hints": ["Simplest carboxylic acid.", "Also called formic acid."], "choices": ["Methanoic acid", "Methanol", "Methanal", "Ethanoic acid"] },
+    { "id": "ethyl-ethanoate", "level": "groups", "topic": "ester", "mol": "ethyl-ethanoate", "acceptedNames": ["ethyl ethanoate", "ethyl acetate"], "hints": ["Esters are named alkyl alkanoate.", "Alcohol part first (ethyl), then acid part (ethanoate)."], "choices": ["Ethyl ethanoate", "Methyl ethanoate", "Ethanoic acid", "Ethanol"] }
+  ]
+}
