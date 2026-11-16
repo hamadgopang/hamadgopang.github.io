@@ -19,7 +19,7 @@
 }
 
 /* --------------------------------------------------------------------------
-   Tokens (light by default, dark follows the system or [data-theme="dark"])
+   Tokens (light by default; optional dark only via [data-theme="dark"])
    -------------------------------------------------------------------------- */
 .pt-page {
   --bg: #f4f7fa;
@@ -59,39 +59,6 @@
 
   background: var(--bg);
   color: var(--fg);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .pt-page {
-    --bg: #0c1627;
-    --surface: #152540;
-    --surface-2: #1d3357;
-    --fg: #e8eef7;
-    --muted: #a9b8cf;
-    --line: #2b4466;
-    --accent: #5eead4;
-    --good: #5fd08a;
-    --bad: #ff7d72;
-    --c-alkali: #ff8366;
-    --c-alkaline: #ffc266;
-    --c-transition: #6cb2f0;
-    --c-post: #5fd0c1;
-    --c-metalloid: #c9d95a;
-    --c-nonmetal: #7fd67f;
-    --c-halogen: #f27aa5;
-    --c-noble: #b79af0;
-    --c-lanthanide: #8e9cff;
-    --c-actinide: #d19a76;
-    --c-solid: #8ea2ff;
-    --c-liquid: #4fd8cc;
-    --c-gas: #ffae6b;
-    --c-unknown: #7d879c;
-    --c-bs: #ff8366;
-    --c-bp: #b79af0;
-    --c-bd: #6cb2f0;
-    --c-bf: #5fd0c1;
-    color-scheme: dark;
-  }
 }
 
 :root[data-theme="dark"] .pt-page {

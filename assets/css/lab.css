@@ -2,7 +2,9 @@
    lab.css  -  Organic Chemistry Lab (/organic-chemistry/...)
    Scoped under .lab-page so it cannot clash with style.css or periodic-table.css.
    Uses the portfolio tokens from style.css (navy, teal, amber, fonts).
-   Light by default; dark follows the system. Sizes inside tools use em so
+   Light by default (matches the rest of the portfolio). Optional dark only via
+   :root[data-theme="dark"] — not prefers-color-scheme (Opera/system dark was
+   flipping these pages while Chrome stayed light). Sizes inside tools use em so
    Teacher Mode can scale everything by changing one font-size.
    ========================================================================== */
 
@@ -43,37 +45,6 @@
 
   background: var(--bg);
   color: var(--fg);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .lab-page {
-    --bg: #0c1627;
-    --surface: #152540;
-    --surface-2: #1d3357;
-    --fg: #e8eef7;
-    --muted: #a9b8cf;
-    --line: #2b4466;
-    --accent: #5eead4;
-    --accent-ink: #0c1627;
-    --good: #5fd08a;
-    --good-bg: #123626;
-    --bad: #ff8077;
-    --bad-bg: #3d1c1c;
-    --warn-bg: #3a3014;
-    --bond: #cdd9ec;
-    --atom-c: #e8eef7;
-    --atom-h: #a9b8cf;
-    --atom-o: #ff7d72;
-    --atom-n: #7ba6ff;
-    --atom-s: #f2c14b;
-    --atom-x: #6fdc8c;
-    --atom-br: #ff9b66;
-    --hl: #5eead4;
-    --hl-text: #5eead4;
-    --hl-halo: rgba(94, 234, 212, 0.18);
-    --hl-amber: #f2b84b;
-    color-scheme: dark;
-  }
 }
 
 :root[data-theme="dark"] .lab-page {
