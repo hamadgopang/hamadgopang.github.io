@@ -25,6 +25,15 @@
     return raw.charAt(0) === 'v' ? raw : 'v' + raw;
   }
 
+  function currentYear() {
+    return String(new Date().getFullYear());
+  }
+
+  function footHtml() {
+    return 'Portfolio Version ' + portfolioVersion() +
+      ' | &copy; <span data-year>' + currentYear() + '</span> Inixio Technologies. All rights reserved.';
+  }
+
   function lock() {
     document.documentElement.classList.add('is-locked');
   }
@@ -40,7 +49,6 @@
     var base = assetBase();
     var logo = base + 'image/inixio/logo.png';
     var ceo = base + 'image/inixio/ceo.png';
-    var version = portfolioVersion();
 
     dialog = document.createElement('dialog');
     dialog.id = 'inixioAboutDialog';
@@ -99,7 +107,7 @@
             '</ul>' +
           '</div>' +
         '</div>' +
-        '<p class="inixio-foot">Portfolio Version ' + version + ' | &copy; 2026 Inixio Technologies. All rights reserved.</p>' +
+        '<p class="inixio-foot">' + footHtml() + '</p>' +
       '</div>';
 
     document.body.appendChild(dialog);
@@ -128,10 +136,7 @@
       return;
     }
     var foot = d.querySelector('.inixio-foot');
-    if (foot) {
-      foot.innerHTML = 'Portfolio Version ' + portfolioVersion() +
-        ' | &copy; 2026 Inixio Technologies. All rights reserved.';
-    }
+    if (foot) foot.innerHTML = footHtml();
     lastTrigger = trigger || null;
     lock();
     d.showModal();
