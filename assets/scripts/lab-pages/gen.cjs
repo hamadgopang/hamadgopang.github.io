@@ -189,13 +189,13 @@ ${main}
         <li><a class="nav-link" href="${root}">Home</a></li>
         <li><a class="nav-link" href="${root}#about">About</a></li>
         <li><a class="nav-link" href="${root}#expertise">Expertise</a></li>
-        <li><a class="nav-link" href="${root}#experience">Experience</a></li>
+        <li><a class="nav-link" href="${root}#experience">My Experience</a></li>
         <li><a class="nav-link" href="${root}#results">Results</a></li>
         <li><a class="nav-link" href="${root}#resources">Resources</a></li>
         <li><a class="nav-link" href="${root}#skills">Skills</a></li>
         <li><a class="nav-link" href="${root}#contact">Contact</a></li>
         <li><a class="nav-link nav-link--pt" href="${root}periodic-table/"><span class="pt-mark" aria-hidden="true">Pt</span>Periodic Table</a></li>
-        <li><a class="nav-link nav-link--pt" href="${meta.dir ? lab : './'}" aria-current="page"><span class="pt-mark" aria-hidden="true">Oc</span>Organic Chemistry</a></li>
+        <li><a class="nav-link nav-link--pt" href="${root}dictionary/"><span class="pt-mark" aria-hidden="true">Dc</span>Dictionary</a></li>
       </ul>
     </nav>
   </div>
@@ -218,8 +218,7 @@ ${main}
     <nav aria-label="Footer">
       <h2 class="footer-title">Quick links</h2>
       <ul class="footer-links">
-        <li><a href="${root}">Home</a></li>
-        <li><a href="${root}#experience">Experience</a></li>
+        <li><a href="${root}#experience">My Experience</a></li>
         <li><a href="${root}results/">Student Results</a></li>
         <li><a href="${root}periodic-table/">Periodic Table</a></li>
         <li><a href="${meta.dir ? lab : './'}">Organic Chemistry</a></li>

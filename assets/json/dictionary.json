@@ -1,0 +1,1166 @@
+{
+  "meta": {
+    "title": "Dictionary of Chemistry",
+    "author": "Hamad Khan",
+    "edition": "Student Edition / 2026",
+    "count": 231,
+    "pdf": "assets/books/Dictionary-of-Chemistry-by-Hamad-Gopang.pdf"
+  },
+  "entries": [
+    {
+      "term": "Absolute zero",
+      "letter": "A",
+      "definition": "The lowest thermodynamic temperature, 0 K (−273.15 °C)."
+    },
+    {
+      "term": "Acid",
+      "letter": "A",
+      "definition": "A species that donates a proton (Brønsted–Lowry) or accepts an electron pair (Lewis)."
+    },
+    {
+      "term": "Activation energy",
+      "letter": "A",
+      "definition": "The energy barrier associated with a reaction; in the Arrhenius equation it determines the temperature dependence of the rate constant."
+    },
+    {
+      "term": "Actual yield",
+      "letter": "A",
+      "definition": "The amount of product actually obtained in a chemical reaction."
+    },
+    {
+      "term": "Adsorption",
+      "letter": "A",
+      "definition": "Accumulation of molecules, atoms or ions at a surface."
+    },
+    {
+      "term": "Alcohol",
+      "letter": "A",
+      "definition": "An organic compound in which a hydroxyl group (–OH) is attached to a saturated carbon atom."
+    },
+    {
+      "term": "Aldehyde",
+      "letter": "A",
+      "definition": "An organic compound containing a terminal –CHO group."
+    },
+    {
+      "term": "Alkali",
+      "letter": "A",
+      "definition": "A water-soluble base that increases the hydroxide ion concentration in water."
+    },
+    {
+      "term": "Alkane",
+      "letter": "A",
+      "definition": "A saturated acyclic hydrocarbon with general formula CₙH₂ₙ₊₂."
+    },
+    {
+      "term": "Alkene",
+      "letter": "A",
+      "definition": "A hydrocarbon containing a carbon–carbon double bond."
+    },
+    {
+      "term": "Alkyne",
+      "letter": "A",
+      "definition": "A hydrocarbon containing a carbon–carbon triple bond."
+    },
+    {
+      "term": "Allotrope",
+      "letter": "A",
+      "definition": "A different structural form of an element in the same physical state, such as graphite and diamond."
+    },
+    {
+      "term": "Alloy",
+      "letter": "A",
+      "definition": "A material containing a metal and one or more other elements."
+    },
+    {
+      "term": "Amorphous solid",
+      "letter": "A",
+      "definition": "A solid lacking long-range periodic structural order."
+    },
+    {
+      "term": "Anion",
+      "letter": "A",
+      "definition": "A negatively charged ion."
+    },
+    {
+      "term": "Anisotropy",
+      "letter": "A",
+      "definition": "Variation of a physical property with direction."
+    },
+    {
+      "term": "Anode",
+      "letter": "A",
+      "definition": "The electrode at which oxidation occurs."
+    },
+    {
+      "term": "Aqueous solution",
+      "letter": "A",
+      "definition": "A solution in which water is the solvent."
+    },
+    {
+      "term": "Atom",
+      "letter": "A",
+      "definition": "The smallest unit of an element retaining its chemical identity."
+    },
+    {
+      "term": "Atomic absorption spectrum",
+      "letter": "A",
+      "definition": "A spectrum showing wavelengths absorbed by gaseous atoms, often as dark lines against a continuous background."
+    },
+    {
+      "term": "Atomic emission spectrum",
+      "letter": "A",
+      "definition": "A spectrum of characteristic wavelengths emitted by excited atoms as they move to lower energy states."
+    },
+    {
+      "term": "Atomic number",
+      "letter": "A",
+      "definition": "The number of protons in an atomic nucleus, denoted Z."
+    },
+    {
+      "term": "Atomic radius",
+      "letter": "A",
+      "definition": "A measure of atomic size, defined by conventions such as covalent or metallic radius."
+    },
+    {
+      "term": "Aufbau principle",
+      "letter": "A",
+      "definition": "The rule that electrons generally occupy available orbitals in order of increasing energy in a ground-state atom."
+    },
+    {
+      "term": "Average rate of reaction",
+      "letter": "A",
+      "definition": "The change in reaction extent or appropriately normalized concentration divided by the elapsed time."
+    },
+    {
+      "term": "Avogadro constant",
+      "letter": "A",
+      "definition": "Exactly 6.02214076 × 10²³ mol⁻¹; the number of specified entities per mole."
+    },
+    {
+      "term": "Avogadro's law",
+      "letter": "A",
+      "definition": "Equal volumes of ideal gases at the same temperature and pressure contain equal numbers of particles."
+    },
+    {
+      "term": "Azimuthal quantum number",
+      "letter": "A",
+      "definition": "The orbital angular momentum quantum number, ℓ, which identifies a subshell and relates to orbital shape."
+    },
+    {
+      "term": "Balmer series",
+      "letter": "B",
+      "definition": "Hydrogen spectral transitions ending at n = 2; several lines lie in the visible region."
+    },
+    {
+      "term": "Base",
+      "letter": "B",
+      "definition": "A species that accepts a proton or donates an electron pair."
+    },
+    {
+      "term": "Boiling point",
+      "letter": "B",
+      "definition": "Temperature at which the vapour pressure of a liquid equals the external pressure."
+    },
+    {
+      "term": "Bond energy",
+      "letter": "B",
+      "definition": "Energy required to break a bond; mean bond enthalpy is averaged over specified gaseous bonds."
+    },
+    {
+      "term": "Bond order",
+      "letter": "B",
+      "definition": "A measure of bonding between two atoms; commonly 1, 2 or 3 for single, double or triple bonds."
+    },
+    {
+      "term": "Boyle's law",
+      "letter": "B",
+      "definition": "For a fixed amount of ideal gas at constant temperature, PV is constant."
+    },
+    {
+      "term": "Brackett series",
+      "letter": "B",
+      "definition": "Infrared hydrogen spectral transitions ending at n = 4."
+    },
+    {
+      "term": "Brønsted–Lowry theory",
+      "letter": "B",
+      "definition": "Acids donate protons and bases accept protons."
+    },
+    {
+      "term": "Buffer",
+      "letter": "B",
+      "definition": "A solution that resists pH changes upon addition of small amounts of acid or base."
+    },
+    {
+      "term": "Carboxylic acid",
+      "letter": "C",
+      "definition": "An organic compound containing the –COOH group."
+    },
+    {
+      "term": "Catalyst",
+      "letter": "C",
+      "definition": "A substance that increases reaction rate without being consumed overall or changing the equilibrium constant."
+    },
+    {
+      "term": "Cathode",
+      "letter": "C",
+      "definition": "The electrode at which reduction occurs."
+    },
+    {
+      "term": "Cathode rays",
+      "letter": "C",
+      "definition": "Streams of electrons emitted from a cathode in a discharge tube."
+    },
+    {
+      "term": "Cation",
+      "letter": "C",
+      "definition": "A positively charged ion."
+    },
+    {
+      "term": "Charles's law",
+      "letter": "C",
+      "definition": "For a fixed amount of ideal gas at constant pressure, volume is proportional to absolute temperature."
+    },
+    {
+      "term": "Chemical bond",
+      "letter": "C",
+      "definition": "An attractive interaction that holds atoms or ions together in a chemical structure."
+    },
+    {
+      "term": "Chemical equation",
+      "letter": "C",
+      "definition": "A symbolic representation of a reaction showing reactants and products."
+    },
+    {
+      "term": "Chemical equilibrium",
+      "letter": "C",
+      "definition": "A dynamic state in which forward and reverse reaction rates are equal."
+    },
+    {
+      "term": "Chromatography",
+      "letter": "C",
+      "definition": "Separation based on differing distributions of components between stationary and mobile phases."
+    },
+    {
+      "term": "Colligative properties",
+      "letter": "C",
+      "definition": "Solution properties that, in the ideal dilute limit, depend on the number of dissolved particles rather than their identity."
+    },
+    {
+      "term": "Combustion",
+      "letter": "C",
+      "definition": "A reaction with an oxidant, commonly oxygen, that releases energy."
+    },
+    {
+      "term": "Common ion effect",
+      "letter": "C",
+      "definition": "Suppression of ionization or solubility of an electrolyte by addition of an ion already present in its equilibrium."
+    },
+    {
+      "term": "Compound",
+      "letter": "C",
+      "definition": "A pure substance made of two or more elements chemically combined in fixed proportions."
+    },
+    {
+      "term": "Concentration",
+      "letter": "C",
+      "definition": "Amount of a component relative to a specified amount or volume of mixture."
+    },
+    {
+      "term": "Condensation",
+      "letter": "C",
+      "definition": "Conversion of vapour to liquid; also a class of reactions forming larger molecules with loss of a small molecule."
+    },
+    {
+      "term": "Conjugate acid",
+      "letter": "C",
+      "definition": "The species formed when a base accepts a proton."
+    },
+    {
+      "term": "Conjugate base",
+      "letter": "C",
+      "definition": "The species formed when an acid loses a proton."
+    },
+    {
+      "term": "Covalent bond",
+      "letter": "C",
+      "definition": "A bond involving shared electron density between atoms."
+    },
+    {
+      "term": "Covalent crystals",
+      "letter": "C",
+      "definition": "Crystals in which atoms form an extended network of covalent bonds."
+    },
+    {
+      "term": "Covalent radius",
+      "letter": "C",
+      "definition": "Half the internuclear distance in a homonuclear covalent bond of a specified type."
+    },
+    {
+      "term": "Critical temperature",
+      "letter": "C",
+      "definition": "Temperature above which a gas cannot be liquefied by pressure alone."
+    },
+    {
+      "term": "Crystal",
+      "letter": "C",
+      "definition": "A solid with long-range ordered arrangement of its constituent particles."
+    },
+    {
+      "term": "Crystal lattice",
+      "letter": "C",
+      "definition": "A regular three-dimensional array of points describing translational symmetry in a crystal."
+    },
+    {
+      "term": "Crystallization",
+      "letter": "C",
+      "definition": "Formation of crystals from a solution, melt or vapour; often used for purification."
+    },
+    {
+      "term": "Dalton's law of partial pressures",
+      "letter": "D",
+      "definition": "The total pressure of an ideal gas mixture equals the sum of its partial pressures."
+    },
+    {
+      "term": "Density",
+      "letter": "D",
+      "definition": "Mass per unit volume, ρ = m/V."
+    },
+    {
+      "term": "Deposition",
+      "letter": "D",
+      "definition": "Direct conversion of a gas into a solid."
+    },
+    {
+      "term": "Diffusion of gases",
+      "letter": "D",
+      "definition": "Spontaneous spreading and mixing of gases due to random molecular motion."
+    },
+    {
+      "term": "Dilution",
+      "letter": "D",
+      "definition": "Decreasing the concentration of a solution, usually by adding solvent."
+    },
+    {
+      "term": "Dipole",
+      "letter": "D",
+      "definition": "A separation of positive and negative charge."
+    },
+    {
+      "term": "Dipole moment",
+      "letter": "D",
+      "definition": "A vector measure of charge separation; for two point charges its magnitude is charge times separation."
+    },
+    {
+      "term": "Dipole–dipole forces",
+      "letter": "D",
+      "definition": "Interactions between permanent electric dipoles of polar molecules."
+    },
+    {
+      "term": "Discharge tube",
+      "letter": "D",
+      "definition": "A tube containing gas at low pressure and electrodes used to produce an electrical discharge."
+    },
+    {
+      "term": "Distillation",
+      "letter": "D",
+      "definition": "Separation by vaporization followed by condensation, using differences in volatility."
+    },
+    {
+      "term": "Effusion of gases",
+      "letter": "E",
+      "definition": "Escape of gas through a tiny opening under conditions where collisions in the opening are negligible."
+    },
+    {
+      "term": "Electrochemical cell",
+      "letter": "E",
+      "definition": "A device in which redox reactions generate electrical energy or are driven by it."
+    },
+    {
+      "term": "Electrode potential",
+      "letter": "E",
+      "definition": "Potential associated with an electrode relative to a reference electrode."
+    },
+    {
+      "term": "Electrolysis",
+      "letter": "E",
+      "definition": "Use of electrical energy to drive a non-spontaneous chemical reaction."
+    },
+    {
+      "term": "Electrolyte",
+      "letter": "E",
+      "definition": "A substance that produces mobile ions in solution or in the molten state."
+    },
+    {
+      "term": "Electrolytic conduction",
+      "letter": "E",
+      "definition": "Transport of electric charge by mobile ions in an electrolyte."
+    },
+    {
+      "term": "Electron",
+      "letter": "E",
+      "definition": "A negatively charged elementary particle."
+    },
+    {
+      "term": "Electron affinity",
+      "letter": "E",
+      "definition": "Energy released when an electron is added to an isolated gaseous atom or molecule, using the energy-release convention."
+    },
+    {
+      "term": "Electronegativity",
+      "letter": "E",
+      "definition": "The tendency of a bonded atom to attract electron density toward itself."
+    },
+    {
+      "term": "Element",
+      "letter": "E",
+      "definition": "A substance whose atoms all have the same proton number."
+    },
+    {
+      "term": "Empirical formula",
+      "letter": "E",
+      "definition": "The simplest whole-number ratio of atoms of each element in a compound."
+    },
+    {
+      "term": "Endothermic reaction",
+      "letter": "E",
+      "definition": "A reaction that absorbs heat at constant pressure (ΔH > 0)."
+    },
+    {
+      "term": "Enthalpy",
+      "letter": "E",
+      "definition": "A thermodynamic state function defined as H = U + PV."
+    },
+    {
+      "term": "Enthalpy of solution",
+      "letter": "E",
+      "definition": "Enthalpy change when a specified amount of solute dissolves in a solvent under stated conditions."
+    },
+    {
+      "term": "Entropy",
+      "letter": "E",
+      "definition": "A thermodynamic state function related to energy dispersal and the number of accessible microscopic states."
+    },
+    {
+      "term": "Equilibrium constant",
+      "letter": "E",
+      "definition": "At a given temperature, the product of equilibrium activities raised to their stoichiometric powers, divided by the corresponding reactant product."
+    },
+    {
+      "term": "Ester",
+      "letter": "E",
+      "definition": "An organic compound containing the group R–C(=O)–O–R′."
+    },
+    {
+      "term": "Evaporation",
+      "letter": "E",
+      "definition": "Escape of molecules from the surface of a liquid into the vapour phase."
+    },
+    {
+      "term": "Exothermic reaction",
+      "letter": "E",
+      "definition": "A reaction that releases heat at constant pressure (ΔH < 0)."
+    },
+    {
+      "term": "Filtration",
+      "letter": "F",
+      "definition": "Separation of suspended solids from a fluid by passing it through a porous medium."
+    },
+    {
+      "term": "First law of thermodynamics",
+      "letter": "F",
+      "definition": "Energy is conserved; ΔU = q + w, where w is work done on the system."
+    },
+    {
+      "term": "Functional group",
+      "letter": "F",
+      "definition": "An atom or group of atoms responsible for characteristic chemical reactions in an organic compound."
+    },
+    {
+      "term": "Galvanic cell",
+      "letter": "G",
+      "definition": "An electrochemical cell that converts energy from a spontaneous redox reaction into electrical energy."
+    },
+    {
+      "term": "Gibbs energy",
+      "letter": "G",
+      "definition": "A thermodynamic state function G = H − TS; at constant temperature and pressure, a spontaneous process has ΔG < 0."
+    },
+    {
+      "term": "Graham's law",
+      "letter": "G",
+      "definition": "At equal temperature, effusion rates of gases are inversely proportional to the square roots of their molar masses."
+    },
+    {
+      "term": "Group",
+      "letter": "G",
+      "definition": "A vertical column of the periodic table."
+    },
+    {
+      "term": "Half-life",
+      "letter": "H",
+      "definition": "Time required for the amount of a decaying substance or a specified reactant to fall to half its initial value."
+    },
+    {
+      "term": "Heisenberg uncertainty principle",
+      "letter": "H",
+      "definition": "Position and momentum cannot both have arbitrarily small uncertainties: ΔxΔp ≥ ℏ/2."
+    },
+    {
+      "term": "Hess's law",
+      "letter": "H",
+      "definition": "The enthalpy change of a reaction depends only on initial and final states, not the reaction pathway."
+    },
+    {
+      "term": "Homologous series",
+      "letter": "H",
+      "definition": "A family of organic compounds with the same functional group and successive members typically differing by –CH₂–."
+    },
+    {
+      "term": "Hund's rule",
+      "letter": "H",
+      "definition": "Electrons occupy degenerate orbitals singly with parallel spins before pairing, for the usual ground-state filling rule."
+    },
+    {
+      "term": "Hybridization",
+      "letter": "H",
+      "definition": "A bonding model combining atomic orbitals on one atom to form hybrid orbitals."
+    },
+    {
+      "term": "Hydration",
+      "letter": "H",
+      "definition": "Interaction with water, such as solvation of ions by water molecules."
+    },
+    {
+      "term": "Hydrocarbon",
+      "letter": "H",
+      "definition": "A compound containing only carbon and hydrogen."
+    },
+    {
+      "term": "Hydrogen bonding",
+      "letter": "H",
+      "definition": "An attractive interaction involving hydrogen bonded to an electronegative atom and an electron-rich acceptor; it may be intra- or intermolecular."
+    },
+    {
+      "term": "Hydrolysis",
+      "letter": "H",
+      "definition": "A chemical reaction involving bond cleavage or transformation by water."
+    },
+    {
+      "term": "Ideal gas",
+      "letter": "I",
+      "definition": "A model gas obeying PV = nRT, with negligible particle volume and intermolecular interactions."
+    },
+    {
+      "term": "Ideal solution",
+      "letter": "I",
+      "definition": "A solution whose components obey Raoult's law throughout the composition range."
+    },
+    {
+      "term": "Indicator",
+      "letter": "I",
+      "definition": "A substance that changes a visible property, usually colour, in response to a chemical condition."
+    },
+    {
+      "term": "Instantaneous rate of reaction",
+      "letter": "I",
+      "definition": "Reaction rate at a particular instant, obtained from a derivative with respect to time."
+    },
+    {
+      "term": "Intermolecular forces",
+      "letter": "I",
+      "definition": "Attractive and repulsive interactions between molecules or other particles."
+    },
+    {
+      "term": "Ion",
+      "letter": "I",
+      "definition": "An atom or group of atoms with a net electric charge."
+    },
+    {
+      "term": "Ion–dipole interactions",
+      "letter": "I",
+      "definition": "Electrostatic interactions between an ion and a polar molecule."
+    },
+    {
+      "term": "Ionic bond",
+      "letter": "I",
+      "definition": "Electrostatic attraction between oppositely charged ions."
+    },
+    {
+      "term": "Ionic crystals",
+      "letter": "I",
+      "definition": "Crystals made of ions held together primarily by electrostatic interactions."
+    },
+    {
+      "term": "Ionic radius",
+      "letter": "I",
+      "definition": "An effective measure of an ion's size in a specified chemical environment."
+    },
+    {
+      "term": "Ionization energy",
+      "letter": "I",
+      "definition": "Minimum energy required to remove an electron from an isolated gaseous atom or ion in its ground state."
+    },
+    {
+      "term": "Irreversible reaction",
+      "letter": "I",
+      "definition": "A reaction whose reverse is negligible under the specified conditions."
+    },
+    {
+      "term": "Isomer",
+      "letter": "I",
+      "definition": "One of two or more compounds with the same molecular formula but different structures or spatial arrangements."
+    },
+    {
+      "term": "Isotope",
+      "letter": "I",
+      "definition": "Atoms of the same element having different neutron numbers."
+    },
+    {
+      "term": "Joule",
+      "letter": "J",
+      "definition": "The SI unit of energy, equal to one newton metre."
+    },
+    {
+      "term": "Ketone",
+      "letter": "K",
+      "definition": "An organic compound with a carbonyl group bonded to two carbon atoms."
+    },
+    {
+      "term": "Kinetic molecular theory",
+      "letter": "K",
+      "definition": "A model explaining gas properties through the motion and collisions of particles."
+    },
+    {
+      "term": "Law of conservation of mass",
+      "letter": "L",
+      "definition": "In ordinary chemical reactions in a closed system, total mass is conserved to excellent approximation."
+    },
+    {
+      "term": "Law of mass action",
+      "letter": "L",
+      "definition": "At equilibrium, activities satisfy the equilibrium expression; for elementary reactions, rate laws follow the reacting species' molecularity."
+    },
+    {
+      "term": "Le",
+      "letter": "L",
+      "definition": "Chatelier's principle An equilibrium system responds to a disturbance in a direction tending to oppose that disturbance."
+    },
+    {
+      "term": "Lewis acid",
+      "letter": "L",
+      "definition": "An electron-pair acceptor."
+    },
+    {
+      "term": "Lewis base",
+      "letter": "L",
+      "definition": "An electron-pair donor."
+    },
+    {
+      "term": "Limiting reactant",
+      "letter": "L",
+      "definition": "The reactant consumed first according to reaction stoichiometry, determining the maximum product yield."
+    },
+    {
+      "term": "Liquid crystal",
+      "letter": "L",
+      "definition": "A phase that flows like a liquid while retaining some directional or positional molecular order."
+    },
+    {
+      "term": "London dispersion forces",
+      "letter": "L",
+      "definition": "Attractions arising from correlated fluctuations in electron density, present between all atoms and molecules."
+    },
+    {
+      "term": "Lyman series",
+      "letter": "L",
+      "definition": "Ultraviolet hydrogen spectral transitions ending at n = 1."
+    },
+    {
+      "term": "Magnetic quantum number",
+      "letter": "M",
+      "definition": "The quantum number mℓ specifying the projection of orbital angular momentum."
+    },
+    {
+      "term": "Mass number",
+      "letter": "M",
+      "definition": "The total number of protons and neutrons in a nucleus."
+    },
+    {
+      "term": "Mass spectrometer",
+      "letter": "M",
+      "definition": "An instrument that separates and detects ions according to their mass-to-charge ratios."
+    },
+    {
+      "term": "Matter",
+      "letter": "M",
+      "definition": "Material that has mass and occupies space."
+    },
+    {
+      "term": "Melting point",
+      "letter": "M",
+      "definition": "Temperature at which solid and liquid coexist in equilibrium at a specified pressure."
+    },
+    {
+      "term": "Metallic crystals",
+      "letter": "M",
+      "definition": "Crystals in which metal atoms are held together by metallic bonding."
+    },
+    {
+      "term": "Mixture",
+      "letter": "M",
+      "definition": "A physical combination of substances with variable composition."
+    },
+    {
+      "term": "Molality",
+      "letter": "M",
+      "definition": "Amount of solute in moles divided by mass of solvent in kilograms."
+    },
+    {
+      "term": "Molar mass",
+      "letter": "M",
+      "definition": "Mass per mole of specified entities, commonly expressed in g mol⁻¹."
+    },
+    {
+      "term": "Molar volume",
+      "letter": "M",
+      "definition": "Volume per mole of a substance at stated temperature and pressure."
+    },
+    {
+      "term": "Molarity",
+      "letter": "M",
+      "definition": "Amount of solute in moles per litre of solution; also called amount concentration."
+    },
+    {
+      "term": "Mole",
+      "letter": "M",
+      "definition": "The SI unit of amount of substance, containing exactly 6.02214076 × 10²³ specified entities."
+    },
+    {
+      "term": "Mole fraction",
+      "letter": "M",
+      "definition": "Amount of a component divided by the total amount of all components."
+    },
+    {
+      "term": "Molecular crystals",
+      "letter": "M",
+      "definition": "Crystals made of molecules held together by intermolecular interactions."
+    },
+    {
+      "term": "Molecular formula",
+      "letter": "M",
+      "definition": "A formula giving the actual number of atoms of each element in a molecule."
+    },
+    {
+      "term": "Molecular ion",
+      "letter": "M",
+      "definition": "An ion formed by electron removal from or addition to a molecule without fragmentation."
+    },
+    {
+      "term": "Molecule",
+      "letter": "M",
+      "definition": "An electrically neutral entity consisting of more than one atom bonded together."
+    },
+    {
+      "term": "Neutralization",
+      "letter": "N",
+      "definition": "An acid–base reaction; for aqueous strong acids and bases, hydrogen and hydroxide ions form water."
+    },
+    {
+      "term": "Neutron",
+      "letter": "N",
+      "definition": "An electrically neutral particle present in most atomic nuclei."
+    },
+    {
+      "term": "Non-ideal solution",
+      "letter": "N",
+      "definition": "A solution that deviates from Raoult's law."
+    },
+    {
+      "term": "Non-spontaneous process",
+      "letter": "N",
+      "definition": "A process that is not thermodynamically favourable in the stated direction under specified conditions."
+    },
+    {
+      "term": "Nucleus",
+      "letter": "N",
+      "definition": "The small, dense central region of an atom containing protons and usually neutrons."
+    },
+    {
+      "term": "Orbit",
+      "letter": "O",
+      "definition": "A defined electron path in historical models such as the Bohr model, not a trajectory in modern quantum mechanics."
+    },
+    {
+      "term": "Orbital",
+      "letter": "O",
+      "definition": "A one-electron wavefunction; its squared magnitude gives the electron probability density."
+    },
+    {
+      "term": "Order of reaction",
+      "letter": "O",
+      "definition": "The sum of the exponents of concentration terms in an experimentally determined rate law."
+    },
+    {
+      "term": "Organic chemistry",
+      "letter": "O",
+      "definition": "The study of carbon compounds, especially those with carbon–carbon and carbon–hydrogen frameworks."
+    },
+    {
+      "term": "Oxidation",
+      "letter": "O",
+      "definition": "Loss of electrons or increase in oxidation number."
+    },
+    {
+      "term": "Oxidation number",
+      "letter": "O",
+      "definition": "The formal charge assigned to an atom by treating bonds according to electron-assignment rules."
+    },
+    {
+      "term": "Oxidizing agent",
+      "letter": "O",
+      "definition": "A species that causes oxidation by accepting electrons and is itself reduced."
+    },
+    {
+      "term": "Paper chromatography",
+      "letter": "P",
+      "definition": "A separation technique using paper as a stationary support and a moving solvent."
+    },
+    {
+      "term": "Partial pressure",
+      "letter": "P",
+      "definition": "The contribution of a gas component to total pressure; for an ideal mixture, pᵢ = xᵢP."
+    },
+    {
+      "term": "Parts per million (ppm)",
+      "letter": "P",
+      "definition": "A fraction multiplied by 10⁶; the basis, such as mass or volume, must be specified."
+    },
+    {
+      "term": "Paschen series",
+      "letter": "P",
+      "definition": "Infrared hydrogen spectral transitions ending at n = 3."
+    },
+    {
+      "term": "Pauli exclusion principle",
+      "letter": "P",
+      "definition": "No two electrons in an atom can have the same four quantum numbers."
+    },
+    {
+      "term": "Percentage yield",
+      "letter": "P",
+      "definition": "Actual yield divided by theoretical yield, multiplied by 100%."
+    },
+    {
+      "term": "Period",
+      "letter": "P",
+      "definition": "A horizontal row of the periodic table."
+    },
+    {
+      "term": "Pfund series",
+      "letter": "P",
+      "definition": "Infrared hydrogen spectral transitions ending at n = 5."
+    },
+    {
+      "term": "pH",
+      "letter": "P",
+      "definition": "Negative base-10 logarithm of hydrogen ion activity; approximately −log[H⁺] in dilute solutions when concentration is in mol L⁻¹."
+    },
+    {
+      "term": "Phase",
+      "letter": "P",
+      "definition": "A physically homogeneous part of a system with uniform intensive properties."
+    },
+    {
+      "term": "Pi bond (π bond)",
+      "letter": "P",
+      "definition": "A bond arising from sideways overlap of orbitals, with a nodal plane containing the internuclear axis. pKᵥ (pKw) Negative base-10 logarithm of the ionic product of water, approximately 14 at 25 °C. pKₐ Negative base-10 logarithm of the acid dissociation constant. pOH Negative base-10 logarithm of hydroxide ion activity."
+    },
+    {
+      "term": "Polarizability",
+      "letter": "P",
+      "definition": "A measure of how easily an electric field distorts the electron distribution of a species."
+    },
+    {
+      "term": "Polymer",
+      "letter": "P",
+      "definition": "A substance composed of macromolecules built from repeating structural units."
+    },
+    {
+      "term": "Positive rays (canal rays)",
+      "letter": "P",
+      "definition": "Streams of positive ions produced in a gas discharge and observed passing through a perforated cathode."
+    },
+    {
+      "term": "Precipitate",
+      "letter": "P",
+      "definition": "An insoluble or sparingly soluble solid formed from a solution."
+    },
+    {
+      "term": "Principal quantum number",
+      "letter": "P",
+      "definition": "The quantum number n, identifying an electron shell and related to orbital energy and size."
+    },
+    {
+      "term": "Proton",
+      "letter": "P",
+      "definition": "A positively charged particle in the atomic nucleus; H⁺ denotes a hydrogen ion in acid–base chemistry."
+    },
+    {
+      "term": "Quantum numbers",
+      "letter": "Q",
+      "definition": "Values describing allowed quantum states; for an atomic electron these are n, ℓ, mℓ and mₛ."
+    },
+    {
+      "term": "Raoult's law",
+      "letter": "R",
+      "definition": "For an ideal solution, the partial vapour pressure of a component equals its mole fraction times its pure-component vapour pressure."
+    },
+    {
+      "term": "Rate constant",
+      "letter": "R",
+      "definition": "The proportionality constant in a rate law at specified conditions."
+    },
+    {
+      "term": "Rate of reaction",
+      "letter": "R",
+      "definition": "Change in reaction extent per time, or the corresponding stoichiometrically normalized concentration change per time at constant volume."
+    },
+    {
+      "term": "Reactant",
+      "letter": "R",
+      "definition": "A substance consumed in a chemical reaction."
+    },
+    {
+      "term": "Real gas",
+      "letter": "R",
+      "definition": "A gas whose behaviour deviates from the ideal gas law."
+    },
+    {
+      "term": "Redox reaction",
+      "letter": "R",
+      "definition": "A reaction involving both oxidation and reduction."
+    },
+    {
+      "term": "Reducing agent",
+      "letter": "R",
+      "definition": "A species that causes reduction by donating electrons and is itself oxidized."
+    },
+    {
+      "term": "Reduction",
+      "letter": "R",
+      "definition": "Gain of electrons or decrease in oxidation number."
+    },
+    {
+      "term": "Relative abundance of an isotope",
+      "letter": "R",
+      "definition": "The fraction or percentage of atoms of an element represented by a particular isotope."
+    },
+    {
+      "term": "Relative atomic mass",
+      "letter": "R",
+      "definition": "The average atomic mass relative to one-twelfth of the mass of a carbon-12 atom; dimensionless."
+    },
+    {
+      "term": "Retardation factor (Rf)",
+      "letter": "R",
+      "definition": "In planar chromatography, distance travelled by a component divided by distance travelled by the solvent front from the origin."
+    },
+    {
+      "term": "Reversible reaction",
+      "letter": "R",
+      "definition": "A reaction that can proceed in both forward and reverse directions."
+    },
+    {
+      "term": "Salt",
+      "letter": "S",
+      "definition": "An ionic compound consisting of cations and anions."
+    },
+    {
+      "term": "Saturated solution",
+      "letter": "S",
+      "definition": "A solution in equilibrium with undissolved solute at specified conditions."
+    },
+    {
+      "term": "Sigma bond (σ bond)",
+      "letter": "S",
+      "definition": "A bond with electron density symmetric around the internuclear axis, often formed by head-on orbital overlap."
+    },
+    {
+      "term": "Solubility",
+      "letter": "S",
+      "definition": "The equilibrium amount of solute that can dissolve in a given amount of solvent or solution at specified conditions."
+    },
+    {
+      "term": "Solute",
+      "letter": "S",
+      "definition": "A component dissolved in a solvent."
+    },
+    {
+      "term": "Solution",
+      "letter": "S",
+      "definition": "A homogeneous mixture of two or more substances."
+    },
+    {
+      "term": "Solvent",
+      "letter": "S",
+      "definition": "The component of a solution that dissolves the solute, often present in greater amount."
+    },
+    {
+      "term": "Solvent extraction",
+      "letter": "S",
+      "definition": "Separation by distributing a solute between two phases, commonly immiscible liquids."
+    },
+    {
+      "term": "Spectrum",
+      "letter": "S",
+      "definition": "A distribution of radiation intensity or another measured quantity as a function of wavelength, frequency or energy."
+    },
+    {
+      "term": "Spin quantum number",
+      "letter": "S",
+      "definition": "The electron spin projection quantum number mₛ, with values +½ or −½."
+    },
+    {
+      "term": "Spontaneous process",
+      "letter": "S",
+      "definition": "A thermodynamically favourable process under specified conditions; it need not occur rapidly."
+    },
+    {
+      "term": "Standard electrode potential",
+      "letter": "S",
+      "definition": "Electrode potential relative to the standard hydrogen electrode, with species in standard states at a stated temperature."
+    },
+    {
+      "term": "Standard enthalpy of atomization",
+      "letter": "S",
+      "definition": "Enthalpy change when one mole of gaseous atoms forms from an element in its standard state."
+    },
+    {
+      "term": "Standard enthalpy of combustion",
+      "letter": "S",
+      "definition": "Enthalpy change when one mole of a substance burns completely in oxygen under standard-state conditions."
+    },
+    {
+      "term": "Standard enthalpy of formation",
+      "letter": "S",
+      "definition": "Enthalpy change when one mole of a compound forms from its elements in their reference states under standard-state conditions."
+    },
+    {
+      "term": "Standard enthalpy of neutralization",
+      "letter": "S",
+      "definition": "Enthalpy change per mole of water formed by acid–base neutralization under specified standard conditions."
+    },
+    {
+      "term": "Standard temperature and pressure (STP)",
+      "letter": "S",
+      "definition": "For gases, IUPAC convention is 273.15 K and 100 kPa; an older convention uses 101.325 kPa."
+    },
+    {
+      "term": "State function",
+      "letter": "S",
+      "definition": "A property depending only on the state of a system, not the path taken to reach it."
+    },
+    {
+      "term": "Stoichiometry",
+      "letter": "S",
+      "definition": "Quantitative relationships among reactants and products in chemical reactions."
+    },
+    {
+      "term": "Sublimation",
+      "letter": "S",
+      "definition": "Direct transition from solid to gas without passing through the liquid phase."
+    },
+    {
+      "term": "Surroundings",
+      "letter": "S",
+      "definition": "Everything outside the thermodynamic system that can interact with it."
+    },
+    {
+      "term": "System",
+      "letter": "S",
+      "definition": "The portion of the universe selected for study."
+    },
+    {
+      "term": "Temperature",
+      "letter": "T",
+      "definition": "A measure of thermal state that determines the direction of spontaneous heat transfer."
+    },
+    {
+      "term": "Theoretical yield",
+      "letter": "T",
+      "definition": "Maximum product amount predicted from balanced reaction stoichiometry and the limiting reactant."
+    },
+    {
+      "term": "Thermochemistry",
+      "letter": "T",
+      "definition": "The study of heat and enthalpy changes associated with chemical and physical processes."
+    },
+    {
+      "term": "Titration",
+      "letter": "T",
+      "definition": "Determination of an analyte amount by adding a measured quantity of a reagent of known concentration."
+    },
+    {
+      "term": "Transition element",
+      "letter": "T",
+      "definition": "An element whose atom has an incomplete d subshell or that forms cations with an incomplete d subshell."
+    },
+    {
+      "term": "Unit cell",
+      "letter": "U",
+      "definition": "A repeating structural unit that generates a crystal lattice by translation."
+    },
+    {
+      "term": "Unsaturated hydrocarbon",
+      "letter": "U",
+      "definition": "A hydrocarbon containing at least one carbon–carbon multiple bond."
+    },
+    {
+      "term": "Vacuum distillation",
+      "letter": "V",
+      "definition": "Distillation at reduced pressure, allowing liquids to boil at lower temperatures."
+    },
+    {
+      "term": "Valence electrons",
+      "letter": "V",
+      "definition": "Electrons in an atom that participate or can participate in chemical bonding."
+    },
+    {
+      "term": "Van der",
+      "letter": "V",
+      "definition": "Waals equation A real-gas model: (P + an²/V²)(V − nb) = nRT, with parameters for attraction and excluded volume."
+    },
+    {
+      "term": "Vapour pressure",
+      "letter": "V",
+      "definition": "Pressure exerted by a vapour in equilibrium with its condensed phase at a stated temperature."
+    },
+    {
+      "term": "Water of crystallization",
+      "letter": "W",
+      "definition": "Water incorporated in the crystal structure of a hydrate in definite proportions."
+    },
+    {
+      "term": "Weak acid",
+      "letter": "W",
+      "definition": "An acid that ionizes only partially in a specified solvent."
+    },
+    {
+      "term": "X-ray diffraction",
+      "letter": "X",
+      "definition": "A technique for examining ordered structures by measuring the diffraction of X-rays."
+    },
+    {
+      "term": "Yield",
+      "letter": "Y",
+      "definition": "The amount of product obtained or predicted in a chemical reaction."
+    },
+    {
+      "term": "Zwitterion",
+      "letter": "Z",
+      "definition": "A species carrying positive and negative formal charges while having zero net charge."
+    }
+  ]
+}
