@@ -1,0 +1,31 @@
+<!--META {"dir":"flashcards","tool":"flashcards","title":"Flashcards","h1":"Flashcards","sub":"Flip cards by topic, shuffle the deck and mark the ones you already know. Progress stays on this device.","desc":"Organic Chemistry flashcards for hydrocarbons, functional groups, reactions and formulas, with known-card tracking.","scripts":["lab-core.js","lab-teacher.js","lab-flashcards.js"]}-->
+        <div class="fc-layout">
+          <div class="lab-panel fc-controls">
+            <div class="lab-field">
+              <span class="lab-label" id="fcTopicLabel">Topic</span>
+              <div class="lab-seg" id="fcTopic" role="group" aria-labelledby="fcTopicLabel"></div>
+            </div>
+            <div class="lab-field lab-field--row">
+              <label class="lab-check"><input type="checkbox" id="fcHideKnown"> <span>Hide cards marked known</span></label>
+            </div>
+            <p class="lab-muted" id="fcMeta">0 cards</p>
+            <div class="fc-actions">
+              <button type="button" class="lab-btn lab-btn--ghost lab-btn--small" id="fcShuffle">Shuffle</button>
+              <button type="button" class="lab-btn lab-btn--ghost lab-btn--small" id="fcResetKnown">Clear known marks</button>
+            </div>
+          </div>
+
+          <div class="lab-panel fc-stage-panel">
+            <button type="button" class="fc-card" id="fcCard" aria-live="polite">
+              <span class="fc-face" id="fcFace">Question</span>
+              <span class="fc-text" id="fcText"></span>
+              <span class="fc-hint">Click or press Space to flip</span>
+            </button>
+            <div class="fc-nav">
+              <button type="button" class="lab-btn lab-btn--ghost" id="fcPrev">Previous</button>
+              <button type="button" class="lab-btn lab-btn--teal" id="fcKnown">Mark known</button>
+              <button type="button" class="lab-btn lab-btn--ghost" id="fcNext">Next</button>
+            </div>
+            <p class="lab-muted" id="fcPos">Card 1 of 1</p>
+          </div>
+        </div>

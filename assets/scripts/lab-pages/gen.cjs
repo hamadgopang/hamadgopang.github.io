@@ -66,7 +66,7 @@ const FOOTER_SOCIAL = `
 
 const SITE = 'https://hamadgopang.github.io';
 const SITE_NAME = 'Hamad Khan | Chemistry  Educator &amp; Science Teacher';
-const OG_IMAGE = SITE + '/assets/image/og-image.png';
+const OG_IMAGE = SITE + '/assets/image/og-image.jpg';
 
 function shell(meta, main) {
   const depth = meta.dir ? 2 : 1;
@@ -131,7 +131,7 @@ ${main}
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Hamad Khan">
 <link rel="manifest" href="${root}manifest.json">
-<link rel="apple-touch-icon" href="${root}assets/image/icon-192.png">
+<link rel="apple-touch-icon" href="${root}assets/image/icons/icon-192.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="${SITE_NAME}">
 <meta property="og:title" content="${fullTitle}">
@@ -143,7 +143,7 @@ ${main}
 <meta name="twitter:description" content="${meta.desc}">
 <meta name="twitter:image" content="${OG_IMAGE}">
 <link rel="canonical" href="${pageUrl}">
-<link rel="icon" type="image/png" href="${root}assets/image/favicon.png">
+<link rel="icon" type="image/png" href="${root}assets/image/icons/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Outfit:wght@500;600;700;800&amp;display=swap">
