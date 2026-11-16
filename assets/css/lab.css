@@ -289,7 +289,7 @@
   border: 1px solid var(--line);
   border-radius: 10px;
   color: var(--muted);
-  font-size: 0.90em;
+  font-size: 0.80em;
 }
 
 .lab-note.is-error {
