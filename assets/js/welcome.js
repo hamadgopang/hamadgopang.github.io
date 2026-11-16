@@ -6,7 +6,7 @@
   'use strict';
 
   var STORAGE_KEY = 'hk-welcome-seen';
-  var DELAY_MS = 800;
+  var DELAY_MS = 5000;
   var dialog = document.getElementById('welcomeDialog');
   if (!dialog || typeof dialog.showModal !== 'function') return;
 
