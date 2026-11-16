@@ -301,6 +301,7 @@
   background: var(--warn-bg);
   border-color: var(--amber-500);
   color: var(--fg);
+  font-size: 0.80em;
 }
 
 .lab-note.is-advanced {
