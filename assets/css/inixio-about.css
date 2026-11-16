@@ -68,7 +68,7 @@
 
 .inixio-logo {
   display: block;
-  height: 36px;
+  height: 70px;
   width: auto;
   max-width: min(220px, 70vw);
   object-fit: contain;
@@ -120,9 +120,7 @@
 }
 
 .inixio-ceo {
-  display: grid;
-  grid-template-columns: 88px minmax(0, 1fr);
-  gap: 0.95rem;
+  display: flex;
   align-items: center;
   margin: 1.25rem 0 0;
   padding: 0.95rem;
@@ -134,10 +132,22 @@
 .inixio-ceo-photo {
   width: 88px;
   height: 88px;
-  border-radius: 14px;
+  flex: 0 0 auto;
+  border-radius: 50%;
   object-fit: cover;
   object-position: center top;
-  box-shadow: 0 8px 20px rgba(0, 37, 65, 0.12);
+  margin-right: 28px;
+  margin-bottom: 0;
+  border: 5px solid #004377;
+  box-shadow: 0 8px 24px rgba(0, 67, 119, 0.25), inset 0 0 0 3px rgba(255, 255, 255, 0.9);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  z-index: 1;
+}
+
+.inixio-ceo-photo:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 28px rgba(0, 67, 119, 0.32), inset 0 0 0 3px rgba(255, 255, 255, 0.95);
 }
 
 .inixio-ceo-name {
@@ -159,12 +169,35 @@
   line-height: 1.4;
 }
 
-.inixio-section-label {
-  margin: 1.25rem 0 0.55rem;
-  color: var(--inx-navy);
-  font: 700 0.78rem / 1.2 "Outfit", system-ui, sans-serif;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+.inixio-contact-panel {
+  margin: 1.25rem 0 0;
+  padding: 1rem;
+  border: 1px solid #e6edf5;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.inixio-contact-head {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0 0 0.85rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid #004377;
+}
+
+.inixio-contact-bar {
+  width: 4px;
+  height: 1.05rem;
+  border-radius: 999px;
+  background: #004377;
+  flex: 0 0 auto;
+}
+
+.inixio-contact-title {
+  margin: 0;
+  color: #1a202c;
+  font: 700 1rem / 1.2 "Inter", system-ui, sans-serif;
 }
 
 .inixio-contact {
@@ -174,24 +207,47 @@
 }
 
 .inixio-contact li + li {
-  margin-top: 0.45rem;
+  margin-top: 0.55rem;
 }
 
-.inixio-contact a {
-  display: inline-flex;
+.inixio-contact-row {
+  display: flex;
   align-items: center;
-  gap: 0.45rem;
-  color: var(--inx-ink);
+  gap: 0.75rem;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid #e8eef5;
+  border-radius: 8px;
+  background: #fff;
+  color: #1a202c;
   font-weight: 600;
   font-size: 0.94rem;
   text-decoration: none;
+  transition: border-color 160ms ease, box-shadow 160ms ease, color 160ms ease;
 }
 
-.inixio-contact a:hover,
-.inixio-contact a:focus-visible {
-  color: var(--inx-accent);
-  text-decoration: underline;
-  text-underline-offset: 0.15em;
+.inixio-contact-row:hover,
+.inixio-contact-row:focus-visible {
+  border-color: rgba(0, 67, 119, 0.28);
+  box-shadow: 0 6px 16px rgba(0, 67, 119, 0.08);
+  color: #004377;
+  text-decoration: none;
+}
+
+.inixio-contact-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  background: #004377;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 67, 119, 0.28);
+}
+
+.inixio-contact-icon svg {
+  width: 16px;
+  height: 16px;
 }
 
 .inixio-foot {
@@ -219,15 +275,22 @@ a[data-inixio-about] {
   }
 
   .inixio-ceo {
-    grid-template-columns: 72px minmax(0, 1fr);
-    gap: 0.75rem;
     padding: 0.8rem;
   }
 
   .inixio-ceo-photo {
     width: 72px;
     height: 72px;
-    border-radius: 12px;
+    margin-right: 1rem;
+  }
+
+  .inixio-contact-panel {
+    padding: 0.85rem;
+  }
+
+  .inixio-contact-row {
+    padding: 0.65rem 0.7rem;
+    font-size: 0.9rem;
   }
 
   .inixio-foot {

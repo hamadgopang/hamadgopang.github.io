@@ -159,6 +159,7 @@ ${main}
 <link rel="icon" type="image/x-icon" href="${root}assets/image/icons/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="${root}assets/image/icons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="96x96" href="${root}assets/image/icons/favicon-96x96.png">
+<link rel="icon" type="image/svg+xml" sizes="any" href="${root}assets/image/icons/favicon.svg">
 <link rel="apple-touch-icon" sizes="180x180" href="${root}assets/image/icons/favicon.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
