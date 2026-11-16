@@ -5,14 +5,14 @@
 (function () {
   'use strict';
 
-  var STORAGE_KEY = 'hk-welcome-seen';
-  var DELAY_MS = 5000;
+  var HAMADKEY = 'hamad-welcome-seen';
+  var DELAY_MS = 3000;
   var dialog = document.getElementById('welcomeDialog');
   if (!dialog || typeof dialog.showModal !== 'function') return;
 
   function storageGet() {
     try {
-      return window.localStorage.getItem(STORAGE_KEY);
+      return window.localStorage.getItem(HAMADKEY);
     } catch (e) {
       return 'blocked';
     }
@@ -20,7 +20,7 @@
 
   function storageSet() {
     try {
-      window.localStorage.setItem(STORAGE_KEY, '1');
+      window.localStorage.setItem(HAMADKEY, '1');
       return true;
     } catch (e) {
       return false;
