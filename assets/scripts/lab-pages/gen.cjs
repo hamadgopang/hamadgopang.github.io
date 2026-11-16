@@ -51,7 +51,7 @@ const FOOTER_SOCIAL = `
       <nav class="social-links social-links--footer" aria-label="Social media">
         <ul class="social-icons">
           <li>
-            <a class="social-icon social-icon--youtube" href="https://www.youtube.com/@easychemistry7177" target="_blank" rel="noopener noreferrer" aria-label="YouTube: Easy Chemistry">
+            <a class="social-icon social-icon--youtube" href="https://www.youtube.com/@hamaadgopang" target="_blank" rel="noopener noreferrer" aria-label="YouTube: @hamaadgopang">
               ${ICON.youtube}
             </a>
           </li>
