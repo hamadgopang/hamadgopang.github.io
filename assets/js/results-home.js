@@ -100,6 +100,9 @@
     var link = el('a', 'btn btn--teal', 'View all results');
     link.href = 'results/';
     actions.appendChild(link);
+    var hire = el('a', 'btn btn--outline-dark', 'Hire me for tuition');
+    hire.href = '#contact';
+    actions.appendChild(hire);
     root.appendChild(actions);
   }).catch(function () {
     root.appendChild(el('p', null, 'Results could not be loaded right now.'));
