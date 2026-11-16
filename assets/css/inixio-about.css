@@ -8,8 +8,11 @@
   --inx-soft: #f5f8fb;
   --inx-accent: #1a9bb5;
 
+  display: flex;
+  flex-direction: column;
   width: min(560px, calc(100vw - 1.5rem));
   max-width: 100%;
+  max-height: min(90vh, 860px);
   margin: auto;
   padding: 0;
   border: 0;
@@ -62,8 +65,25 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  flex: 0 0 auto;
   padding: 1rem 1.15rem;
   background: var(--inx-navy);
+}
+
+.inixio-scroll {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.inixio-scroll::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
 }
 
 .inixio-logo {
