@@ -65,8 +65,9 @@ const FOOTER_SOCIAL = `
       </nav>`;
 
 const SITE = 'https://hamadgopang.github.io';
-const SITE_NAME = 'Hamad Khan | Chemistry  Educator &amp; Science Teacher';
+const SITE_NAME = 'Hamad Khan | Chemistry Educator &amp; Science Teacher';
 const OG_IMAGE = SITE + '/assets/image/og-image.jpg';
+const OG_ALT = 'Hamad Khan | Chemistry Educator &amp; Science Teacher';
 
 function shell(meta, main) {
   const depth = meta.dir ? 2 : 1;
@@ -76,7 +77,7 @@ function shell(meta, main) {
   const fullTitle = meta.title + ' | Hamad Khan';
   const pagePath = meta.dir ? '/organic-chemistry/' + meta.dir + '/' : '/organic-chemistry/';
   const pageUrl = SITE + pagePath;
-  const keywords = meta.keywords || ('Organic Chemistry, Hamad Khan, Chemistry  Educator, Matriculation, ' + meta.title + ', Alipur, Pakistan');
+  const keywords = meta.keywords || ('Organic Chemistry, Organic Chemistry Lab, Hamad Khan, Hamad Gopang, Chemistry Educator, Matriculation, 9th Class Chemistry, 10th Class Chemistry, ' + meta.title + ', Alipur, Muzaffargarh, Pakistan');
   const scripts = (meta.scripts || []).map((s) => '<script src="' + assetUrl(root + 'assets/js/' + s) + '" defer></script>').join('\n');
 
   let body = main;
@@ -117,6 +118,7 @@ ${main}
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+
 <title>${fullTitle}</title>
 <meta name="title" content="${fullTitle}">
 <meta name="description" content="${meta.desc}">
@@ -125,32 +127,49 @@ ${main}
 <meta name="generator" content="Inixio Technologies">
 <meta name="robots" content="index, follow">
 <meta name="revisit-after" content="7 days">
-<meta name="theme-color" content="#101c32">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Hamad Khan">
-<link rel="manifest" href="${root}manifest.json">
-<link rel="apple-touch-icon" href="${root}assets/image/icons/icon-192.png">
+<link rel="canonical" href="${pageUrl}">
+
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="${SITE_NAME}">
 <meta property="og:title" content="${fullTitle}">
 <meta property="og:description" content="${meta.desc}">
 <meta property="og:url" content="${pageUrl}">
 <meta property="og:image" content="${OG_IMAGE}">
+<meta property="og:image:secure_url" content="${OG_IMAGE}">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${OG_ALT}">
+
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${fullTitle}">
 <meta name="twitter:description" content="${meta.desc}">
 <meta name="twitter:image" content="${OG_IMAGE}">
-<link rel="canonical" href="${pageUrl}">
-<link rel="icon" type="image/png" href="${root}assets/image/icons/favicon.png">
+<meta name="twitter:image:alt" content="${OG_ALT}">
+
+<meta name="application-name" content="Hamad Khan">
+<meta name="theme-color" content="#101C32">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="manifest" href="${root}manifest.json">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Hamad Khan">
+
+<link rel="icon" type="image/x-icon" href="${root}assets/image/icons/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="${root}assets/image/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="${root}assets/image/icons/favicon-96x96.png">
+<link rel="apple-touch-icon" sizes="180x180" href="${root}assets/image/icons/favicon.png">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Outfit:wght@500;600;700;800&amp;display=swap">
+
 <link rel="stylesheet" href="${assetUrl(root + 'assets/css/style.css')}">
 <link rel="stylesheet" href="${assetUrl(root + 'assets/css/responsive.css')}">
 <link rel="stylesheet" href="${assetUrl(root + 'assets/css/lab.css')}">
 <link rel="stylesheet" href="${assetUrl(root + 'assets/css/teacher.css')}">
+
 <script src="${assetUrl(root + 'assets/js/boot.js')}"></script>
 </head>
 <body class="page-inner">
