@@ -189,7 +189,7 @@ ${main}
         <li><a class="nav-link" href="${root}">Home</a></li>
         <li><a class="nav-link" href="${root}#about">About</a></li>
         <li><a class="nav-link" href="${root}#expertise">Expertise</a></li>
-        <li><a class="nav-link" href="${root}#experience">My Experience</a></li>
+        <li><a class="nav-link" href="${root}#experience">Experience</a></li>
         <li><a class="nav-link" href="${root}#results">Results</a></li>
         <li><a class="nav-link" href="${root}#resources">Resources</a></li>
         <li><a class="nav-link" href="${root}#skills">Skills</a></li>
@@ -211,8 +211,8 @@ ${main}
       <a class="brand" href="${root}" aria-label="Hamad Khan, home">
         <img class="brand-logo" src="${root}assets/image/logo.png" alt="Hamad Khan" width="936" height="136">
       </a>
-      <p class="footer-name">Hamad Khan</p>
-      <p class="footer-role">Chemistry  Educator</p>
+      <p class="footer-name">Hamad Ullah Khan</p>
+      <p class="footer-role">Chemistry Teacher</p>
       <p class="footer-tagline">Making Chemistry Understandable, Practical & Inspiring — with clear explanations, classroom-ready tools, and steady support for Matriculation students everywhere.</p>
     </div>
     <nav aria-label="Footer">
