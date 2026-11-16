@@ -67,21 +67,34 @@
     return best;
   }
 
+  function wait(ms) {
+    return new Promise(function (resolve) { window.setTimeout(resolve, ms); });
+  }
+
+  function fetchJson(url, label, attempts) {
+    attempts = attempts || 3;
+    var tryOnce = function (left) {
+      return fetch(url, { cache: 'no-cache' }).then(function (r) {
+        if (r.ok) return r.json();
+        var retryable = r.status === 502 || r.status === 503 || r.status === 504;
+        if (retryable && left > 1) {
+          return wait(350 * (attempts - left + 1)).then(function () {
+            return tryOnce(left - 1);
+          });
+        }
+        throw new Error('Could not load ' + (label || url) + ' (' + r.status + ')');
+      });
+    };
+    return tryOnce(attempts);
+  }
+
   function loadCatalog(base) {
     base = base || 'assets/json/results/';
-    return fetch(base + 'index.json')
-      .then(function (r) {
-        if (!r.ok) throw new Error('Could not load results index');
-        return r.json();
-      })
-      .then(function (idx) {
-        return Promise.all((idx.sets || []).map(function (id) {
-          return fetch(base + id + '.json').then(function (r) {
-            if (!r.ok) throw new Error('Could not load ' + id);
-            return r.json();
-          });
-        }));
-      });
+    return fetchJson(base + 'index.json', 'results index').then(function (idx) {
+      return Promise.all((idx.sets || []).map(function (id) {
+        return fetchJson(base + id + '.json', id);
+      }));
+    });
   }
 
   root.ResultsCore = {
