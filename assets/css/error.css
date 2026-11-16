@@ -1,0 +1,295 @@
+/* ==========================================================================
+   error.css  -  root 404.html (scoped under .err-page)
+   Uses portfolio tokens from style.css (navy, teal, amber, Outfit/Inter).
+   ========================================================================== */
+
+.err-page {
+  min-height: 100vh;
+  min-height: 100svh;
+  margin: 0;
+  color: var(--white);
+  background:
+    radial-gradient(70% 90% at 82% 18%, rgba(13, 148, 136, 0.3), transparent 60%),
+    radial-gradient(50% 60% at 8% 88%, rgba(242, 184, 75, 0.14), transparent 60%),
+    linear-gradient(180deg, var(--navy-900), #0b1527);
+  overflow-x: hidden;
+}
+
+.err-page .skip-link:focus {
+  color: var(--navy-900);
+}
+
+.err-shell {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100svh;
+  isolation: isolate;
+}
+
+.err-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.err-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 26px 26px;
+  -webkit-mask-image: linear-gradient(180deg, #000 8%, transparent 88%);
+  mask-image: linear-gradient(180deg, #000 8%, transparent 88%);
+}
+
+.err-hex {
+  position: absolute;
+  width: min(42vw, 220px);
+  opacity: 0.85;
+  animation: err-spin 80s linear infinite;
+}
+
+.err-hex--1 {
+  left: -4rem;
+  top: 18%;
+}
+
+.err-hex--2 {
+  right: -5rem;
+  bottom: 8%;
+  width: min(48vw, 260px);
+  animation-direction: reverse;
+  animation-duration: 100s;
+}
+
+.err-orbit {
+  position: absolute;
+  left: 50%;
+  top: 42%;
+  width: min(72vw, 420px);
+  aspect-ratio: 1;
+  translate: -50% -50%;
+  opacity: 0.55;
+}
+
+.err-orbit-ring {
+  fill: none;
+  stroke: rgba(94, 234, 212, 0.22);
+  stroke-width: 1.25;
+}
+
+.err-orbit-ring--amber {
+  stroke: rgba(242, 184, 75, 0.2);
+}
+
+.err-orbit-dot {
+  fill: var(--teal-300);
+}
+
+.err-orbit-dot--amber {
+  fill: var(--amber-400);
+}
+
+.err-orbit-spin {
+  transform-box: view-box;
+  transform-origin: 100px 100px;
+  animation: err-spin 28s linear infinite;
+}
+
+.err-orbit-spin--rev {
+  animation-direction: reverse;
+  animation-duration: 40s;
+}
+
+.err-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.15rem var(--gutter);
+  max-width: var(--container);
+  width: 100%;
+  margin-inline: auto;
+}
+
+.err-brand {
+  display: inline-flex;
+  align-items: center;
+}
+
+.err-brand img {
+  display: block;
+  height: 2rem;
+  width: auto;
+  filter: brightness(0) invert(1);
+}
+
+.err-top-note {
+  margin: 0;
+  color: var(--text-on-dark-muted);
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.err-main {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  padding: 2rem var(--gutter) 3rem;
+}
+
+.err-stage {
+  width: min(100%, 40rem);
+  text-align: center;
+}
+
+.err-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0 0 1.25rem;
+  padding: 0.45rem 0.95rem;
+  border: 1px solid rgba(94, 234, 212, 0.35);
+  border-radius: 999px;
+  background: rgba(94, 234, 212, 0.08);
+  color: var(--teal-300);
+  font-family: var(--font-heading);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.err-label-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--amber-400);
+  animation: err-pulse 2.4s ease-in-out infinite;
+}
+
+.err-code {
+  margin: 0 0 0.85rem;
+  font-family: var(--font-heading);
+  font-size: clamp(5.5rem, 22vw, 9.5rem);
+  font-weight: 800;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  background: linear-gradient(135deg, #fff 18%, var(--teal-300) 52%, var(--amber-400) 92%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: err-glow 4.5s ease-in-out infinite;
+  text-wrap: balance;
+}
+
+.err-lead {
+  margin: 0 0 0.65rem;
+  font-family: var(--font-heading);
+  font-size: clamp(1.35rem, 3.4vw, 1.85rem);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--white);
+  text-wrap: balance;
+}
+
+.err-sub {
+  margin: 0 auto 1.85rem;
+  max-width: 32rem;
+  color: var(--text-on-dark-muted);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.err-formula {
+  display: inline-block;
+  margin: 0 0 1.6rem;
+  padding: 0.45rem 0.85rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--teal-300);
+  font-family: var(--font-mono);
+  font-size: 0.92rem;
+  letter-spacing: 0.02em;
+}
+
+.err-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+}
+
+.err-foot {
+  padding: 1rem var(--gutter) 1.4rem;
+  text-align: center;
+  color: var(--text-on-dark-muted);
+  font-size: 0.82rem;
+}
+
+.err-foot a {
+  color: var(--teal-300);
+  text-decoration: none;
+}
+
+.err-foot a:hover {
+  color: var(--amber-400);
+}
+
+@keyframes err-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes err-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.55;
+    transform: scale(0.85);
+  }
+}
+
+@keyframes err-glow {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 0 transparent);
+    opacity: 1;
+  }
+  50% {
+    filter: drop-shadow(0 0 28px rgba(94, 234, 212, 0.28));
+    opacity: 0.94;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .err-hex,
+  .err-orbit-spin,
+  .err-label-dot,
+  .err-code {
+    animation: none !important;
+  }
+}
+
+@media (min-width: 720px) {
+  .err-brand img {
+    height: 2.35rem;
+  }
+
+  .err-top {
+    padding-block: 1.4rem;
+  }
+}

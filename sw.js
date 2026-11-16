@@ -1,10 +1,11 @@
 'use strict';
-var CVERSION = 'hamaad-shell-v1.0.47';
+var CVERSION = 'hamaad-shell-v1.0.48';
 var PRECACHE = CVERSION + '-precache';
 var CRUNTIME = CVERSION + '-CRUNTIME';
 var SHELLHMD = [
     './',
     './index.html',
+    './404.html',
     './manifest.json',
     './results/',
     './results/index.html',
@@ -43,6 +44,7 @@ var SHELLHMD = [
     './assets/css/welcome.css',
     './assets/css/inixio-about.css',
     './assets/css/books-past-papers.css',
+    './assets/css/error.css',
     './assets/js/boot.js',
     './assets/js/main.js',
     './assets/js/animations.js',
@@ -152,8 +154,11 @@ function networkFirst(request) {
     }).catch(function() {
         return caches.match(request).then(function(cached) {
             if (cached) return cached;
-            return caches.match('./index.html').then(function(home) {
-                return home || Response.error();
+            return caches.match('./404.html').then(function(missing) {
+                if (missing) return missing;
+                return caches.match('./index.html').then(function(home) {
+                    return home || Response.error();
+                });
             });
         });
     });
