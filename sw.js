@@ -1,5 +1,5 @@
 'use strict';
-var CVERSION = 'hamaad-shell-v1.0.48';
+var CVERSION = 'hamaad-shell-v1.0.49';
 var PRECACHE = CVERSION + '-precache';
 var CRUNTIME = CVERSION + '-CRUNTIME';
 var SHELLHMD = [
